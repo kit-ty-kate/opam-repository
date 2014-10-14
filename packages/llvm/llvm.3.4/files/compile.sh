@@ -1,15 +1,10 @@
 #!/bin/sh
 
-version=3.4
-make=$1
-prefix=$2
-libdir=$3
-
-brew_llvm_config=/usr/local/Cellar/llvm/${version}*/bin/llvm-config
-if ! stat -t $brew_llvm_config
-then
-    brew_llvm_config=
-fi
+cmd=$1
+version=$2
+make=$3
+prefix=$4
+libdir=$5
 
 execute() {
     echo "Executing: $@"
@@ -17,8 +12,22 @@ execute() {
 }
 
 common_configure() {
-    execute ./configure CC=gcc CXX=g++ --prefix="$prefix" --disable-doxygen --disable-docs --enable-static "$@" --with-ocaml-libdir="$libdir/llvm"
+    execute ./configure --disable-compiler-version-checks --prefix="$prefix" --disable-doxygen --disable-docs --enable-static "$@" --with-ocaml-libdir="$libdir/llvm"
 }
+
+if [ $cmd = "uninstall" ]; then
+    common_configure --disable-shared || exit 1
+    "$make" -C bindings/ocaml -k uninstall || exit 1
+elif [ $cmd != "install" ]; then
+    echo "Fatal error: Do not recognize the command"
+    exit 1
+fi
+
+brew_llvm_config=/usr/local/Cellar/llvm/${version}*/bin/llvm-config
+if ! stat -t $brew_llvm_config
+then
+    brew_llvm_config=
+fi
 
 for config in llvm-config-$version llvm-config-mp-$version $brew_llvm_config llvm-config; do
     case `"$config" --version` in
