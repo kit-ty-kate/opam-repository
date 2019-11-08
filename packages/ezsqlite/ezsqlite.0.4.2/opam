@@ -1,0 +1,26 @@
+opam-version: "2.0"
+synopsis: "Simplified SQLite3 bindings for OCaml"
+description: """
+Ezsqlite provides custom SQLite3 bindings and a familiar API for interacting with SQL datatypes in OCaml.
+
+Additionally, SQLite3 is compiled into Ezsqlite with many extensions enabled. For more information see https://github.com/zshipko/ocaml-ezsqlite"""
+maintainer: "Zach Shipko <zachshipko@gmail.com>"
+authors: "Zach Shipko"
+license: "ISC"
+homepage: "https://github.com/zshipko/ocaml-ezsqlite"
+doc: "https://zshipko.github.io/ocaml-ezsqlite/doc"
+bug-reports: "https://github.com/zshipko/ocaml-ezsqlite/issues"
+depends: [
+  "ocaml" {>= "4.03.0"}
+  "dune" {>= "1.0"}
+  "hex"
+]
+build: ["dune" "build" "-p" name "-j" jobs]
+dev-repo: "git://github.com/zshipko/ocaml-ezsqlite.git"
+url {
+  src: "https://github.com/zshipko/ocaml-ezsqlite/archive/0.4.2.tar.gz"
+  checksum: [
+    "md5=fc46276322bb9539e117c9dd1ae9568b"
+    "sha512=0033f48bde09c82faade5b43b239375c177c4a18a40bd330acf8e98cf96d4b991b60f8005909e660b094772e9a6c814504f49e089a4a797a30bd9c05f2e6be8a"
+  ]
+}
