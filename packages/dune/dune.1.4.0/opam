@@ -16,7 +16,7 @@ build: [
   ["./boot.exe" "--release" "-j" jobs]
 ]
 conflicts: [
-  "jbuilder" {!= "transition"}
+  "jbuilder" {!= "1.0+beta20.2~transition"}
 ]
 
 synopsis: "Fast, portable and opinionated build system"
