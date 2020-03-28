@@ -1,6 +1,6 @@
 opam-version: "2.0"
 maintainer: "louis.gesbert@ocaml.com"
-synopsis: "Console browser for the documentation of installed OCaml libraries"
+synopsis: "Console browser for the docmentation of installed OCaml libraries"
 description: """
 ocp-browser is a curses-like interface that allows to easily browse the
 interfaces and documentation of all installed OCaml modules.
