@@ -1,5 +1,5 @@
 opam-version: "2.0"
-maintainer: "test2@okml.com"
+maintainer: "test3@okml.com"
 synopsis: "Console browser for the docmentation of installed OCaml libraries"
 description: """
 ocp-browser is a curses-like interface that allows to easily browse the
