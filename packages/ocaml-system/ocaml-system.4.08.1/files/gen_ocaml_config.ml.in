@@ -19,7 +19,16 @@ let () =
   else
   let ocamlc_digest = Digest.to_hex (Digest.file ocamlc) in
   let libdir =
-    if Sys.command (ocamlc^" -where > %{_:name}%.config") = 0 then
+    let cmdline =
+      let quoted = "\"" ^ ocamlc ^ "\" -where > \"%{_:name}%.config\"" in
+      match Sys.os_type with
+      | "Cygwin"
+      | "Unix" -> quoted
+      | "Win32" -> "\"" ^ quoted ^ "\""
+      | _ -> failwith "Unknown OS type"
+    in
+    if Sys.command cmdline = 0 then
+      (* Must be opened in text mode for Windows *)
       let ic = open_in "%{_:name}%.config" in
       let r = input_line ic in
       close_in ic;
