@@ -1,0 +1,11 @@
+--- packages/mpris/mpris.0.2.0/opam
++++ packages/mpris/mpris.0.2.0/opam
+@@ -7,7 +7,7 @@ bug-reports: "https://github.com/johnelse/ocaml-mpris/issues"
+ depends: [
+   "ocaml" {>= "4.03.0"}
+   "dune"
+-  "lwt_ppx" {build}
++  "lwt_ppx"
+   "obus"
+   "odoc" {with-doc}
+ ]

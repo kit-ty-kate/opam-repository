@@ -1,0 +1,13 @@
+--- packages/lens/lens.1.2.2/opam
++++ packages/lens/lens.1.2.2/opam
+@@ -12,8 +12,8 @@ build: [
+ ]
+ depends: [
+   "ocaml" {>= "4.04.1" & < "4.10"}
+-  "ppx_deriving" {build}
+-  "ppx_tools" {build}
++  "ppx_deriving"
++  "ppx_tools"
+   "ppxfind" {build}
+   "jbuilder"
+   "ounit" {with-test}

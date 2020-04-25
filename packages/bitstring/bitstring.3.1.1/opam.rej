@@ -1,0 +1,11 @@
+--- packages/bitstring/bitstring.3.1.1/opam
++++ packages/bitstring/bitstring.3.1.1/opam
+@@ -15,7 +15,7 @@ build: [
+ depends: [
+   "ocaml" {>= "4.02.3"}
+   "dune"
+-  "ppx_tools_versioned" {build}
++  "ppx_tools_versioned"
+   "ocaml-migrate-parsetree" {>= "1.0.5"}
+   "stdlib-shims"
+   "ounit" {with-test}

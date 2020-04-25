@@ -1,0 +1,11 @@
+--- packages/amf/amf.0.1.2/opam
++++ packages/amf/amf.0.1.2/opam
+@@ -14,7 +14,7 @@ depends: [
+   "core" {>= "v0.9.1" & < "v0.13"}
+   "stdint"
+   "sexplib" {< "v0.13"}
+-  "bisect_ppx" {build}
++  "bisect_ppx"
+   "ounit" {with-test}
+ ]
+ build: [

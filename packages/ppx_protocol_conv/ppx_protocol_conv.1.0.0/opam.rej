@@ -1,0 +1,11 @@
+--- packages/ppx_protocol_conv/ppx_protocol_conv.1.0.0/opam
++++ packages/ppx_protocol_conv/ppx_protocol_conv.1.0.0/opam
+@@ -19,7 +19,7 @@ depends: [
+   "ppx_driver" {>= "v0.10.1"}
+   "ppx_core"
+   "jbuilder"
+-  "ppx_metaquot" {build}
++  "ppx_metaquot"
+ ]
+ synopsis:
+   "Serialization and de-serialization of ocaml types to/from json, msgpack and xml_light."

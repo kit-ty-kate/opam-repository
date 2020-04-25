@@ -1,0 +1,11 @@
+--- packages/plotkicadsch/plotkicadsch.0.5.0/opam
++++ packages/plotkicadsch/plotkicadsch.0.5.0/opam
+@@ -21,7 +21,7 @@ depends: [
+   "kicadsch" {= "0.4.0"}
+   "tyxml" {>= "4.0.0"}
+   "lwt"
+-  "lwt_ppx" {build}
++  "lwt_ppx"
+   "sha"
+   "git" {>= "2.0.0"}
+   "git-unix"

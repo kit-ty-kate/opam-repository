@@ -1,0 +1,11 @@
+--- packages/lwt/lwt.3.0.0/opam
++++ packages/lwt/lwt.3.0.0/opam
+@@ -42,7 +42,7 @@ depends: [
+   "result"
+   "cppo" {build & >= "1.1.0"}
+   "cppo_ocamlbuild" {build}
+-  ("base-no-ppx" | "ppx_tools" {build})
++  ("base-no-ppx" | "ppx_tools")
+ ]
+ depopts: [
+   "base-threads"

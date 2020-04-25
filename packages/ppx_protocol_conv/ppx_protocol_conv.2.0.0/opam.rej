@@ -1,0 +1,11 @@
+--- packages/ppx_protocol_conv/ppx_protocol_conv.2.0.0/opam
++++ packages/ppx_protocol_conv/ppx_protocol_conv.2.0.0/opam
+@@ -15,7 +15,7 @@ depends: [
+   "ppx_driver"
+   "ppx_core"
+   "jbuilder"
+-  "ppx_metaquot" {build}
++  "ppx_metaquot"
+   "msgpck" {with-test}
+   "yojson" {with-test}
+   "yaml" {with-test}
