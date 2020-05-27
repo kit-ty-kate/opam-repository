@@ -1,6 +1,4 @@
 opam-version: "2.0"
-name: "portia"
-version: "1.0"
 maintainer: "Cedric Cellier <rixed@happyleptic.org>"
 authors: "Cedric Cellier <rixed@happyleptic.org>"
 homepage: "http://pim.happyleptic.org/~rixed/portia.html"
