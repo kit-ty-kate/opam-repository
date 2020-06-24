@@ -11,15 +11,15 @@ build: [
 ]
 depends: [
   "ocaml"           {>= "4.08.0"}
-  "async_js"        {>= "v0.13" & < "v0.14"}
-  "async_kernel"    {>= "v0.13" & < "v0.14"}
-  "incr_dom"        {>= "v0.13" & < "v0.14"}
-  "incr_map"        {>= "v0.13" & < "v0.14"}
-  "incr_select"     {>= "v0.13" & < "v0.14"}
-  "incremental"     {>= "v0.13" & < "v0.14"}
-  "ppx_jane"        {>= "v0.13" & < "v0.14"}
-  "splay_tree"      {>= "v0.13" & < "v0.14"}
-  "virtual_dom"     {>= "v0.13" & < "v0.14"}
+  "async_js"        {>= "v0.13" & < "v0.15"}
+  "async_kernel"    {>= "v0.13" & < "v0.15"}
+  "incr_dom"        {>= "v0.13" & < "v0.15"}
+  "incr_map"        {>= "v0.13" & < "v0.15"}
+  "incr_select"     {>= "v0.13" & < "v0.15"}
+  "incremental"     {>= "v0.13" & < "v0.15"}
+  "ppx_jane"        {>= "v0.13" & < "v0.15"}
+  "splay_tree"      {>= "v0.13" & < "v0.15"}
+  "virtual_dom"     {>= "v0.13" & < "v0.15"}
   "dune"            {>= "1.5.1"}
   "js_of_ocaml"     {>= "3.4.1"}
   "js_of_ocaml-ppx"

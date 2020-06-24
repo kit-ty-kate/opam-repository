@@ -11,11 +11,11 @@ build: [
 ]
 depends: [
   "ocaml"          {>= "4.08.0"}
-  "async"          {>= "v0.13" & < "v0.14"}
-  "base"           {>= "v0.13" & < "v0.14"}
-  "core"           {>= "v0.13" & < "v0.14"}
-  "ppx_jane"       {>= "v0.13" & < "v0.14"}
-  "stdio"          {>= "v0.13" & < "v0.14"}
+  "async"          {>= "v0.13" & < "v0.15"}
+  "base"           {>= "v0.13" & < "v0.15"}
+  "core"           {>= "v0.13" & < "v0.15"}
+  "ppx_jane"       {>= "v0.13" & < "v0.15"}
+  "stdio"          {>= "v0.13" & < "v0.15"}
   "conf-libssl"
   "ctypes"         {>= "0.16.0"}
   "ctypes-foreign"

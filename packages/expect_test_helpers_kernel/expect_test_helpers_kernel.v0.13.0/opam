@@ -11,12 +11,12 @@ build: [
 ]
 depends: [
   "ocaml"           {>= "4.08.0"}
-  "base"            {>= "v0.13" & < "v0.14"}
-  "base_quickcheck" {>= "v0.13" & < "v0.14"}
-  "core_kernel"     {>= "v0.13" & < "v0.14"}
-  "ppx_jane"        {>= "v0.13" & < "v0.14"}
-  "sexp_pretty"     {>= "v0.13" & < "v0.14"}
-  "stdio"           {>= "v0.13" & < "v0.14"}
+  "base"            {>= "v0.13" & < "v0.15"}
+  "base_quickcheck" {>= "v0.13" & < "v0.15"}
+  "core_kernel"     {>= "v0.13" & < "v0.15"}
+  "ppx_jane"        {>= "v0.13" & < "v0.15"}
+  "sexp_pretty"     {>= "v0.13" & < "v0.15"}
+  "stdio"           {>= "v0.13" & < "v0.15"}
   "dune"            {>= "1.5.1"}
   "re"              {>= "1.8.0"}
 ]

@@ -11,11 +11,11 @@ build: [
 ]
 depends: [
   "ocaml"             {>= "4.08.0"}
-  "core_kernel"       {>= "v0.13" & < "v0.14"}
-  "ppx_jane"          {>= "v0.13" & < "v0.14"}
-  "splittable_random" {>= "v0.13" & < "v0.14"}
-  "typerep"           {>= "v0.13" & < "v0.14"}
-  "zarith_stubs_js"   {>= "v0.13" & < "v0.14"}
+  "core_kernel"       {>= "v0.13" & < "v0.15"}
+  "ppx_jane"          {>= "v0.13" & < "v0.15"}
+  "splittable_random" {>= "v0.13" & < "v0.15"}
+  "typerep"           {>= "v0.13" & < "v0.15"}
+  "zarith_stubs_js"   {>= "v0.13" & < "v0.15"}
   "dune"              {>= "1.5.1"}
   "num"
   "zarith"            {>= "1.5"}

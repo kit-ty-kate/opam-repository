@@ -11,10 +11,10 @@ build: [
 ]
 depends: [
   "ocaml"        {>= "4.08.0"}
-  "core_kernel"  {>= "v0.13" & < "v0.14"}
-  "jst-config"   {>= "v0.13" & < "v0.14"}
-  "ppx_jane"     {>= "v0.13" & < "v0.14"}
-  "sexplib"      {>= "v0.13" & < "v0.14"}
+  "core_kernel"  {>= "v0.13" & < "v0.15"}
+  "jst-config"   {>= "v0.13" & < "v0.15"}
+  "ppx_jane"     {>= "v0.13" & < "v0.15"}
+  "sexplib"      {>= "v0.13" & < "v0.15"}
   "base-threads"
   "dune"         {>= "1.5.1"}
   "spawn"        {>= "v0.12"}
