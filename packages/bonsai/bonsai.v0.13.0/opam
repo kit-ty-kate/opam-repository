@@ -11,14 +11,14 @@ build: [
 ]
 depends: [
   "ocaml"            {>= "4.08.0"}
-  "async_kernel"     {>= "v0.13" & < "v0.15"}
-  "core_kernel"      {>= "v0.13" & < "v0.15"}
-  "incr_dom"         {>= "v0.13" & < "v0.15"}
-  "incr_map"         {>= "v0.13" & < "v0.15"}
-  "incremental"      {>= "v0.13" & < "v0.15"}
-  "ppx_jane"         {>= "v0.13" & < "v0.15"}
-  "ppx_pattern_bind" {>= "v0.13" & < "v0.15"}
-  "virtual_dom"      {>= "v0.13" & < "v0.15"}
+  "async_kernel"     {>= "v0.13" & < "v0.14"}
+  "core_kernel"      {>= "v0.13" & < "v0.14"}
+  "incr_dom"         {>= "v0.13" & < "v0.14"}
+  "incr_map"         {>= "v0.13" & < "v0.14"}
+  "incremental"      {>= "v0.13" & < "v0.14"}
+  "ppx_jane"         {>= "v0.13" & < "v0.14"}
+  "ppx_pattern_bind" {>= "v0.13" & < "v0.14"}
+  "virtual_dom"      {>= "v0.13" & < "v0.14"}
   "dune"             {>= "1.5.1"}
 ]
 synopsis: "A library for building dynamic webapps, using Js_of_ocaml"

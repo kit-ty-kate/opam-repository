@@ -11,9 +11,9 @@ build: [
 ]
 depends: [
   "ocaml"      {>= "4.04.2"}
-  "base"       {>= "v0.13" & < "v0.15"}
-  "ppx_assert" {>= "v0.13" & < "v0.15"}
-  "stdio"      {>= "v0.13" & < "v0.15"}
+  "base"       {>= "v0.13" & < "v0.14"}
+  "ppx_assert" {>= "v0.13" & < "v0.14"}
+  "stdio"      {>= "v0.13" & < "v0.14"}
   "dune"       {>= "1.5.1"}
   "dune-configurator"
 ]

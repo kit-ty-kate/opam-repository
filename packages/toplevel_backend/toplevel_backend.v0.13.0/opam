@@ -11,9 +11,9 @@ build: [
 ]
 depends: [
   "ocaml"       {>= "4.08.0"}
-  "core_kernel" {>= "v0.13" & < "v0.15"}
-  "ppx_here"    {>= "v0.13" & < "v0.15"}
-  "ppx_jane"    {>= "v0.13" & < "v0.15"}
+  "core_kernel" {>= "v0.13" & < "v0.14"}
+  "ppx_here"    {>= "v0.13" & < "v0.14"}
+  "ppx_jane"    {>= "v0.13" & < "v0.14"}
   "dune"        {>= "1.5.1"}
   "ocamlfind"   {>= "1.7.2"}
 ]

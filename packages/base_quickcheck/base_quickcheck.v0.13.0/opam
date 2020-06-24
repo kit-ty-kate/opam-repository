@@ -11,12 +11,12 @@ build: [
 ]
 depends: [
   "ocaml"             {>= "4.04.2"}
-  "base"              {>= "v0.13" & < "v0.15"}
-  "ppx_base"          {>= "v0.13" & < "v0.15"}
-  "ppx_fields_conv"   {>= "v0.13" & < "v0.15"}
-  "ppx_let"           {>= "v0.13" & < "v0.15"}
-  "ppx_sexp_message"  {>= "v0.13" & < "v0.15"}
-  "splittable_random" {>= "v0.13" & < "v0.15"}
+  "base"              {>= "v0.13" & < "v0.14"}
+  "ppx_base"          {>= "v0.13" & < "v0.14"}
+  "ppx_fields_conv"   {>= "v0.13" & < "v0.14"}
+  "ppx_let"           {>= "v0.13" & < "v0.14"}
+  "ppx_sexp_message"  {>= "v0.13" & < "v0.14"}
+  "splittable_random" {>= "v0.13" & < "v0.14"}
   "dune"              {>= "1.5.1"}
   "ppxlib"            {>= "0.9.0"}
 ]

@@ -11,11 +11,11 @@ build: [
 ]
 depends: [
   "ocaml"                      {>= "4.08.0"}
-  "async"                      {>= "v0.13" & < "v0.15"}
-  "core"                       {>= "v0.13" & < "v0.15"}
-  "expect_test_helpers_kernel" {>= "v0.13" & < "v0.15"}
-  "ppx_jane"                   {>= "v0.13" & < "v0.15"}
-  "sexp_pretty"                {>= "v0.13" & < "v0.15"}
+  "async"                      {>= "v0.13" & < "v0.14"}
+  "core"                       {>= "v0.13" & < "v0.14"}
+  "expect_test_helpers_kernel" {>= "v0.13" & < "v0.14"}
+  "ppx_jane"                   {>= "v0.13" & < "v0.14"}
+  "sexp_pretty"                {>= "v0.13" & < "v0.14"}
   "dune"                       {>= "1.5.1"}
 ]
 synopsis: "Async helpers for writing expectation tests"

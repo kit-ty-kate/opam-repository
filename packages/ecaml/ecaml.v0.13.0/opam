@@ -11,13 +11,13 @@ build: [
 ]
 depends: [
   "ocaml"                      {>= "4.08.0"}
-  "async"                      {>= "v0.13" & < "v0.15"}
-  "async_kernel"               {>= "v0.13" & < "v0.15"}
-  "async_unix"                 {>= "v0.13" & < "v0.15"}
-  "core"                       {>= "v0.13" & < "v0.15"}
-  "core_kernel"                {>= "v0.13" & < "v0.15"}
-  "expect_test_helpers_kernel" {>= "v0.13" & < "v0.15"}
-  "ppx_jane"                   {>= "v0.13" & < "v0.15"}
+  "async"                      {>= "v0.13" & < "v0.14"}
+  "async_kernel"               {>= "v0.13" & < "v0.14"}
+  "async_unix"                 {>= "v0.13" & < "v0.14"}
+  "core"                       {>= "v0.13" & < "v0.14"}
+  "core_kernel"                {>= "v0.13" & < "v0.14"}
+  "expect_test_helpers_kernel" {>= "v0.13" & < "v0.14"}
+  "ppx_jane"                   {>= "v0.13" & < "v0.14"}
   "dune"                       {>= "1.5.1"}
 ]
 synopsis: "Library for writing Emacs plugin in OCaml"
