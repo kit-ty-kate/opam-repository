@@ -1,0 +1,15 @@
+opam-version: "2.0"
+maintainer: "opam-devel@lists.ocaml.org"
+authors: "OCaml contributors"
+homepage: "http://ocaml.org/"
+install: ["cp" "-r" "." "%{lib}%/ocaml-src"]
+synopsis: "Compiler sources"
+depends: [
+  "ocaml-base-compiler" {>= "4.12.0~alpha2" & < "4.12.0~alpha3"} |
+  "ocaml-variants" {>= "4.12.0~alpha2" & < "4.12.0~alpha3"}
+]
+extra-files: ["META" "md5=44f5e8a59f3333f77fa079edadef51ef"]
+url {
+  src: "https://github.com/ocaml/ocaml/archive/4.12.0-alpha2.tar.gz"
+  checksum: "sha256=45e8ecf8708ebe2412161ace3836be4f6b96579bedc0043c6c404db97b35d263"
+}
