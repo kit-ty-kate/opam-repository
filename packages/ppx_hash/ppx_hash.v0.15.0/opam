@@ -23,5 +23,5 @@ Part of the Jane Street's PPX rewriters collection.
 "
 url {
 src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/ppx_hash-v0.15.0.tar.gz"
-checksum: "sha256=324d2552f1f95812029c879eaecfe4df504ce25c273cf7455ceb92d55792bbe9"
+checksum: "sha256=088c8a553aee90f7b0f46b1550ad31f92e2ba777b59e0a90a9ef011f18853cde"
 }

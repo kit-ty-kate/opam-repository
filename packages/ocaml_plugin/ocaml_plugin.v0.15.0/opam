@@ -24,5 +24,5 @@ description: "
 "
 url {
 src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/ocaml_plugin-v0.15.0.tar.gz"
-checksum: "sha256=88bb5239ff20872aad3cf1fb2489f0bf5cc7b70f198597fc7303a70a7fd6992c"
+checksum: "sha256=302934af525b4064b5378999853e993da8956028a5957ea50653d1a44c643c91"
 }

@@ -25,5 +25,5 @@ largest industrial user of OCaml.
 "
 url {
 src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/async_udp-v0.15.0.tar.gz"
-checksum: "sha256=bacb697d835c6b7821b38dd5e4c7be6374921c7a88b9f7babaee2a8726ed4ac0"
+checksum: "sha256=3a727f3209f14f381eaaab881aecc20da5105435b2b21391d6d1a89f2d857123"
 }

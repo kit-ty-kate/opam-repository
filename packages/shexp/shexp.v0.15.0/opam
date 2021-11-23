@@ -25,5 +25,5 @@ shell interpreter. Shexp works on both Unix and Windows.
 "
 url {
 src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/shexp-v0.15.0.tar.gz"
-checksum: "sha256=c5ae051a5effb3a2d8cae9ce787a88a72a3461b3348c8f3e76655d2a3e9d432b"
+checksum: "sha256=402f3ab52ba39023d0ba4df7e83ba3d43b6607de1454b853c569d6ab9cee5556"
 }

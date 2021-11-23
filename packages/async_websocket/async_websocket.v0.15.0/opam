@@ -24,5 +24,5 @@ This library implements both the server and client side of
 "
 url {
 src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/async_websocket-v0.15.0.tar.gz"
-checksum: "sha256=d03ac91c38baa7fae6bb3dfd0f65e9f930dfeabfb3400041e11381d0fe26093a"
+checksum: "sha256=ee2284dc04d2d21cd5bbc523df1d5b5ccd2e2030c96f11c7b3f154a8057428e4"
 }

@@ -21,5 +21,5 @@ Provides functions to invoke amd64 instructions (such as clz,popcnt,rdtsc,rdpmc)
 "
 url {
 src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/ocaml_intrinsics-v0.15.0.tar.gz"
-checksum: "sha256=0b6760d596f46dbfccb42993b75ed81a84c57aa5ba4cb5a250fcb5e752c14165"
+checksum: "sha256=dd08366ffa73dca5e5c459923ef20bd1f85bc1b6a19e5383d53beb67e0259406"
 }

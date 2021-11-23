@@ -22,5 +22,5 @@ and return subtrees that match the given program.
 "
 url {
 src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/sexp_select-v0.15.0.tar.gz"
-checksum: "sha256=2f291655644ef73da9b01efbb2792703a861528a28d26e7c8af1f47f9df36bb7"
+checksum: "sha256=77bf2f6c57cbb0aa8a81071fa11906351a855f25ad721b719612baa15612439e"
 }

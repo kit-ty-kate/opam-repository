@@ -21,5 +21,5 @@ A single-module library for a data structure.
 "
 url {
 src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/sequencer_table-v0.15.0.tar.gz"
-checksum: "sha256=80c5c27a2acbbba765ac8c78ddbb574e7b5a727ff4f8f6d58dcee31069fdb921"
+checksum: "sha256=2055b7f127600e21eb7e96ef91dc0f23aaede71d154f58855024fa44943e134b"
 }

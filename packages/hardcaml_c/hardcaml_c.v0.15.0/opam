@@ -30,5 +30,5 @@ any other cyclesim simulation.
 "
 url {
 src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/hardcaml_c-v0.15.0.tar.gz"
-checksum: "sha256=945e865d0b80161b82c2f566f280c6d20a4f61a824804865936d5501bbb97eb6"
+checksum: "sha256=ad12dd811eefaee57c5106694bc3409d3771d59e89fe043b771b1aabe3c0888f"
 }

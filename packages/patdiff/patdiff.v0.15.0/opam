@@ -25,5 +25,5 @@ description: "
 "
 url {
 src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/patdiff-v0.15.0.tar.gz"
-checksum: "sha256=9d6c9ad4ed20a56441066941319ff245a5d4d6abda35a687ae8626656ef12949"
+checksum: "sha256=eccfdcde0c25a06176139508af28c52b300f220db23d478cb53f37c6b74effc9"
 }

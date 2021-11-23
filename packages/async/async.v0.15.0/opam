@@ -30,5 +30,5 @@ largest industrial user of OCaml.
 "
 url {
 src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/async-v0.15.0.tar.gz"
-checksum: "sha256=3b0936289693223ddbc5a8d440fd68590b241b56df1af27d5a4490327f7e3c88"
+checksum: "sha256=a2e6b134d455a50e481181c2bfd3f18b16dc98833d3a0c916cbc6be2b0d63b8f"
 }

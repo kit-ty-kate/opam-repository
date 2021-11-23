@@ -29,5 +29,5 @@ It relies on the fact that the type of the value being edited can be serialized 
 "
 url {
 src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/incr_dom_sexp_form-v0.15.0.tar.gz"
-checksum: "sha256=a5140c42a16f319952920913ac344488b43d89dc20162b229ac6424719b29426"
+checksum: "sha256=c5fe32d81f7f54afcee280e0012a047814f0b1ba11480d082920e7e7fb57c430"
 }

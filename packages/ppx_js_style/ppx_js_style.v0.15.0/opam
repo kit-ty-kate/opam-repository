@@ -25,5 +25,5 @@ enforce some coding conventions across all Jane Street packages.
 "
 url {
 src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/ppx_js_style-v0.15.0.tar.gz"
-checksum: "sha256=4b86aac62039408d73f32f42f2eb6505aeb24457e8b10458c41b221408621ec7"
+checksum: "sha256=83b21db4a042aa5356f14cdb54f6aaae0d0c04d7211d811b7cb87977c3bc6489"
 }

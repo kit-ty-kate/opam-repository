@@ -27,5 +27,5 @@ description: "
 "
 url {
 src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/core_bench-v0.15.0.tar.gz"
-checksum: "sha256=964e8421d17b310ccc802259337f870281ac54d21cec27477c71e3011808cf58"
+checksum: "sha256=f1a61bc6547f3e8ba227bb0ec92483e605ec8054132f3a17375e66bdd9e315b7"
 }

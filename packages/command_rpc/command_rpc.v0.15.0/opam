@@ -21,5 +21,5 @@ description: "
 "
 url {
 src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/command_rpc-v0.15.0.tar.gz"
-checksum: "sha256=a7a85a2efd9fc12af55161be61276848310de7c79544c0b38f7ecdf6b54d9630"
+checksum: "sha256=474bb091e9e880e56fabadf7ff0637b647697ee1c7d2fe4b61290d60c49ebc09"
 }

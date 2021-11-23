@@ -24,5 +24,5 @@ This library provides accessors for numerous types in Base.
 "
 url {
 src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/accessor_base-v0.15.0.tar.gz"
-checksum: "sha256=f3c5839d2cfe6c7fc53b3b85673bb084776d4669a72a68aad2621ab2d0a2bb04"
+checksum: "sha256=50794b20cf0ec79cc436646ac7152e7be1fc0b56923f97dbb21c952de67e64ba"
 }

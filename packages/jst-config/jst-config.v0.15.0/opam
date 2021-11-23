@@ -27,5 +27,5 @@ do not recommend using this package directly.
 "
 url {
 src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/jst-config-v0.15.0.tar.gz"
-checksum: "sha256=6ec246effd877e8355bf2ba7fc85963afacf96fba1ae188082f280de63480c3d"
+checksum: "sha256=e7116e8eb1f2a7cbc50725a5cc69ed6a520c8e33cd23977dd7d4ef59949bd5e8"
 }

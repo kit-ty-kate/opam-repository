@@ -22,5 +22,5 @@ description: "
 "
 url {
 src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/csvfields-v0.15.0.tar.gz"
-checksum: "sha256=a0d11876ae887f5969e6a6bc4ed901f233ea04d4c3d7f4aa1e47fc0761916fda"
+checksum: "sha256=699be929e6a7df84083c77aa94b220e00004247f6b10b595c86f9d8eb0c09606"
 }

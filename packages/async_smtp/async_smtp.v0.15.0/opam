@@ -34,5 +34,5 @@ description: "
 "
 url {
 src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/async_smtp-v0.15.0.tar.gz"
-checksum: "sha256=169d9b0b24c4525fe6ae7741ff5ca5d477800caa12ccf802d1f70736b6949af8"
+checksum: "sha256=0052f3137cb31c0565e0f2aa279405c3bb77e403f08f3dca35246f53c741b001"
 }

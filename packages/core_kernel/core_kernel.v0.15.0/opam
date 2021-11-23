@@ -45,5 +45,5 @@ Core_kernel is the system-independent part of Core.
 "
 url {
 src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/core_kernel-v0.15.0.tar.gz"
-checksum: "sha256=fae1a50aaf084a478621bd11755860dc1d68b146b48beb9e428c498ec6bb0687"
+checksum: "sha256=a6a56152ab332e0da1c0cfd5f492b1fab213d79a2e9f717db7e9e94152f6e568"
 }

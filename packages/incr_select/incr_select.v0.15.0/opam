@@ -27,5 +27,5 @@ outputs that exist.
 "
 url {
 src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/incr_select-v0.15.0.tar.gz"
-checksum: "sha256=97cd7072f886bafa309993f0a73193a5bed6fcd232b785bd33257697fca94f93"
+checksum: "sha256=d41eb1a50687297c1542c9685bb35abf66fdacabd377c28cce2661935b4c6580"
 }

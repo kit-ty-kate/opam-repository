@@ -31,5 +31,5 @@ cryptographic-quality randomness in favor of performance.
 "
 url {
 src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/splittable_random-v0.15.0.tar.gz"
-checksum: "sha256=a12ade22447f0d6bf583545db25e6160db0034c46c82db6a220e7cdc4d3943d8"
+checksum: "sha256=da2696ff79848678c788815841bd1e7c00b7f2d0d8e6a71a39374019a2a7ded6"
 }

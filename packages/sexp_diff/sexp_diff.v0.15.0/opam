@@ -22,5 +22,5 @@ command line tool.
 "
 url {
 src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/sexp_diff-v0.15.0.tar.gz"
-checksum: "sha256=2d43cdd03b741ab865161131b19f136f1ba42ba756d35a1b478838191c5ef274"
+checksum: "sha256=6ed33f7a888bf3e7ba540947b985a2a601cf276349d5d3b2c8060c24afe351ae"
 }

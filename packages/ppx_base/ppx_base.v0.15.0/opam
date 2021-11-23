@@ -28,5 +28,5 @@ verification tool.
 "
 url {
 src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/ppx_base-v0.15.0.tar.gz"
-checksum: "sha256=656d11eae7bc257200b42e81e3deaeb6f1bb76d3cbd749172e6e969ef483510b"
+checksum: "sha256=26fa77d2f91675c5a9fb080fa5744881bfdf50729d64ec6ce2caae8b84436b94"
 }

@@ -24,5 +24,5 @@ Part of the Jane Street's PPX rewriters collection.
 "
 url {
 src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/ppx_module_timer-v0.15.0.tar.gz"
-checksum: "sha256=d27f1879e61ce89301821dd7927643dccb38dabb7fa76164511dc23682292787"
+checksum: "sha256=abf0294c17af7e5e18d3a7080b2ae0113bee84b13b3d13baf3b6ef6ca127b000"
 }

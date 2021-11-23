@@ -22,5 +22,5 @@ Commutative_group and Vector_space.
 "
 url {
 src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/abstract_algebra-v0.15.0.tar.gz"
-checksum: "sha256=0171a6aa2820375cddd1f75fd93fb58410d98c03bc55500dbff8b6a9bf720c48"
+checksum: "sha256=842d93385eedb5d12de83fa53a68eb1e35ce25c553221fe905b9543d3d6d0b0c"
 }

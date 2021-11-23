@@ -21,5 +21,5 @@ Integers of various widths.
 "
 url {
 src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/int_repr-v0.15.0.tar.gz"
-checksum: "sha256=f58ff640f0d47bfaadbb61780b6312c9cf9ce55ebc7acde5572f8a5326b46636"
+checksum: "sha256=6fbfb31079e7e28d60d73dafb4659bc98457882c7482d124a6aa2495663160c5"
 }

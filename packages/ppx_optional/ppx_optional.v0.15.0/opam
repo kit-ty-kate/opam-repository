@@ -22,5 +22,5 @@ else expression.
 "
 url {
 src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/ppx_optional-v0.15.0.tar.gz"
-checksum: "sha256=d8a9730dc1300ebbe8d430832dbceef39664df1bd44e388f58cd9f0ed2e713c2"
+checksum: "sha256=75c7348c2cd55088feb14745cac8aca2cbd6cccff232a1ba31adb006a9572ee0"
 }

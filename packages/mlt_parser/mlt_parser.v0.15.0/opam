@@ -25,5 +25,5 @@ sessions) both to power toplevel expect tests and to support a tool that convert
 "
 url {
 src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/mlt_parser-v0.15.0.tar.gz"
-checksum: "sha256=b5594fa0060e6bf6a1c99becc81d1256d91e5d35bf8775a0c789292afee89b31"
+checksum: "sha256=67c3d20482477182e1c902c02395cc3beb144d3ec5fd82cb8e40e5ad3df3da53"
 }

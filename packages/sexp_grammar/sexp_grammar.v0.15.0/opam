@@ -19,5 +19,5 @@ Helpers for manipulating [Sexplib.Sexp_grammar] values.
 "
 url {
 src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/sexp_grammar-v0.15.0.tar.gz"
-checksum: "sha256=cd97eb11e00d2260aed40635dba9c85dd2f8a40f2f44386e650e7a9d57f51a5f"
+checksum: "sha256=e63ccd7266fafcf886d308f5e408e29c4940e9c948088425bbd2d084a2bf57a8"
 }

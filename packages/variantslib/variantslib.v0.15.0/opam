@@ -22,5 +22,5 @@ largest industrial user of OCaml.
 "
 url {
 src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/variantslib-v0.15.0.tar.gz"
-checksum: "sha256=5f932fddd97ac6b516353cf85328b96087ff07e9e0341e6f7ab2e8c827277cd3"
+checksum: "sha256=a1e4323acc94e150c3db465b8ac321d72df245083af0b9571aa992e331958ba8"
 }

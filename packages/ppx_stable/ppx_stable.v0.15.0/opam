@@ -22,5 +22,5 @@ identical types.
 "
 url {
 src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/ppx_stable-v0.15.0.tar.gz"
-checksum: "sha256=5ff398e39a66f871d1f1e5eead3c50cb4616803ffdbdccd5c5a66558af4d8519"
+checksum: "sha256=11bad4390c376f698ee33c80937e8663b8114f869155e8eaefebb517e6f10dee"
 }

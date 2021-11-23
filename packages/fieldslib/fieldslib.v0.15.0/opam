@@ -23,5 +23,5 @@ largest industrial user of OCaml.
 "
 url {
 src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/fieldslib-v0.15.0.tar.gz"
-checksum: "sha256=47f2a9164c30e3eaaa4eb9d4a702fa5b492a45dca722527b70f78fb2729d4b7c"
+checksum: "sha256=b80117d29272ed9807bb058415085a4a16b156e38065104c64ba7e154bf2ac73"
 }

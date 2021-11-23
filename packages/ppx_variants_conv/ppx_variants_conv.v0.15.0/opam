@@ -22,5 +22,5 @@ Part of the Jane Street's PPX rewriters collection.
 "
 url {
 src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/ppx_variants_conv-v0.15.0.tar.gz"
-checksum: "sha256=8aedf72e14a46a010420a8162edb6f015425d8cddee6ab6dc86194d48060185f"
+checksum: "sha256=b8ee592828fa07f5ce1c5b776b273dc6a060cb528bb75871e2b999640a65a0f8"
 }

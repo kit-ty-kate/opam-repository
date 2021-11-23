@@ -35,5 +35,5 @@ on record and variant fields.
 "
 url {
 src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/ppx_type_directed_value-v0.15.0.tar.gz"
-checksum: "sha256=f8e246f43c0eb059b6b81096131c55928bb5d4c539ecb7bdf61575adf69bbd0f"
+checksum: "sha256=b239d776b1e6fa0c948da5e8565a213fc5b84c0aac8d2b4bda52f5a3108bd07d"
 }

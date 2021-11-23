@@ -25,5 +25,5 @@ the mantissa is internally a [Bigint.t] and the exponent is an [int].
 "
 url {
 src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/bigdecimal-v0.15.0.tar.gz"
-checksum: "sha256=ef1388425efce5ff712b83242f4c104ebc43c20d46ecac9432ae87d3c1a86b8e"
+checksum: "sha256=078a1a23f6d7d18fefad6a975fea75a402dfc9fc558980d65dd11ddc064341ea"
 }

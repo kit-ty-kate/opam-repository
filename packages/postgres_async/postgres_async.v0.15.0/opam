@@ -26,5 +26,5 @@ for now, though in the future a layer on top may add convenience functions.
 "
 url {
 src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/postgres_async-v0.15.0.tar.gz"
-checksum: "sha256=7eb9d5eb0cf6bac14b0663eb2a3a9723000653602f3fed3a228b2aed4daa9fef"
+checksum: "sha256=7592883c6e5698f0a84a423123899baede6b0e5285857587c15706faa3bc515e"
 }

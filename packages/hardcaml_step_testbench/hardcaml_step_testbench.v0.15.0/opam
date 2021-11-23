@@ -26,5 +26,5 @@ synchronised to the system clock.
 "
 url {
 src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/hardcaml_step_testbench-v0.15.0.tar.gz"
-checksum: "sha256=53d66bc0585621697b059395de6caa4b488dbfb90cbe89f5253408de79b7e99a"
+checksum: "sha256=c2a9657058dacb47f4004fecbd0f1b5c3fac81719914d9ff55b561ef5ded8337"
 }

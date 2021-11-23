@@ -23,5 +23,5 @@ Code can also be generated to wrap the conversion process using Hardcaml interfa
 "
 url {
 src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/hardcaml_of_verilog-v0.15.0.tar.gz"
-checksum: "sha256=89ced1b91af8567d67b8616b3c245a617e62d28bf422252c318cd13001d313d5"
+checksum: "sha256=8023cfbf7e7e0e4830e94abe209cf952736f69ea9c91fb1d9cfa7f91bfe3fc0b"
 }

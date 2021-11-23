@@ -29,5 +29,5 @@ A ppx that takes in css strings and produces a module for accessing the unique n
 "
 url {
 src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/ppx_css-v0.15.0.tar.gz"
-checksum: "sha256=42ec2252d9c38015b10868b1c49768a5ae8d183a40ce4754bfb05deb0196f025"
+checksum: "sha256=e470e056923b0e3586eb83429b0b549b916b06362ea088cce0c387f0c1bc0895"
 }

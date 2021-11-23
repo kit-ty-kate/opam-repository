@@ -26,5 +26,5 @@ in a library.
 "
 url {
 src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/env_config-v0.15.0.tar.gz"
-checksum: "sha256=62a7513e90d52c4e740d80410289b27d8c86a6df1e3e0fb5fefebadbc0baf1f3"
+checksum: "sha256=c6024f26c006e71f293c77828eb72db68a2aac529f78f8af635baeb572bf8ee9"
 }

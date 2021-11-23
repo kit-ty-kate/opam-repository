@@ -25,5 +25,5 @@ MIB handling and SNMP requests
 "
 url {
 src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/netsnmp-v0.15.0.tar.gz"
-checksum: "sha256=f15d7c901ee495b4ed757cc5fd949cfe120e75789936b3488a713b12c94698df"
+checksum: "sha256=4b3b94d4084825cd2ac2ae3fa45786db4dbfe4d7228f4b09e778901f7120b434"
 }

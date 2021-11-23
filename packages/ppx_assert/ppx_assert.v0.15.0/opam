@@ -25,5 +25,5 @@ Part of the Jane Street's PPX rewriters collection.
 "
 url {
 src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/ppx_assert-v0.15.0.tar.gz"
-checksum: "sha256=81a03983827b65b81e1427b958a781076ae26c35ef8871948aa5aa071dd29de9"
+checksum: "sha256=c2da20c7fd44325f96c31c43400e71f587c489535104a282f9dfcfa752740aa7"
 }

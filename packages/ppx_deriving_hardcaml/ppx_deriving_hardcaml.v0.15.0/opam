@@ -27,5 +27,5 @@ hierarchical designs.
 "
 url {
 src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/ppx_deriving_hardcaml-v0.15.0.tar.gz"
-checksum: "sha256=f019e9936efa8f3bbcc8e9a3f5d39b7b28c8fee09347c2d74b93806d546fd585"
+checksum: "sha256=409e0da4ba1854d82357f41b50fef0e1abc76e8707fbe8e7dafc2eaee060cd33"
 }

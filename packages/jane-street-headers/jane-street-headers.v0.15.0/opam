@@ -19,5 +19,5 @@ C header files shared between the various Jane Street packages
 "
 url {
 src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/jane-street-headers-v0.15.0.tar.gz"
-checksum: "sha256=c53ca87326aaa81cb39d37a5be9a04aef7b4fff8d5260edde1ea5f0cb2d52efb"
+checksum: "sha256=91d89d8f2d887cb90ce9029999647cf884a29e3a10ef7fa6517955a08567c5f8"
 }

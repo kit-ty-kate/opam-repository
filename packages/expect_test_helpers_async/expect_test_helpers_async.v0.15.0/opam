@@ -28,5 +28,5 @@ look at expect_test_helpers_core.
 "
 url {
 src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/expect_test_helpers_async-v0.15.0.tar.gz"
-checksum: "sha256=757eaf8cec90af68f8399b4fca834d45c57350bed110ebe1ed6f98b3947ad969"
+checksum: "sha256=9b5f8ce63bfd812badfa29728d15f7fabe5ed03ec6ec4e0a42ab77a7250f3e17"
 }
