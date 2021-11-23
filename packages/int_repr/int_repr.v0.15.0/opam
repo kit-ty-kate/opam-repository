@@ -19,3 +19,7 @@ synopsis: "Integers of various widths"
 description: "
 Integers of various widths.
 "
+url {
+src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/int_repr-v0.15.0.tar.gz"
+checksum: "sha256=f58ff640f0d47bfaadbb61780b6312c9cf9ce55ebc7acde5572f8a5326b46636"
+}

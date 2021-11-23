@@ -23,3 +23,7 @@ synopsis: "Ppx_sexp_message-like extension nodes for lazily rendering log messag
 description: "
 Part of the Jane Street's PPX rewriters collection. 
 "
+url {
+src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/ppx_log-v0.15.0.tar.gz"
+checksum: "sha256=806ab8079c7d228bfadf3f428e65a4315657e3d06935530c4adf583b783e75f4"
+}

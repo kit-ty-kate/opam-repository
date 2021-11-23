@@ -29,3 +29,7 @@ Notably, this splay tree implementation is parameterized by a
 reduction operation which lets you specify an extra accumulator value,
 which can then be searched by efficiently.
 "
+url {
+src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/splay_tree-v0.15.0.tar.gz"
+checksum: "sha256=aae1ba5f8105b9df746341da160cf29d935e90c0c48ddcf8f02d0636f1edea3b"
+}

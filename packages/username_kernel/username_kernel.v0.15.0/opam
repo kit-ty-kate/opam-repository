@@ -19,3 +19,7 @@ synopsis: "An identifier for a user"
 description: "
 A string representation for a user, typically a UNIX username
 "
+url {
+src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/username_kernel-v0.15.0.tar.gz"
+checksum: "sha256=92a0cdc6dc6a9ee67de7815e278277f0266749709ae16544e86cbce3cea3bca2"
+}

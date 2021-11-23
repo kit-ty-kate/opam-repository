@@ -24,3 +24,7 @@ synopsis: "A library to help writing wrappers around ocaml code for python"
 description: "
 This library helps exposing ocaml functions to python. The python runtime interaction is handled by pyml.
 "
+url {
+src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/pythonlib-v0.15.0.tar.gz"
+checksum: "sha256=005bd68f52cc2bd407cbb0420022e2551365ead384c181679569cc3b229915db"
+}

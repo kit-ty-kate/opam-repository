@@ -27,3 +27,7 @@ description: "
 This library allows you to create an SSL client and server, with
 encrypted communication between both.
 "
+url {
+src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/async_ssl-v0.15.0.tar.gz"
+checksum: "sha256=e220581fdb69076c044d3a624455e2e4be5c18be258eeee4ca19650d7ec7188e"
+}

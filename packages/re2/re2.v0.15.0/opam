@@ -19,3 +19,7 @@ depends: [
 synopsis: "OCaml bindings for RE2, Google's regular expression library"
 description: "
 "
+url {
+src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/re2-v0.15.0.tar.gz"
+checksum: "sha256=ca1120600ef62c3b5013c090a64c88098030bf4d26fbe91e1909d2b2997b3310"
+}

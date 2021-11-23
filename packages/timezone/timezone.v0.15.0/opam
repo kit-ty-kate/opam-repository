@@ -20,3 +20,7 @@ description: "
 Timezone handles parsing timezone data and create [Timezone.t] that
 can later be used to manipulate time in core_kernel or core.
 "
+url {
+src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/timezone-v0.15.0.tar.gz"
+checksum: "sha256=99883c420c2a18387c93605a5c4fdeb82aa3d64a09a41b7c6a137375e6dd9f8c"
+}

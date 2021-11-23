@@ -21,3 +21,7 @@ synopsis: "A ppx rewriter for easy construction of s-expressions"
 description: "
 Part of the Jane Street's PPX rewriters collection.
 "
+url {
+src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/ppx_sexp_message-v0.15.0.tar.gz"
+checksum: "sha256=dc122008cdb7bc1dc383b4614f0361334b84dfe33b2afe02484589b89139ac8a"
+}

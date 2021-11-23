@@ -28,3 +28,7 @@ The library transparently compiles a Hardcaml Circuit to C code, which is in tur
 and linked into the running executable. The generated simulation object can be used like
 any other cyclesim simulation.
 "
+url {
+src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/hardcaml_c-v0.15.0.tar.gz"
+checksum: "sha256=945e865d0b80161b82c2f566f280c6d20a4f61a824804865936d5501bbb97eb6"
+}

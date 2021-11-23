@@ -22,3 +22,7 @@ Notty is a library for writing graphical terminal applications, and Notty_async
 is an Async driver, which makes it easy to build terminal applications using
 Async for managing concurrency.
 "
+url {
+src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/notty_async-v0.15.0.tar.gz"
+checksum: "sha256=306ec72b59d6421db6165cf62b2a42f859cfa0a2b04d0232bd2b05cd73fa9ddc"
+}

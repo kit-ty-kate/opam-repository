@@ -21,3 +21,7 @@ circuit.
 
 Code can also be generated to wrap the conversion process using Hardcaml interfaces.
 "
+url {
+src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/hardcaml_of_verilog-v0.15.0.tar.gz"
+checksum: "sha256=89ced1b91af8567d67b8616b3c245a617e62d28bf422252c318cd13001d313d5"
+}

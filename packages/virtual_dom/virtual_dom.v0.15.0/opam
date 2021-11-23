@@ -26,3 +26,7 @@ description: "
 The library itself may be found at
 https://github.com/Matt-Esch/virtual-dom.
 "
+url {
+src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/virtual_dom-v0.15.0.tar.gz"
+checksum: "sha256=1968994928826094d3a4fd23c5396cb3aac3971d6638a04bea1cc5dac87eef02"
+}

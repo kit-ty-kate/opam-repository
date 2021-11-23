@@ -23,3 +23,7 @@ depends: [
 synopsis: "File Diff using the Patience Diff algorithm"
 description: "
 "
+url {
+src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/patdiff-v0.15.0.tar.gz"
+checksum: "sha256=9d6c9ad4ed20a56441066941319ff245a5d4d6abda35a687ae8626656ef12949"
+}

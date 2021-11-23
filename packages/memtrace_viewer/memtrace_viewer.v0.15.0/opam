@@ -31,3 +31,7 @@ top allocators in a table or flame graph. To help find space leaks,
 events can be filtered by lifetime, showing only allocations of
 objects that are still live at peak memory usage.
 "
+url {
+src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/memtrace_viewer-v0.15.0.tar.gz"
+checksum: "sha256=9b1c50d6046b00f7e14d25907401dbbf283b1e9c4c876ea1ed790e90854c2153"
+}

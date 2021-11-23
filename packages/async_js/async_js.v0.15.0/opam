@@ -23,3 +23,7 @@ depends: [
 synopsis: "A small library that provide Async support for JavaScript platforms"
 description: "
 "
+url {
+src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/async_js-v0.15.0.tar.gz"
+checksum: "sha256=9a3ca17fa32d52a3bfd4b2bfb92f5847fac822345b805b774d27f39ef5abf7c0"
+}

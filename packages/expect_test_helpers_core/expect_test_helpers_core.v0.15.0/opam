@@ -27,3 +27,7 @@ This library provides helper functions for writing expect tests.
 If you want helpers for writing expect tests using the Async library,
 look at expect_test_helpers_async.
 "
+url {
+src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/expect_test_helpers_core-v0.15.0.tar.gz"
+checksum: "sha256=6fb6b343c10225b0330d34f56742e003267eea894ca5950bac1a334016900316"
+}

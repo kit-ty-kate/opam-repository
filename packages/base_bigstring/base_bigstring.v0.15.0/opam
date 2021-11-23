@@ -20,3 +20,7 @@ synopsis: "String type based on [Bigarray], for use in I/O and C-bindings"
 description: "
 String type based on [Bigarray], for use in I/O and C-bindings.
 "
+url {
+src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/base_bigstring-v0.15.0.tar.gz"
+checksum: "sha256=15eaa5555e131e4b93e03a4172ea1cf0656301d1b9a793cd4de4596e1bc60cd4"
+}

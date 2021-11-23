@@ -21,3 +21,7 @@ synopsis: "Accessors for Core types, for use with the Accessor library"
 description: "
 This library provides accessors for numerous types in Core.
 "
+url {
+src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/accessor_core-v0.15.0.tar.gz"
+checksum: "sha256=146685e8f8a68d9602b3c316ea16993e2e3b75fa811b140f3ecf0ededb4221d7"
+}

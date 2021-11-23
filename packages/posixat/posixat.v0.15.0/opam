@@ -25,3 +25,7 @@ The posix *at functions takes the current working directory as a file
 descriptor. For instance this allows to reliably maintain several
 working directories inside the same process.
 "
+url {
+src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/posixat-v0.15.0.tar.gz"
+checksum: "sha256=237ebaf7ec78c8369cf378def212fbe542c89a8b850d3465c6ad23d4631c3c4d"
+}

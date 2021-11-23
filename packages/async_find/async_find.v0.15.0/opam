@@ -19,3 +19,7 @@ depends: [
 synopsis: "Directory traversal with Async"
 description: "
 "
+url {
+src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/async_find-v0.15.0.tar.gz"
+checksum: "sha256=851f30993c29e321d684e81d6a197fac2fadd09a864d2f9d974e11cf608b14fc"
+}

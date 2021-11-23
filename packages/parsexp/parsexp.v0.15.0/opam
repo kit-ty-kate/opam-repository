@@ -37,3 +37,7 @@ This library is portable and doesn't provide IO functions. To read
 s-expressions from files or other external sources, you should use
 parsexp_io.
 "
+url {
+src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/parsexp-v0.15.0.tar.gz"
+checksum: "sha256=cabee832672788c6eb8d0f2e53da0c23287257b6782d18fcfbb7ea4c348cd29d"
+}

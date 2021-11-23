@@ -45,3 +45,7 @@ style.
 If you want a more concrete sense of how this works, look in the
 examples directory.
 "
+url {
+src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/incr_dom-v0.15.0.tar.gz"
+checksum: "sha256=c5b487604634c35530f33f79cf50203af12450cdc5e8d2cad853e5e74fa868f6"
+}

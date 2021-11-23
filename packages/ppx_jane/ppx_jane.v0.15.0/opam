@@ -44,3 +44,7 @@ description: "
 This package installs a ppx-jane executable, which is a ppx driver
 including all standard Jane Street ppx rewriters.
 "
+url {
+src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/ppx_jane-v0.15.0.tar.gz"
+checksum: "sha256=5f829a1806f6c059da823dc672e2ec8fba2d68d0ddd75914e2a1844a66632403"
+}

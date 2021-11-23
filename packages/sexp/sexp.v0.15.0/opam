@@ -31,3 +31,7 @@ A suite of tools for working with s-expressions from the command line.
 It contains subcommands for pretty printing, querying, and modifying
 sexps, as well as some conversions to and from other formats.
 "
+url {
+src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/sexp-v0.15.0.tar.gz"
+checksum: "sha256=a8398f040adfa2be7ef3da4dc9d55b0db10d5421ebab56b0efd2e9cc046fb003"
+}

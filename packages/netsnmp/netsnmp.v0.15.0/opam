@@ -23,3 +23,7 @@ description: "
 Provides a wrapper around the Net-SNMP client libraries including
 MIB handling and SNMP requests
 "
+url {
+src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/netsnmp-v0.15.0.tar.gz"
+checksum: "sha256=f15d7c901ee495b4ed757cc5fd949cfe120e75789936b3488a713b12c94698df"
+}

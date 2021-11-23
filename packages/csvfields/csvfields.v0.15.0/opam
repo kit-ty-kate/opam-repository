@@ -20,3 +20,7 @@ depends: [
 synopsis: "Runtime support for ppx_xml_conv and ppx_csv_conv"
 description: "
 "
+url {
+src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/csvfields-v0.15.0.tar.gz"
+checksum: "sha256=a0d11876ae887f5969e6a6bc4ed901f233ea04d4c3d7f4aa1e47fc0761916fda"
+}

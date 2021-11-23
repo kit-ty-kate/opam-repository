@@ -25,3 +25,7 @@ This package has an unstable interface; it is intended only to share configurati
 different packages from Jane Street. Future updates may not be backward-compatible, and we
 do not recommend using this package directly.
 "
+url {
+src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/jst-config-v0.15.0.tar.gz"
+checksum: "sha256=6ec246effd877e8355bf2ba7fc85963afacf96fba1ae188082f280de63480c3d"
+}

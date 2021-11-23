@@ -22,3 +22,7 @@ synopsis: "Accessors for Async types, for use with the Accessor library"
 description: "
 This library provides accessors for numerous types in Async.
 "
+url {
+src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/accessor_async-v0.15.0.tar.gz"
+checksum: "sha256=f37444c8de7860851946d4bc040d7fc175028bbdfe837bd8ad0ebc184b332789"
+}

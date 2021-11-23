@@ -25,3 +25,7 @@ description: "
 A tool for reading Xilinx VHDL Unisim and XPM component definitions from a Vivado
 installation and generating Hardcaml interfaces automatically.
 "
+url {
+src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/hardcaml_xilinx_components-v0.15.0.tar.gz"
+checksum: "sha256=7214adcc658058c4d3e71d7763fa436444c7cc0edbe7886d1ba9ef5dfe786127"
+}

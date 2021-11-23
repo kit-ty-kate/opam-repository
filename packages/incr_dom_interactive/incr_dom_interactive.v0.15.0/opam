@@ -28,3 +28,7 @@ synopsis: "A monad for composing chains of interactive UI elements"
 description: "
 This library allows your program to receive input from the user using DOM elements such as checkboxes, text fields, and buttons. It allows you to inspect the user's input and decide afterwards what the rest of the [Interactive.t] should be. This library is intended to be used in conjunction with Incr_dom.
 "
+url {
+src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/incr_dom_interactive-v0.15.0.tar.gz"
+checksum: "sha256=49377348ed52f8ea8bc3edeb91106c766c4e17b01572042ec25a1f957192a912"
+}

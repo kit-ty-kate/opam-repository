@@ -31,3 +31,7 @@ which can be used to control the editor.  This set of libraries implements
 an OCaml interface to those APIs, for the purpose of permitting neovim 
 plugins to be written in OCaml.
 "
+url {
+src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/vcaml-v0.15.0.tar.gz"
+checksum: "sha256=090d405982f05fec071ab05a447cdb9332f9454810d4f8f73cb589a07093c060"
+}

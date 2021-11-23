@@ -40,3 +40,7 @@ description: "
 Bonsai is a library for building reusable UI components inside an
      Incremental-style UI framework such as Incr_dom or React.
 "
+url {
+src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/bonsai-v0.15.0.tar.gz"
+checksum: "sha256=0b740b461a85c6448b17188912b76357155e70faa18ce6c18e9422266ce81b79"
+}

@@ -22,3 +22,7 @@ description: "
 A library for pretty-printing s-expressions, using better indentation rules than
 the default pretty printer in Sexplib.
 "
+url {
+src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/sexp_pretty-v0.15.0.tar.gz"
+checksum: "sha256=7ffe8cc1f32b9f0ccf84a4956028d0378a00d5d3f43994dde0746733c0d7ce44"
+}

@@ -20,3 +20,7 @@ depends: [
 synopsis: "Thin wrapper around [Linux_ext.sendfile] to send full files"
 description: "
 "
+url {
+src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/async_sendfile-v0.15.0.tar.gz"
+checksum: "sha256=14d38c1d22e281274157552e1d2c883019684cd0208f73dd1fef89d48c25c272"
+}

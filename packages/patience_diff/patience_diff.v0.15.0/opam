@@ -19,3 +19,7 @@ depends: [
 synopsis: "Diff library using Bram Cohen's patience diff algorithm"
 description: "
 "
+url {
+src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/patience_diff-v0.15.0.tar.gz"
+checksum: "sha256=c49282b1480ebf774a79712282911668c2c61f7c90187b3a701295fc82e59c06"
+}

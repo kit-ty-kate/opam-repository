@@ -18,3 +18,7 @@ description: "
 Single page handlers are handlers that serve user specified JavaScript and css
    files along with a generated index page that loads those files.
 "
+url {
+src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/cohttp_static_handler-v0.15.0.tar.gz"
+checksum: "sha256=875e1881226045eb6306b288457e5094e0284dd51f00eaba60c306a5d0519090"
+}

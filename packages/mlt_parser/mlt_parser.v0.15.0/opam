@@ -23,3 +23,7 @@ Mlt_parser contains functions for parsing .mlt files (which contain OCaml toplev
 sessions) both to power toplevel expect tests and to support a tool that converts
 .mlt files into .org files, for literate-style documentation.
 "
+url {
+src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/mlt_parser-v0.15.0.tar.gz"
+checksum: "sha256=b5594fa0060e6bf6a1c99becc81d1256d91e5d35bf8775a0c789292afee89b31"
+}

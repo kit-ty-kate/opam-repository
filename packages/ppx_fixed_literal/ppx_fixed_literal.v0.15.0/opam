@@ -20,3 +20,7 @@ description: "
 A ppx rewriter that rewrites fixed point literal of the 
 form 1.0v to conversion functions currently in scope.
 "
+url {
+src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/ppx_fixed_literal-v0.15.0.tar.gz"
+checksum: "sha256=27d8c8c3aea4e5b566fa65b7d90ac07b91662a1fe0f64886dd58cefe69830c04"
+}

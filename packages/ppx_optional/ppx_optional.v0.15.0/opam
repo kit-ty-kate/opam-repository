@@ -20,3 +20,7 @@ description: "
 A ppx rewriter that rewrites simple match statements with an if then
 else expression.
 "
+url {
+src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/ppx_optional-v0.15.0.tar.gz"
+checksum: "sha256=d8a9730dc1300ebbe8d430832dbceef39664df1bd44e388f58cd9f0ed2e713c2"
+}

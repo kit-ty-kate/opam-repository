@@ -21,3 +21,7 @@ synopsis: "[@@deriving] plugin to generate Yojson conversion functions"
 description: "
 Part of the Jane Street's PPX rewriters collection.
 "
+url {
+src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/ppx_yojson_conv-v0.15.0.tar.gz"
+checksum: "sha256=4221e000fb7bfe70cd768f3f95e8f8a1ae2fb2a51bdef7add2190c7aa0f94cd4"
+}

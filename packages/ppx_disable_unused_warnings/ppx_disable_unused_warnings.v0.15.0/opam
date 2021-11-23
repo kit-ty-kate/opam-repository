@@ -19,3 +19,7 @@ synopsis: "Expands [@disable_unused_warnings] into [@warning \"-20-26-32-33-34-3
 description: "
 Part of the Jane Street's PPX rewriters collection.
 "
+url {
+src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/ppx_disable_unused_warnings-v0.15.0.tar.gz"
+checksum: "sha256=68a1aca7bacceb49b9f51769241cb2b721ad2eefe69164dd1431f04e565727e5"
+}
