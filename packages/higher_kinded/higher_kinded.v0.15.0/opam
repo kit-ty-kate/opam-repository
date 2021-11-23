@@ -24,5 +24,5 @@ constructor.
 "
 url {
 src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/higher_kinded-v0.15.0.tar.gz"
-checksum: "sha256=fdf21a3eaadb300a8ff4f4a0d298d99c638c36f854b6b3d6af7075daa94939f8"
+checksum: "sha256=6abc5a9af76a076ad0de3acd15b35584dde8cc8f612162524555c3f4791b4acb"
 }

@@ -24,5 +24,5 @@ to a service while using the wrong protocol.
 "
 url {
 src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/protocol_version_header-v0.15.0.tar.gz"
-checksum: "sha256=e4a6db39cb1176d1b7b2f0e4115c1356b7115c724a9abd40d1d373ece9e57c4f"
+checksum: "sha256=706a9d1b9d1533c96334122806f2d9c8906c09d5347da2962adb4f90727335c5"
 }

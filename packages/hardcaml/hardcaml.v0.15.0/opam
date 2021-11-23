@@ -31,5 +31,5 @@ VHDL to interact with standard back end tooling.
 "
 url {
 src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/hardcaml-v0.15.0.tar.gz"
-checksum: "sha256=ef5f6fee9c102352f74cbc68a936c53f12eb980e8417744c38b5d89aedfbdcc2"
+checksum: "sha256=bb10bb39a70bbd6383eb075046440a62781aa2c3944514e562e1d4ad3ce26617"
 }

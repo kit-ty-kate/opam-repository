@@ -19,5 +19,5 @@ description: "
 "
 url {
 src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/typerep-v0.15.0.tar.gz"
-checksum: "sha256=bd79cc93b86e061144ad4b3687605ffc6431d75fe9f128cccf66ca29bd6a0d0f"
+checksum: "sha256=11022b01d2c1df7852207454e3f62283e4599973bfafdc71f2f1625bcc045034"
 }

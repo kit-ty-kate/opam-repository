@@ -21,5 +21,5 @@ description: "
 "
 url {
 src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/patience_diff-v0.15.0.tar.gz"
-checksum: "sha256=c49282b1480ebf774a79712282911668c2c61f7c90187b3a701295fc82e59c06"
+checksum: "sha256=4caf96b0104b9e821d4cd1cf3857d945dd04f516418ec92b65f48e3b67d4f1e7"
 }

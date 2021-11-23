@@ -26,5 +26,5 @@ This library is a relatively featureful and flexible implementation of fork&exec
 depexts: ["linux-headers"] {os-distribution = "alpine"}
 url {
 src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/shell-v0.15.0.tar.gz"
-checksum: "sha256=642b4082e1522a7146d49d9231635f4f23ee7602348ac4a2b10d1e75ab55bc9c"
+checksum: "sha256=a013bffcdc747d12d0252d9b6b72e2d1a0bf092b3b38c3f9abdc365765cf35a7"
 }

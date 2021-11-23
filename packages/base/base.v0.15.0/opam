@@ -32,5 +32,5 @@ provided by companion libraries such as stdio:
 "
 url {
 src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/base-v0.15.0.tar.gz"
-checksum: "sha256=0b8ba1285d538693bd67932d9116ae50a4fd6b0bd2ff4ebdc45db16f18d19dab"
+checksum: "sha256=e80c26ede858cd25c44ccf650cae3d8adcd6e47480acf8a1a87a7c654b7413e9"
 }

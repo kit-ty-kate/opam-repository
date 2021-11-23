@@ -39,5 +39,5 @@ parsexp_io.
 "
 url {
 src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/parsexp-v0.15.0.tar.gz"
-checksum: "sha256=cabee832672788c6eb8d0f2e53da0c23287257b6782d18fcfbb7ea4c348cd29d"
+checksum: "sha256=95ca5d536b01e8c1be4af953a8e7e78fb44f3dfadd6581e73c7882613504864a"
 }

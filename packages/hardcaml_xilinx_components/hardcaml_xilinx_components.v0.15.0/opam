@@ -27,5 +27,5 @@ installation and generating Hardcaml interfaces automatically.
 "
 url {
 src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/hardcaml_xilinx_components-v0.15.0.tar.gz"
-checksum: "sha256=7214adcc658058c4d3e71d7763fa436444c7cc0edbe7886d1ba9ef5dfe786127"
+checksum: "sha256=4aa431eb598c669bb3d2e7d2489a5c978b67f24fc738f9a461629ad31d45931d"
 }

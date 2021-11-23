@@ -24,5 +24,5 @@ description: "
 "
 url {
 src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/async_inotify-v0.15.0.tar.gz"
-checksum: "sha256=477773575f3701eb6a3b57e6d26f6cf1f7ff8e0d9c8d1f9f34eff24046e9b7ac"
+checksum: "sha256=5cbb7ae6c454192304e2122ae4d3b072f44f5f6e9be573aff84291205c0946b1"
 }

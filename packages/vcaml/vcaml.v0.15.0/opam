@@ -33,5 +33,5 @@ plugins to be written in OCaml.
 "
 url {
 src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/vcaml-v0.15.0.tar.gz"
-checksum: "sha256=090d405982f05fec071ab05a447cdb9332f9454810d4f8f73cb589a07093c060"
+checksum: "sha256=893ca322adb32e9ec0f496ad85c85d4c707883a42ae42e85f362cb541ebb466e"
 }

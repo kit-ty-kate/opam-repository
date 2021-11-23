@@ -25,5 +25,5 @@ description: "
 "
 url {
 src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/bignum-v0.15.0.tar.gz"
-checksum: "sha256=eca18d66d8ae9e4d574bd954b5bc1421a4fdba9550a88616aea9b73eac03e5b4"
+checksum: "sha256=d9f489985e819efdf25388e1817ca7cd08c7f648d5d6fa4be9326f1e154da022"
 }

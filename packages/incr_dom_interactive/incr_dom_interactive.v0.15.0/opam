@@ -30,5 +30,5 @@ This library allows your program to receive input from the user using DOM elemen
 "
 url {
 src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/incr_dom_interactive-v0.15.0.tar.gz"
-checksum: "sha256=49377348ed52f8ea8bc3edeb91106c766c4e17b01572042ec25a1f957192a912"
+checksum: "sha256=190abeb8c1c21dc9baf9307b1d1154bc99728383c47e5c5837b8e5542e9e764d"
 }

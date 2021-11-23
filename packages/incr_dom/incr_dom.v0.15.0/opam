@@ -47,5 +47,5 @@ examples directory.
 "
 url {
 src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/incr_dom-v0.15.0.tar.gz"
-checksum: "sha256=c5b487604634c35530f33f79cf50203af12450cdc5e8d2cad853e5e74fa868f6"
+checksum: "sha256=9e61ecd6e312dcf6f639c90d486590683f08590d48eba64ee52f2e30a60eef9a"
 }

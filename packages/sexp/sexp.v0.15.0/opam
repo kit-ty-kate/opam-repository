@@ -33,5 +33,5 @@ sexps, as well as some conversions to and from other formats.
 "
 url {
 src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/sexp-v0.15.0.tar.gz"
-checksum: "sha256=a8398f040adfa2be7ef3da4dc9d55b0db10d5421ebab56b0efd2e9cc046fb003"
+checksum: "sha256=bce701e36e1828aee187e816c0a4167955b2438302f39f31ba48bb9962558b2f"
 }

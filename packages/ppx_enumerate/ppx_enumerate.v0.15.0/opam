@@ -21,5 +21,5 @@ Part of the Jane Street's PPX rewriters collection.
 "
 url {
 src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/ppx_enumerate-v0.15.0.tar.gz"
-checksum: "sha256=9f3cac7c658ac3678a758c9f8f71bf885ec0bd2c122276ca739d7ff7cd3ed2ba"
+checksum: "sha256=0fbb7445ec2e1b914a08856c4fec143189751ecd6100e8304f8cf3a0559f512d"
 }

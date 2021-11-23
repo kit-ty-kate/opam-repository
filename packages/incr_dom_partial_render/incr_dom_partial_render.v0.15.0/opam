@@ -25,5 +25,5 @@ This library provides tools for rendering of tabular data efficiently, in partic
 "
 url {
 src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/incr_dom_partial_render-v0.15.0.tar.gz"
-checksum: "sha256=74372611398422514e6bcbfc7ad61bfae33b0ba3d4c5d11b89ce70cf4622f159"
+checksum: "sha256=d705183c0f1facca67de117c65d1d881913fb4e7b77c67552b6eee23fc85ca93"
 }

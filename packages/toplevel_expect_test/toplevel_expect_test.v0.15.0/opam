@@ -33,5 +33,5 @@ the toplevel in a terminal.
 "
 url {
 src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/toplevel_expect_test-v0.15.0.tar.gz"
-checksum: "sha256=5843ac96d951bb79424bd7a2c221d936b927fd1cbed11865bc4ebc6a4fca86bf"
+checksum: "sha256=1a7a142a8cf832e4ab9bad89214a7ade88bdfcf8b446bda9888af9135de530be"
 }

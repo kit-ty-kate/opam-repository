@@ -46,5 +46,5 @@ including all standard Jane Street ppx rewriters.
 "
 url {
 src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/ppx_jane-v0.15.0.tar.gz"
-checksum: "sha256=5f829a1806f6c059da823dc672e2ec8fba2d68d0ddd75914e2a1844a66632403"
+checksum: "sha256=ed6be07f3af867a01c0015e7253a4c6e2b4d8c4ec1c99fa8004f439b3178c905"
 }

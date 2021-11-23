@@ -21,5 +21,5 @@ description: "
 "
 url {
 src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/textutils_kernel-v0.15.0.tar.gz"
-checksum: "sha256=b93be53c66dbdef33888a46caf5ce52e652a543d6854ec28a14a2e491cdc45b5"
+checksum: "sha256=de5e1bd99fa2ab6d1e69d4a7bcf645505ca53594a0437d9eb782a264a59ae3e6"
 }

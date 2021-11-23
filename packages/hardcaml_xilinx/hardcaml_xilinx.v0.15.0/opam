@@ -27,5 +27,5 @@ Xilinx LUT primitives.
 "
 url {
 src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/hardcaml_xilinx-v0.15.0.tar.gz"
-checksum: "sha256=f0a548d95c9abcb85a0a2563d4f94ae9a06f6533590371f9111ceba82e4e46a2"
+checksum: "sha256=038baf64f95908eeb94032e53bbc8f1b6e44a63efdf001aad50dfad8bf958963"
 }

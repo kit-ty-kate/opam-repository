@@ -23,5 +23,5 @@ include one sexp file in another.
 "
 url {
 src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/sexp_macro-v0.15.0.tar.gz"
-checksum: "sha256=0e17a3e5be65655d848fe3ebb6f34a338193837cefd787bb14a6857126344a2e"
+checksum: "sha256=b511da8acbd051d6843606238ad5d6053fc71cf35eaff2dfbf55f7c5c384874a"
 }

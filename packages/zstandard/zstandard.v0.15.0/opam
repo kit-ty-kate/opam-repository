@@ -23,5 +23,5 @@ Zstandard is a real-time compression algorithm which provides high compression r
 "
 url {
 src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/zstandard-v0.15.0.tar.gz"
-checksum: "sha256=d010cee8ee6db2c48a8a80974bcbc76e9bdbcf1e943c5eddc1fdbc9387560b2c"
+checksum: "sha256=0ddbfc55d98b6b7b7b3ed18b05614b207c24f85b99a857cdb8260d4748d18d44"
 }

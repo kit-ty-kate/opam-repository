@@ -23,5 +23,5 @@ topological-sort algorithm.
 "
 url {
 src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/topological_sort-v0.15.0.tar.gz"
-checksum: "sha256=f2a477fc3a8dc92059063996d8b638c4fab98b66db846e896bdc8414149b1953"
+checksum: "sha256=a07fcf5ee58a3be1cecb3a01e5211f012fd9360f5e9ccb5b933ab83dd960b86b"
 }

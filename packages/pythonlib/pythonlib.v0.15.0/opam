@@ -26,5 +26,5 @@ This library helps exposing ocaml functions to python. The python runtime intera
 "
 url {
 src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/pythonlib-v0.15.0.tar.gz"
-checksum: "sha256=005bd68f52cc2bd407cbb0420022e2551365ead384c181679569cc3b229915db"
+checksum: "sha256=6d347a72d2de4846c6f7e501c55372d35683a9e26843e823ca2402d176756c54"
 }

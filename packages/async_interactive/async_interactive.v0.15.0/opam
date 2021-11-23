@@ -23,5 +23,5 @@ description: "
 "
 url {
 src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/async_interactive-v0.15.0.tar.gz"
-checksum: "sha256=71822ad53365159273bf2ec28e0e9034128889c4b6b480653a6a627c9caaf52f"
+checksum: "sha256=232d2e79c57b5644d348ac83a3ab9844ec51a6a2655aeca76aca814ff773d861"
 }

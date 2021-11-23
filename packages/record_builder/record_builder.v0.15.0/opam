@@ -25,5 +25,5 @@ needed to build the record from a single applicative term for each field.
 "
 url {
 src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/record_builder-v0.15.0.tar.gz"
-checksum: "sha256=76b506ef0043d1653d92599373810a120c18c9045299cdc272de38b2a7fb0260"
+checksum: "sha256=f283b4f1b1254c9e9d6b74e5732f52c4a1c0f21ae4b5b4d28c39e40c8a5cbfb5"
 }

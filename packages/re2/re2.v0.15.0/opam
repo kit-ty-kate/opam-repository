@@ -21,5 +21,5 @@ description: "
 "
 url {
 src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/re2-v0.15.0.tar.gz"
-checksum: "sha256=ca1120600ef62c3b5013c090a64c88098030bf4d26fbe91e1909d2b2997b3310"
+checksum: "sha256=08a8c82b4b3efdd78b6da2835a3aff023edac7878d45e4b69ee7eedf80ff1b4c"
 }

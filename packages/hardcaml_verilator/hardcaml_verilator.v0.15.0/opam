@@ -29,5 +29,5 @@ to the running executable to be used as a Cyclesim simulation.
 "
 url {
 src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/hardcaml_verilator-v0.15.0.tar.gz"
-checksum: "sha256=36c703049bd4df3c1263949da94f017ca51e1e96549568c943bfa4ebd3053909"
+checksum: "sha256=f7b370ccffa84bc6180b56e5df22bf2417301478d4bd47e94be96657df1f05bb"
 }

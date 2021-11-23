@@ -28,5 +28,5 @@ https://github.com/Matt-Esch/virtual-dom.
 "
 url {
 src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/virtual_dom-v0.15.0.tar.gz"
-checksum: "sha256=1968994928826094d3a4fd23c5396cb3aac3971d6638a04bea1cc5dac87eef02"
+checksum: "sha256=b93d1b4e4debadb9dc58858f67f19b66ce43aa371d8bcd6ff014341a318b0cc9"
 }

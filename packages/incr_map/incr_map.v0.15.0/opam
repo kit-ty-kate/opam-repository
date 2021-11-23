@@ -27,5 +27,5 @@ along with the ability to efficiently diff map data structures using
 "
 url {
 src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/incr_map-v0.15.0.tar.gz"
-checksum: "sha256=634cf3d25db99499d1b8e2c79bc262f4b955e6bfc6bc9855de17c5f5a1d3b7f8"
+checksum: "sha256=15d19084d2aba6f57390f42a9da8e0efc0668e2798652ecf05ee28255765d421"
 }

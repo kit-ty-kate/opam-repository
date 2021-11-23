@@ -31,5 +31,5 @@ when non-websocket traffic occurs.
 "
 url {
 src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/async_rpc_websocket-v0.15.0.tar.gz"
-checksum: "sha256=4f575c759e51c5a002214b3cf04abc8214c50cfe826bc306818076c335d0bdd2"
+checksum: "sha256=332820538f7958f8ac3f69d75e660bb6a788bf934393fe78b017ebc3f30bdac4"
 }

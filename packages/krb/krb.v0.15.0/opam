@@ -32,5 +32,5 @@ Jane Street's library for Kerberizing RPC connections so that
 "
 url {
 src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/krb-v0.15.0.tar.gz"
-checksum: "sha256=ef851d3eeb80666816fdbf8eb7af176c5c6b53b4f6e8e710617415a4f69cb771"
+checksum: "sha256=5a6d9d67bb2486efbe69fe46e2bed970c4c8d1dab2edca162b99840d00e7e2a2"
 }

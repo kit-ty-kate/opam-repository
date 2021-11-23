@@ -28,5 +28,5 @@ Supports client tracking and internally uses the RESP3 protocol.
 "
 url {
 src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/redis-async-v0.15.0.tar.gz"
-checksum: "sha256=2edc9c89d7c9f8db3ac7b24c365e237ddc9d3a14faded34044967823a6948517"
+checksum: "sha256=88526c18430b7e23cba2ed3ff1e3c6559865ba7d1af01beb350d474b5c9c7540"
 }

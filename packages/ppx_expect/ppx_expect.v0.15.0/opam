@@ -25,5 +25,5 @@ Part of the Jane Street's PPX rewriters collection.
 "
 url {
 src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/ppx_expect-v0.15.0.tar.gz"
-checksum: "sha256=9a03eb01e0723989ac69c97e3ac0d96ea2efee6fd17a02f171de8386a72ddebd"
+checksum: "sha256=f0c838d100bcbc0f9e8995d9679e310265debc67879db6789a117c846f214c22"
 }

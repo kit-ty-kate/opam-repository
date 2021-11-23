@@ -24,5 +24,5 @@ records.
 "
 url {
 src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/delimited_parsing-v0.15.0.tar.gz"
-checksum: "sha256=30c8ad9e7900d76bc06fe90bba31d8270f2196991387a67f8ed1fa47b2c02bc1"
+checksum: "sha256=edb33cf3228744bed5329f4532ded7afbb0a9cce4d2d6cdc7e60ac48a94c47e4"
 }

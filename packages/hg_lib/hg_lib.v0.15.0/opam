@@ -23,5 +23,5 @@ A library that wraps the Mercurial command line interface.
 "
 url {
 src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/hg_lib-v0.15.0.tar.gz"
-checksum: "sha256=4b1180df5816d9c0eed7b9c1045f103ebad636a5677eb0c28cb71d078afded7d"
+checksum: "sha256=92e781d6d22b0fb5b2bdbd6a7b8b61839d0de36295b83854cc8f78e9032e1f74"
 }

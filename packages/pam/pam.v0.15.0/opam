@@ -24,5 +24,5 @@ authentication tasks to the Linux-PAM framework.
 "
 url {
 src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/pam-v0.15.0.tar.gz"
-checksum: "sha256=faf2d66a383c430f8c865b9ff25508fb1880a377bab73ea11c4ab9214661b93f"
+checksum: "sha256=1db247b70a2514b2767bad7f8fc2eb70e0efaec73fad50ea709ac4d449413b34"
 }

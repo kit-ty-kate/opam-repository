@@ -23,5 +23,5 @@ A small library of useful/interesting Hardcaml circuits.
 "
 url {
 src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/hardcaml_circuits-v0.15.0.tar.gz"
-checksum: "sha256=741ada00a5fdbe52e4bdbb8bdf35fd02b1fd0103499e638126e5b6da4e1d619c"
+checksum: "sha256=71c67fa51582d0acd88ba24e945845007fe1aa33137dd8f282d218a785c18d73"
 }

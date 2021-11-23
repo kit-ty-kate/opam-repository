@@ -33,5 +33,5 @@ checking tasks.
 "
 url {
 src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/hardcaml_verify-v0.15.0.tar.gz"
-checksum: "sha256=a6d5cdad741934891fa75a0f37e8d836f26dfe84f8802950a21935997b02718b"
+checksum: "sha256=2315d5c55a32eb12766146eedc3078a7af6d7324e32f8028670b0f594a6bc4c2"
 }

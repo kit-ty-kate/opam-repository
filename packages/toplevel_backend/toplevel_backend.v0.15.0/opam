@@ -23,5 +23,5 @@ Module for setting up dependencies (like printers and liblinks) for toplevels.
 "
 url {
 src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/toplevel_backend-v0.15.0.tar.gz"
-checksum: "sha256=5889d6dbba5f5816405082721a55f45c4f437baa0790ad377e50031464f69335"
+checksum: "sha256=cfd23c4e991699fee1c63e8bd8d80183893e334bee32236666f658911e56f8d4"
 }

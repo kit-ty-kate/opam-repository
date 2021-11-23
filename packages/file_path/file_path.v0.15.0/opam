@@ -25,5 +25,5 @@ A library for typed manipulation of UNIX-style file paths.
 "
 url {
 src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/file_path-v0.15.0.tar.gz"
-checksum: "sha256=d4f1375a817691f1115fefdf235749797273c2c3b61776eb60491e19c462e38b"
+checksum: "sha256=0cedca34afbcf374f5b82182796fe8c225ee9959efca997f97ef148626aaacbd"
 }

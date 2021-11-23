@@ -27,5 +27,5 @@ working directories inside the same process.
 "
 url {
 src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/posixat-v0.15.0.tar.gz"
-checksum: "sha256=237ebaf7ec78c8369cf378def212fbe542c89a8b850d3465c6ad23d4631c3c4d"
+checksum: "sha256=a77b630a0ca0fad2bf8016a5cdb5191c30ebd71857eadfb64fcdbb7bd63c32aa"
 }

@@ -27,5 +27,5 @@ estimate various costs.
 "
 url {
 src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/core_profiler-v0.15.0.tar.gz"
-checksum: "sha256=18741a706934e5bfde75738302f9e2528fa4095eb7fe8c66cfe8efbb426e1f8a"
+checksum: "sha256=b0b91abf4624e0578cbac605250fe20f19317519bc43254a0a8972fae0bf5046"
 }

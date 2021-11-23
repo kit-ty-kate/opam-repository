@@ -36,5 +36,5 @@ conjunction with async-js and google-chrome.
 "
 url {
 src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/cohttp_async_websocket-v0.15.0.tar.gz"
-checksum: "sha256=226f83481760880a6c0e5c601c4951c2351bd1382b210b57c51e3945a2c9ed87"
+checksum: "sha256=785c25b3375c84032eb04351d8e2bf214d6202cee1529df3d7eb07d5ae613093"
 }

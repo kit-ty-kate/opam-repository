@@ -21,5 +21,5 @@ This library implements hexadecimal encoding and decoding
 "
 url {
 src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/hex_encode-v0.15.0.tar.gz"
-checksum: "sha256=a806eae21879390a4d44fe831bb416a28c9dde39ebd4467a87db02c853715f57"
+checksum: "sha256=b54cd6e9f6a2a24fd5a69592abfb17da8ea73987d4dd11112d9ac7260b59b21f"
 }
