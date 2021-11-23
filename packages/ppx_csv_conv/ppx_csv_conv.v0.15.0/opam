@@ -22,3 +22,7 @@ synopsis: "Generate functions to read/write records in csv format"
 description: "
 Part of the Jane Street's PPX rewriters collection.
 "
+url {
+src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/ppx_csv_conv-v0.15.0.tar.gz"
+checksum: "sha256=84622f9c7460773a578f6983a72a0f73f89097af543ee983ff5a87eabb617b4e"
+}

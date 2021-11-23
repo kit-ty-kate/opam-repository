@@ -32,3 +32,7 @@ OCaml's standard library that was developed by Jane Street, the
 largest industrial user of OCaml.
 "
 depexts: ["linux-headers"] {os-distribution = "alpine"}
+url {
+src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/core-v0.15.0.tar.gz"
+checksum: "sha256=a9cd02c24a45a3ed83c4f7e8e9ca5cf77e49b13069465d144a96bd0196b14437"
+}

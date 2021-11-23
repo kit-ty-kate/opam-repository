@@ -24,3 +24,7 @@ configuration from an environment variable. Its goal is to make it easy
 to override a configuration that is loaded from disk, computed, or embedded
 in a library.
 "
+url {
+src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/env_config-v0.15.0.tar.gz"
+checksum: "sha256=62a7513e90d52c4e740d80410289b27d8c86a6df1e3e0fb5fefebadbc0baf1f3"
+}

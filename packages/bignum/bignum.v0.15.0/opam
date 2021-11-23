@@ -23,3 +23,7 @@ depends: [
 synopsis: "Core-flavoured wrapper around zarith's arbitrary-precision rationals"
 description: "
 "
+url {
+src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/bignum-v0.15.0.tar.gz"
+checksum: "sha256=eca18d66d8ae9e4d574bd954b5bc1421a4fdba9550a88616aea9b73eac03e5b4"
+}

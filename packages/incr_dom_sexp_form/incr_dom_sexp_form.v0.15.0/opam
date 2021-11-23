@@ -27,3 +27,7 @@ synopsis: "A library for building forms that allow the user to edit complicated 
 description: "
 It relies on the fact that the type of the value being edited can be serialized via sexps.
 "
+url {
+src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/incr_dom_sexp_form-v0.15.0.tar.gz"
+checksum: "sha256=a5140c42a16f319952920913ac344488b43d89dc20162b229ac6424719b29426"
+}

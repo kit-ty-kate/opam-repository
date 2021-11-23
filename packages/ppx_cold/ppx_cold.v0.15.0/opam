@@ -19,3 +19,7 @@ synopsis: "Expands [@cold] into [@inline never][@specialise never][@local never]
 description: "
 Part of the Jane Street's PPX rewriters collection.
 "
+url {
+src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/ppx_cold-v0.15.0.tar.gz"
+checksum: "sha256=a69c687b76739fae1e7a69de133844d697e82c3b4d99adf2e6f4ef1525780c97"
+}

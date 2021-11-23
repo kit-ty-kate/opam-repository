@@ -20,3 +20,7 @@ synopsis: "Optional compilation for OCaml"
 description: "
 Part of the Jane Street's PPX rewriters collection.
 "
+url {
+src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/ppx_optcomp-v0.15.0.tar.gz"
+checksum: "sha256=f98e6186f70f1764a6e7203c52be4d93cf25537394700483fbd2fc68dbdb2918"
+}

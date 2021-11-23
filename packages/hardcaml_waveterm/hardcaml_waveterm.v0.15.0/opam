@@ -34,3 +34,7 @@ The library is closely integrated with Hardcaml and can be easily attached
 to simulations.
 "
 conflicts: ["hardcaml-waveterm"] 
+url {
+src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/hardcaml_waveterm-v0.15.0.tar.gz"
+checksum: "sha256=240e4a446c9e5e3fead647680f26ba9337e1eec5a214934b82595040707b152c"
+}

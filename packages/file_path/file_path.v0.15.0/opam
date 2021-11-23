@@ -23,3 +23,7 @@ synopsis: "A library for typed manipulation of UNIX-style file paths."
 description: "
 A library for typed manipulation of UNIX-style file paths.
 "
+url {
+src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/file_path-v0.15.0.tar.gz"
+checksum: "sha256=d4f1375a817691f1115fefdf235749797273c2c3b61776eb60491e19c462e38b"
+}

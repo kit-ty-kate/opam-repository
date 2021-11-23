@@ -21,3 +21,7 @@ depends: [
 synopsis: "Text output utilities"
 description: "
 "
+url {
+src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/textutils-v0.15.0.tar.gz"
+checksum: "sha256=ebed9c920de99db05f1a1488a3d7ef521f0895ea6e9eb0dae6e908ae304c7fca"
+}

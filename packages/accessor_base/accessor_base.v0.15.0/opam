@@ -22,3 +22,7 @@ synopsis: "Accessors for Base types, for use with the Accessor library"
 description: "
 This library provides accessors for numerous types in Base.
 "
+url {
+src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/accessor_base-v0.15.0.tar.gz"
+checksum: "sha256=f3c5839d2cfe6c7fc53b3b85673bb084776d4669a72a68aad2621ab2d0a2bb04"
+}

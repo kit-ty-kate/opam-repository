@@ -30,3 +30,7 @@ Jane Street's library for Kerberizing RPC connections so that
     every incoming connection, and
   - RPC communication may be encrypted, if necessary.
 "
+url {
+src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/krb-v0.15.0.tar.gz"
+checksum: "sha256=ef851d3eeb80666816fdbf8eb7af176c5c6b53b4f6e8e710617415a4f69cb771"
+}

@@ -25,3 +25,7 @@ description: "
 Core_profiler is a library that helps you profile programs and
 estimate various costs.
 "
+url {
+src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/core_profiler-v0.15.0.tar.gz"
+checksum: "sha256=18741a706934e5bfde75738302f9e2528fa4095eb7fe8c66cfe8efbb426e1f8a"
+}

@@ -21,3 +21,7 @@ synopsis: "Durable connections for use with async"
 description: "
 Async_durable helps recover from errors when connections can be easily be recreated.
 "
+url {
+src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/async_durable-v0.15.0.tar.gz"
+checksum: "sha256=189d051e7789cb0ac3d8f94627c71a096f6eff87a99d02bf9342e36f8052185f"
+}

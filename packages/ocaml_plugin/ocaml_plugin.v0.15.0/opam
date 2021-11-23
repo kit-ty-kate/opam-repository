@@ -22,3 +22,7 @@ depends: [
 synopsis: "Automatically build and dynlink OCaml source files"
 description: "
 "
+url {
+src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/ocaml_plugin-v0.15.0.tar.gz"
+checksum: "sha256=88bb5239ff20872aad3cf1fb2489f0bf5cc7b70f198597fc7303a70a7fd6992c"
+}

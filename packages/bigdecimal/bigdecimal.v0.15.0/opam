@@ -23,3 +23,7 @@ description: "
 A high-precision representation of decimal numbers as [mantissa * 10^exponent], where
 the mantissa is internally a [Bigint.t] and the exponent is an [int].
 "
+url {
+src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/bigdecimal-v0.15.0.tar.gz"
+checksum: "sha256=ef1388425efce5ff712b83242f4c104ebc43c20d46ecac9432ae87d3c1a86b8e"
+}

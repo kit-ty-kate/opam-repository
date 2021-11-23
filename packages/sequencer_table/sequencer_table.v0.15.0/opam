@@ -19,3 +19,7 @@ synopsis: "A table of [Async.Sequencer]'s, indexed by key"
 description: "
 A single-module library for a data structure.
 "
+url {
+src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/sequencer_table-v0.15.0.tar.gz"
+checksum: "sha256=80c5c27a2acbbba765ac8c78ddbb574e7b5a727ff4f8f6d58dcee31069fdb921"
+}

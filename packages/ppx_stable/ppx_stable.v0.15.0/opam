@@ -20,3 +20,7 @@ description: "
 A ppx extension for easier implementation of conversion functions between almost
 identical types.
 "
+url {
+src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/ppx_stable-v0.15.0.tar.gz"
+checksum: "sha256=5ff398e39a66f871d1f1e5eead3c50cb4616803ffdbdccd5c5a66558af4d8519"
+}

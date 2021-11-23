@@ -23,3 +23,7 @@ This library offers a functor to create a resource cache over some
 abstract [Resource] type. The cache enables resource reuse while
 obeying various limits.
 "
+url {
+src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/resource_cache-v0.15.0.tar.gz"
+checksum: "sha256=95f7d42b1882fe8ed0e4e73a37af866ae4bd4a55e3f421447ae3112f6993c714"
+}

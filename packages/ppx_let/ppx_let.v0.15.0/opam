@@ -20,3 +20,7 @@ synopsis: "Monadic let-bindings"
 description: "
 Part of the Jane Street's PPX rewriters collection.
 "
+url {
+src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/ppx_let-v0.15.0.tar.gz"
+checksum: "sha256=39e817d24548ad0ee0bd05f847845b65fdf1ed134e79f59bce29064d26a0b81e"
+}

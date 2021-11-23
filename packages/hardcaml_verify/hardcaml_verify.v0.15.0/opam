@@ -31,3 +31,7 @@ picosat, Z3 - just ensure they are in your PATH.
 Circuits can also be converted to NuSMV format for advanced bounded and unbounded model
 checking tasks.
 "
+url {
+src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/hardcaml_verify-v0.15.0.tar.gz"
+checksum: "sha256=a6d5cdad741934891fa75a0f37e8d836f26dfe84f8802950a21935997b02718b"
+}

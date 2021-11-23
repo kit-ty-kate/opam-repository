@@ -23,3 +23,7 @@ synopsis: "Assert-like extension nodes that raise useful errors on failure"
 description: "
 Part of the Jane Street's PPX rewriters collection.
 "
+url {
+src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/ppx_assert-v0.15.0.tar.gz"
+checksum: "sha256=81a03983827b65b81e1427b958a781076ae26c35ef8871948aa5aa071dd29de9"
+}

@@ -23,3 +23,7 @@ description: "
 Provides a single function to report the current time in nanoseconds
 since the start of the Unix epoch.
 "
+url {
+src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/time_now-v0.15.0.tar.gz"
+checksum: "sha256=bfc478631c319f8b2e5cc5f8399451649fe73fcf53b9f51fa0383d19ea05294e"
+}

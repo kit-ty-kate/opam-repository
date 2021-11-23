@@ -22,3 +22,7 @@ synopsis: "Generate XML conversion functions from records"
 description: "
 Part of the Jane Street's PPX rewriters collection.
 "
+url {
+src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/ppx_xml_conv-v0.15.0.tar.gz"
+checksum: "sha256=819040a455efd3d9adf2e51c9824028cd4ed190ad64de8cecbf73ec34b0c677d"
+}

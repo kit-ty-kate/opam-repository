@@ -19,3 +19,7 @@ synopsis: "Generation of comparison functions from types"
 description: "
 Part of the Jane Street's PPX rewriters collection.
 "
+url {
+src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/ppx_compare-v0.15.0.tar.gz"
+checksum: "sha256=a95c5173393175383c3d2ebacd16ea5673ebd3804b402de0d23062c287c2095d"
+}

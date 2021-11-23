@@ -22,3 +22,7 @@ This provides OCaml bindings for the Linux-PAM (Pluggable Authentication
 Modules for Linux) library. It allows OCaml programs to delegate
 authentication tasks to the Linux-PAM framework.
 "
+url {
+src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/pam-v0.15.0.tar.gz"
+checksum: "sha256=faf2d66a383c430f8c865b9ff25508fb1880a377bab73ea11c4ab9214661b93f"
+}

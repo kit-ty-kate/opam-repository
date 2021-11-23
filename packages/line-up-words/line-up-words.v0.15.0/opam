@@ -26,3 +26,7 @@ in a sequence of lines in an intelligent way.
 
 It comes as a binary and an emacs mode.
 "
+url {
+src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/line-up-words-v0.15.0.tar.gz"
+checksum: "sha256=baa733dba2a6c7fdf46b92d28d4639954581433a3db1c3c210497abc29c17e73"
+}

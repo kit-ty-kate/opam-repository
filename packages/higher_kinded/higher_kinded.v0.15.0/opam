@@ -22,3 +22,7 @@ of a type constructor may only be types, not arbitrary type constructors. This l
 makes it possible to parameterize a type with a witness that represents a type
 constructor.
 "
+url {
+src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/higher_kinded-v0.15.0.tar.gz"
+checksum: "sha256=fdf21a3eaadb300a8ff4f4a0d298d99c638c36f854b6b3d6af7075daa94939f8"
+}

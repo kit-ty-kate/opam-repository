@@ -20,3 +20,7 @@ synopsis: "Generation of accessor and iteration functions for ocaml variant type
 description: "
 Part of the Jane Street's PPX rewriters collection.
 "
+url {
+src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/ppx_variants_conv-v0.15.0.tar.gz"
+checksum: "sha256=8aedf72e14a46a010420a8162edb6f015425d8cddee6ab6dc86194d48060185f"
+}

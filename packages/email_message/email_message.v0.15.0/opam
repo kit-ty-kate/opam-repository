@@ -25,3 +25,7 @@ depends: [
 synopsis: "E-mail message parser"
 description: "
 "
+url {
+src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/email_message-v0.15.0.tar.gz"
+checksum: "sha256=9703e628547d372bb7280e7c5952981424634245d85ab2e34c0307c32ef6d8c4"
+}

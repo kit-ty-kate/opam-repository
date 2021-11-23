@@ -19,3 +19,7 @@ synopsis: "Syntax extension for writing in-line benchmarks in ocaml code"
 description: "
 Part of the Jane Street's PPX rewriters collection.
 "
+url {
+src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/ppx_bench-v0.15.0.tar.gz"
+checksum: "sha256=1e5c1be2e7c66cb95508a5e6d61f538aaeedb3dd28103d5a60f44f55ce07fcbc"
+}

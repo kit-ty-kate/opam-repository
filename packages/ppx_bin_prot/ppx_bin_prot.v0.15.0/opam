@@ -21,3 +21,7 @@ synopsis: "Generation of bin_prot readers and writers from types"
 description: "
 Part of the Jane Street's PPX rewriters collection.
 "
+url {
+src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/ppx_bin_prot-v0.15.0.tar.gz"
+checksum: "sha256=43d3adf334c78e885ab8e8445138e189b9f73abc3f8cbdbd3f4170fc24171a41"
+}

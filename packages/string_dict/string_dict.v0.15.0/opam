@@ -25,3 +25,7 @@ dictionary is created.
 This uses the algorithm the OCaml compiler uses for pattern matching
 on strings.
 "
+url {
+src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/string_dict-v0.15.0.tar.gz"
+checksum: "sha256=2a7f88aba9f4f84a4ddc6dc38f95c069694a7413f1e2f5e76a3f5a13f8e32960"
+}

@@ -23,3 +23,7 @@ derived =Fields.make_creator= function for a given record type. The wrapper
 automatically handles all of the mapping and combining of applicative terms
 needed to build the record from a single applicative term for each field.
 "
+url {
+src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/record_builder-v0.15.0.tar.gz"
+checksum: "sha256=76b506ef0043d1653d92599373810a120c18c9045299cdc272de38b2a7fb0260"
+}

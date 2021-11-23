@@ -25,3 +25,7 @@ default value. The outputs are updated in time proportional to the
 number of outputs that are changed, independent of the number of
 outputs that exist.
 "
+url {
+src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/incr_select-v0.15.0.tar.gz"
+checksum: "sha256=97cd7072f886bafa309993f0a73193a5bed6fcd232b785bd33257697fca94f93"
+}

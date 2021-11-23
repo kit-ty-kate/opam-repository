@@ -21,3 +21,7 @@ synopsis: "A library for parsing, manipulating, and serializing data structured 
 description: "
 A library for parsing, manipulating, and serializing data structured as JSON.
 "
+url {
+src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/jsonaf-v0.15.0.tar.gz"
+checksum: "sha256=76af661f28cc78f58c76db44ad6516e9aca960a9c850cb94d5f28e73b0bbbe1a"
+}

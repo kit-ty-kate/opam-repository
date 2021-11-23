@@ -22,3 +22,7 @@ version themselves. The more protocols that add themselves to
 [Known_protocol], the nicer error messages we will get when connecting
 to a service while using the wrong protocol.
 "
+url {
+src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/protocol_version_header-v0.15.0.tar.gz"
+checksum: "sha256=e4a6db39cb1176d1b7b2f0e4115c1356b7115c724a9abd40d1d373ece9e57c4f"
+}

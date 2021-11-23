@@ -29,3 +29,7 @@ On the server side, the library detects when a websocket connection
 is established, and routes to an optionally provided vanilla HTTP handler
 when non-websocket traffic occurs.
 "
+url {
+src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/async_rpc_websocket-v0.15.0.tar.gz"
+checksum: "sha256=4f575c759e51c5a002214b3cf04abc8214c50cfe826bc306818076c335d0bdd2"
+}

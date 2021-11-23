@@ -20,3 +20,7 @@ depends: [
 synopsis: "Shell helpers for Async"
 description: "
 "
+url {
+src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/async_shell-v0.15.0.tar.gz"
+checksum: "sha256=9e80ecd5c6c8a1487b225d905c715bbca8a66375e597f756a0ba1c10687e54e7"
+}
