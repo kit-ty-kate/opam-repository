@@ -21,8 +21,8 @@ depends: [
   "logs"
   "menhir"
   "mtime"
-  "ppx_expect" {< "v0.15"}
-  "ppx_inline_test" {< "v0.15"}
+  "ppx_expect"
+  "ppx_inline_test"
   "printbox"
   "sequence" {>= "0.5"}
   "visitors"
