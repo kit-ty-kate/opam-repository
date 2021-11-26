@@ -11,11 +11,11 @@ build: [
 ]
 depends: [
   "ocaml"               {>= "4.08.0"}
-  "base"                {>= "v0.15" & < "v0.16"}
-  "jane-street-headers" {>= "v0.15" & < "v0.16"}
-  "jst-config"          {>= "v0.15" & < "v0.16"}
-  "ppx_base"            {>= "v0.15" & < "v0.16"}
-  "ppx_optcomp"         {>= "v0.15" & < "v0.16"}
+  "base"                {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "jane-street-headers" {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "jst-config"          {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "ppx_base"            {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "ppx_optcomp"         {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
   "dune"                {>= "2.0.0"}
 ]
 synopsis: "Reports the current time"
@@ -24,6 +24,6 @@ Provides a single function to report the current time in nanoseconds
 since the start of the Unix epoch.
 "
 url {
-src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/time_now-v0.15.0.tar.gz"
-checksum: "sha256=0c2903f080228c839835431253f921ba77e3f18c847a9edad13645850d0e6853"
+src: "https://ocaml.janestreet.com/ocaml-core/v0.15-core-split/files/time_now-v0.15.0.tar.gz"
+checksum: "sha256=01351eb905394b68ae4c2f7d460ef6ae8b7897f5f28770d6fe0727c1d0f7fef7"
 }

@@ -11,8 +11,8 @@ build: [
 ]
 depends: [
   "ocaml"       {>= "4.08.0"}
-  "core_kernel" {>= "v0.15" & < "v0.16"}
-  "ppx_jane"    {>= "v0.15" & < "v0.16"}
+  "core_kernel" {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "ppx_jane"    {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
   "conf-g++"    {build}
   "dune"        {>= "2.0.0"}
 ]
@@ -20,6 +20,6 @@ synopsis: "OCaml bindings for RE2, Google's regular expression library"
 description: "
 "
 url {
-src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/re2-v0.15.0.tar.gz"
-checksum: "sha256=08a8c82b4b3efdd78b6da2835a3aff023edac7878d45e4b69ee7eedf80ff1b4c"
+src: "https://ocaml.janestreet.com/ocaml-core/v0.15-core-split/files/re2-v0.15.0.tar.gz"
+checksum: "sha256=4041a4428f5d84c09d15894471fe46b8ca7ff9bb90d73d801e8a5c18ee2a32f5"
 }

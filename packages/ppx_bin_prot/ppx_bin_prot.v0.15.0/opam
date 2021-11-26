@@ -11,9 +11,9 @@ build: [
 ]
 depends: [
   "ocaml"    {>= "4.08.0"}
-  "base"     {>= "v0.15" & < "v0.16"}
-  "bin_prot" {>= "v0.15" & < "v0.16"}
-  "ppx_here" {>= "v0.15" & < "v0.16"}
+  "base"     {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "bin_prot" {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "ppx_here" {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
   "dune"     {>= "2.0.0"}
   "ppxlib"   {>= "0.23.0"}
 ]
@@ -22,6 +22,6 @@ description: "
 Part of the Jane Street's PPX rewriters collection.
 "
 url {
-src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/ppx_bin_prot-v0.15.0.tar.gz"
-checksum: "sha256=35922741b494981ff03f5995a00398faccdf3bb8ad1e6acc2480b479ee916e08"
+src: "https://ocaml.janestreet.com/ocaml-core/v0.15-core-split/files/ppx_bin_prot-v0.15.0.tar.gz"
+checksum: "sha256=00a39d6c27e72289fe82bb10006a908721ac2cea5e5ff8b372b2d20d8bedff81"
 }

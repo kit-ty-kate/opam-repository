@@ -11,9 +11,9 @@ build: [
 ]
 depends: [
   "ocaml"       {>= "4.08.0"}
-  "core_kernel" {>= "v0.15" & < "v0.16"}
-  "ppx_jane"    {>= "v0.15" & < "v0.16"}
-  "sexplib"     {>= "v0.15" & < "v0.16"}
+  "core_kernel" {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "ppx_jane"    {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "sexplib"     {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
   "dune"        {>= "2.0.0"}
   "num"
 ]
@@ -21,6 +21,6 @@ synopsis: "Runtime support for ppx_xml_conv and ppx_csv_conv"
 description: "
 "
 url {
-src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/csvfields-v0.15.0.tar.gz"
-checksum: "sha256=699be929e6a7df84083c77aa94b220e00004247f6b10b595c86f9d8eb0c09606"
+src: "https://ocaml.janestreet.com/ocaml-core/v0.15-core-split/files/csvfields-v0.15.0.tar.gz"
+checksum: "sha256=374fb22b4fe65667a7b35ef653a8ef44903ae0117a162586ec2e6ec43981df03"
 }

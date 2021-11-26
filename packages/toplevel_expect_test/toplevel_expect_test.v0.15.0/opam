@@ -11,13 +11,13 @@ build: [
 ]
 depends: [
   "ocaml"               {>= "4.08.0"}
-  "core"                {>= "v0.15" & < "v0.16"}
-  "core_kernel"         {>= "v0.15" & < "v0.16"}
-  "mlt_parser"          {>= "v0.15" & < "v0.16"}
-  "ppx_expect"          {>= "v0.15" & < "v0.16"}
-  "ppx_inline_test"     {>= "v0.15" & < "v0.16"}
-  "ppx_jane"            {>= "v0.15" & < "v0.16"}
-  "toplevel_backend"    {>= "v0.15" & < "v0.16"}
+  "core"                {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "core_kernel"         {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "mlt_parser"          {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "ppx_expect"          {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "ppx_inline_test"     {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "ppx_jane"            {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "toplevel_backend"    {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
   "base-threads"
   "dune"                {>= "2.0.0"}
   "ocaml-compiler-libs" {>= "v0.11.0"}
@@ -32,6 +32,6 @@ compilations errors as well as provide a nice alternative to using
 the toplevel in a terminal.
 "
 url {
-src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/toplevel_expect_test-v0.15.0.tar.gz"
-checksum: "sha256=1a7a142a8cf832e4ab9bad89214a7ade88bdfcf8b446bda9888af9135de530be"
+src: "https://ocaml.janestreet.com/ocaml-core/v0.15-core-split/files/toplevel_expect_test-v0.15.0.tar.gz"
+checksum: "sha256=6bec37cc7e73be345f41aef25de861b928fe8e110e9a7027083be00340ec1bb9"
 }

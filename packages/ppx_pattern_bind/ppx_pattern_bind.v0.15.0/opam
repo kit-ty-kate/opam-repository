@@ -11,8 +11,8 @@ build: [
 ]
 depends: [
   "ocaml"   {>= "4.08.0"}
-  "base"    {>= "v0.15" & < "v0.16"}
-  "ppx_let" {>= "v0.15" & < "v0.16"}
+  "base"    {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "ppx_let" {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
   "dune"    {>= "2.0.0"}
   "ppxlib"  {>= "0.23.0"}
 ]
@@ -23,6 +23,6 @@ easier to write incremental computations using pattern-matching in a
 way that causes incremental nodes to fire as little as possible.
 "
 url {
-src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/ppx_pattern_bind-v0.15.0.tar.gz"
-checksum: "sha256=ef8df01610dd4557985b3997ee56f803e29630557e19bf4551f02547090e9c0e"
+src: "https://ocaml.janestreet.com/ocaml-core/v0.15-core-split/files/ppx_pattern_bind-v0.15.0.tar.gz"
+checksum: "sha256=544d07dca0d4e3c9d4992008c2a49815a0a6076d23d6d2741a187f2663776fee"
 }

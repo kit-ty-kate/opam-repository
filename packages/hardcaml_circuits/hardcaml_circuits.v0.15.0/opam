@@ -11,10 +11,10 @@ build: [
 ]
 depends: [
   "ocaml"                 {>= "4.08.0"}
-  "base"                  {>= "v0.15" & < "v0.16"}
-  "hardcaml"              {>= "v0.15" & < "v0.16"}
-  "ppx_deriving_hardcaml" {>= "v0.15" & < "v0.16"}
-  "ppx_jane"              {>= "v0.15" & < "v0.16"}
+  "base"                  {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "hardcaml"              {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "ppx_deriving_hardcaml" {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "ppx_jane"              {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
   "dune"                  {>= "2.0.0"}
 ]
 synopsis: "Hardcaml Circuits"
@@ -22,6 +22,6 @@ description: "
 A small library of useful/interesting Hardcaml circuits.
 "
 url {
-src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/hardcaml_circuits-v0.15.0.tar.gz"
-checksum: "sha256=71c67fa51582d0acd88ba24e945845007fe1aa33137dd8f282d218a785c18d73"
+src: "https://ocaml.janestreet.com/ocaml-core/v0.15-core-split/files/hardcaml_circuits-v0.15.0.tar.gz"
+checksum: "sha256=3a8b2b34a2dd7b20c4ab183c80fa8aa559566f98123e2507b8a1f50c1a35a778"
 }

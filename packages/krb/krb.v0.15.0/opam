@@ -11,15 +11,15 @@ build: [
 ]
 depends: [
   "ocaml"                   {>= "4.08.0"}
-  "async"                   {>= "v0.15" & < "v0.16"}
-  "base"                    {>= "v0.15" & < "v0.16"}
-  "core_kernel"             {>= "v0.15" & < "v0.16"}
-  "env_config"              {>= "v0.15" & < "v0.16"}
-  "hex_encode"              {>= "v0.15" & < "v0.16"}
-  "ppx_jane"                {>= "v0.15" & < "v0.16"}
-  "protocol_version_header" {>= "v0.15" & < "v0.16"}
-  "stdio"                   {>= "v0.15" & < "v0.16"}
-  "username_kernel"         {>= "v0.15" & < "v0.16"}
+  "async"                   {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "base"                    {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "core_kernel"             {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "env_config"              {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "hex_encode"              {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "ppx_jane"                {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "protocol_version_header" {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "stdio"                   {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "username_kernel"         {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
   "dune"                    {>= "2.0.0"}
   "dune-configurator"
 ]
@@ -31,6 +31,6 @@ Jane Street's library for Kerberizing RPC connections so that
   - RPC communication may be encrypted, if necessary.
 "
 url {
-src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/krb-v0.15.0.tar.gz"
-checksum: "sha256=5a6d9d67bb2486efbe69fe46e2bed970c4c8d1dab2edca162b99840d00e7e2a2"
+src: "https://ocaml.janestreet.com/ocaml-core/v0.15-core-split/files/krb-v0.15.0.tar.gz"
+checksum: "sha256=1ea29ad5023921493e15c53311d86ce678139d22a9a690080d8019ca28acd825"
 }

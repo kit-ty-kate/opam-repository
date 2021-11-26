@@ -11,11 +11,11 @@ build: [
 ]
 depends: [
   "ocaml"           {>= "4.08.0"}
-  "async"           {>= "v0.15" & < "v0.16"}
-  "async_ssl"       {>= "v0.15" & < "v0.16"}
-  "async_websocket" {>= "v0.15" & < "v0.16"}
-  "core_kernel"     {>= "v0.15" & < "v0.16"}
-  "ppx_jane"        {>= "v0.15" & < "v0.16"}
+  "async"           {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "async_ssl"       {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "async_websocket" {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "core_kernel"     {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "ppx_jane"        {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
   "base64"          {>= "3.4.0"}
   "cohttp"          {>= "2.5.4"}
   "cohttp-async"    {= "4.0.0+async"}
@@ -35,6 +35,6 @@ hardened with many applications using it for several year, in
 conjunction with async-js and google-chrome.
 "
 url {
-src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/cohttp_async_websocket-v0.15.0.tar.gz"
-checksum: "sha256=785c25b3375c84032eb04351d8e2bf214d6202cee1529df3d7eb07d5ae613093"
+src: "https://ocaml.janestreet.com/ocaml-core/v0.15-core-split/files/cohttp_async_websocket-v0.15.0.tar.gz"
+checksum: "sha256=ff5048034349a1a570936ef0401db9d885bd924cf88d6214a8575402cb1bb51b"
 }

@@ -11,10 +11,10 @@ build: [
 ]
 depends: [
   "ocaml"         {>= "4.08.0"}
-  "async"         {>= "v0.15" & < "v0.16"}
-  "core_extended" {>= "v0.15" & < "v0.16"}
-  "core_kernel"   {>= "v0.15" & < "v0.16"}
-  "ppx_jane"      {>= "v0.15" & < "v0.16"}
+  "async"         {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "core_extended" {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "core_kernel"   {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "ppx_jane"      {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
   "dune"          {>= "2.0.0"}
 ]
 synopsis: "Parsing of character (e.g., comma) separated and fixed-width values"
@@ -23,6 +23,6 @@ Delimited_parsing parses character-separated values (such as CSV files) and fixe
 records.
 "
 url {
-src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/delimited_parsing-v0.15.0.tar.gz"
-checksum: "sha256=edb33cf3228744bed5329f4532ded7afbb0a9cce4d2d6cdc7e60ac48a94c47e4"
+src: "https://ocaml.janestreet.com/ocaml-core/v0.15-core-split/files/delimited_parsing-v0.15.0.tar.gz"
+checksum: "sha256=ec85ec56173f4e29da5539dbedc17d38a460d125ed7cfee1d37519ce4a50cbaa"
 }

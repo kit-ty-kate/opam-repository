@@ -11,13 +11,13 @@ build: [
 ]
 depends: [
   "ocaml"            {>= "4.08.0"}
-  "core"             {>= "v0.15" & < "v0.16"}
-  "core_kernel"      {>= "v0.15" & < "v0.16"}
-  "ppx_jane"         {>= "v0.15" & < "v0.16"}
-  "re2"              {>= "v0.15" & < "v0.16"}
-  "shell"            {>= "v0.15" & < "v0.16"}
-  "textutils"        {>= "v0.15" & < "v0.16"}
-  "textutils_kernel" {>= "v0.15" & < "v0.16"}
+  "core"             {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "core_kernel"      {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "ppx_jane"         {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "re2"              {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "shell"            {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "textutils"        {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "textutils_kernel" {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
   "dune"             {>= "2.0.0"}
 ]
 synopsis: "Profiling library"
@@ -26,6 +26,6 @@ Core_profiler is a library that helps you profile programs and
 estimate various costs.
 "
 url {
-src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/core_profiler-v0.15.0.tar.gz"
-checksum: "sha256=b0b91abf4624e0578cbac605250fe20f19317519bc43254a0a8972fae0bf5046"
+src: "https://ocaml.janestreet.com/ocaml-core/v0.15-core-split/files/core_profiler-v0.15.0.tar.gz"
+checksum: "sha256=03f334fb04a93fa3f0cf1152a052731a52934020b65d84b34ac4e8f624970d4c"
 }

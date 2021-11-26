@@ -11,28 +11,30 @@ build: [
 ]
 depends: [
   "ocaml"                    {>= "4.08.0"}
-  "async_extra"              {>= "v0.15" & < "v0.16"}
-  "async_js"                 {>= "v0.15" & < "v0.16"}
-  "async_kernel"             {>= "v0.15" & < "v0.16"}
-  "async_rpc_kernel"         {>= "v0.15" & < "v0.16"}
-  "async_rpc_websocket"      {>= "v0.15" & < "v0.16"}
-  "core"                     {>= "v0.15" & < "v0.16"}
-  "core_kernel"              {>= "v0.15" & < "v0.16"}
-  "expect_test_helpers_core" {>= "v0.15" & < "v0.16"}
-  "incr_dom"                 {>= "v0.15" & < "v0.16"}
-  "incr_map"                 {>= "v0.15" & < "v0.16"}
-  "patdiff"                  {>= "v0.15" & < "v0.16"}
-  "ppx_css"                  {>= "v0.15" & < "v0.16"}
-  "ppx_jane"                 {>= "v0.15" & < "v0.16"}
-  "ppx_pattern_bind"         {>= "v0.15" & < "v0.16"}
-  "ppx_typed_fields"         {>= "v0.15" & < "v0.16"}
-  "textutils"                {>= "v0.15" & < "v0.16"}
-  "virtual_dom"              {>= "v0.15" & < "v0.16"}
+  "async_extra"              {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "async_js"                 {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "async_kernel"             {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "async_rpc_kernel"         {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "async_rpc_websocket"      {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "core"                     {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "core_bench"               {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "core_kernel"              {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "expect_test_helpers_core" {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "fuzzy_match"              {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "incr_dom"                 {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "incr_map"                 {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "patdiff"                  {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "ppx_css"                  {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "ppx_jane"                 {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "ppx_pattern_bind"         {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "ppx_typed_fields"         {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "textutils"                {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "virtual_dom"              {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
   "cohttp-async"             {= "4.0.0+async"}
   "dune"                     {>= "2.0.0"}
   "gen_js_api"               {>= "1.0.8"}
   "js_of_ocaml-ppx"          {>= "3.9.0"}
-  "ocaml-embed-file"         {>= "v0.15" & < "v0.16"}
+  "ocaml-embed-file"         {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
   "re"                       {>= "1.8.0"}
 ]
 synopsis: "A library for building dynamic webapps, using Js_of_ocaml"
@@ -41,6 +43,6 @@ Bonsai is a library for building reusable UI components inside an
      Incremental-style UI framework such as Incr_dom or React.
 "
 url {
-src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/bonsai-v0.15.0.tar.gz"
-checksum: "sha256=249bd4fc64bfe8902888a1f9af06c906200c2b7c1b4ea3fe131b4a729fcf7c92"
+src: "https://ocaml.janestreet.com/ocaml-core/v0.15-core-split/files/bonsai-v0.15.0.tar.gz"
+checksum: "sha256=28f0e17cedd7b6ec56f587c06609d013426a624ae3755a6874e4363dfe12ba89"
 }

@@ -11,17 +11,17 @@ build: [
 ]
 depends: [
   "ocaml"                    {>= "4.11.0"}
-  "async"                    {>= "v0.15" & < "v0.16"}
-  "core_kernel"              {>= "v0.15" & < "v0.16"}
-  "expect_test_helpers_core" {>= "v0.15" & < "v0.16"}
-  "ppx_jane"                 {>= "v0.15" & < "v0.16"}
+  "async"                    {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "core_kernel"              {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "expect_test_helpers_core" {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "ppx_jane"                 {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
   "dune"                     {>= "2.0.0"}
 ]
-synopsis: "A library that wraps the Mercurial command line interface."
+synopsis: "A library that wraps the Mercurial command line interface"
 description: "
 A library that wraps the Mercurial command line interface.
 "
 url {
-src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/hg_lib-v0.15.0.tar.gz"
-checksum: "sha256=92e781d6d22b0fb5b2bdbd6a7b8b61839d0de36295b83854cc8f78e9032e1f74"
+src: "https://ocaml.janestreet.com/ocaml-core/v0.15-core-split/files/hg_lib-v0.15.0.tar.gz"
+checksum: "sha256=c2e4591f51e36c31cdef69c29e6a9d5d8d4ff432a46ecb15d4d52869440c8a3b"
 }

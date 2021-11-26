@@ -11,10 +11,10 @@ build: [
 ]
 depends: [
   "ocaml"                 {>= "4.08.0"}
-  "base"                  {>= "v0.15" & < "v0.16"}
-  "hardcaml"              {>= "v0.15" & < "v0.16"}
-  "ppx_deriving_hardcaml" {>= "v0.15" & < "v0.16"}
-  "ppx_jane"              {>= "v0.15" & < "v0.16"}
+  "base"                  {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "hardcaml"              {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "ppx_deriving_hardcaml" {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "ppx_jane"              {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
   "dune"                  {>= "2.0.0"}
 ]
 synopsis: "Hardcaml wrappers for Xilinx memory primitives"
@@ -26,6 +26,6 @@ The `Synthesis` module implements various arithmetic and logical RTL components 
 Xilinx LUT primitives.
 "
 url {
-src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/hardcaml_xilinx-v0.15.0.tar.gz"
-checksum: "sha256=038baf64f95908eeb94032e53bbc8f1b6e44a63efdf001aad50dfad8bf958963"
+src: "https://ocaml.janestreet.com/ocaml-core/v0.15-core-split/files/hardcaml_xilinx-v0.15.0.tar.gz"
+checksum: "sha256=25816e87c0b80a3f016bc5a1aafa836bd114edf03cebb9e5257fe05a6944ffc4"
 }

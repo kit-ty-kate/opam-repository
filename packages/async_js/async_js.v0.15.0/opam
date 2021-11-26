@@ -11,9 +11,9 @@ build: [
 ]
 depends: [
   "ocaml"            {>= "4.08.0"}
-  "async_kernel"     {>= "v0.15" & < "v0.16"}
-  "async_rpc_kernel" {>= "v0.15" & < "v0.16"}
-  "ppx_jane"         {>= "v0.15" & < "v0.16"}
+  "async_kernel"     {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "async_rpc_kernel" {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "ppx_jane"         {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
   "dune"             {>= "2.0.0"}
   "js_of_ocaml"      {>= "3.9.0"}
   "js_of_ocaml-ppx"  {>= "3.9.0"}
@@ -24,6 +24,6 @@ synopsis: "A small library that provide Async support for JavaScript platforms"
 description: "
 "
 url {
-src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/async_js-v0.15.0.tar.gz"
-checksum: "sha256=8fa90924c77c3dddeed38628b1bcc6ed0f55692ebe186b91f54500cfd32f9868"
+src: "https://ocaml.janestreet.com/ocaml-core/v0.15-core-split/files/async_js-v0.15.0.tar.gz"
+checksum: "sha256=acd17b0c54b410f20d3055e3907ece87826630a272efc4b091db9b8435d71b2d"
 }

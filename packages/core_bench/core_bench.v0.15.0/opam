@@ -11,14 +11,14 @@ build: [
 ]
 depends: [
   "ocaml"           {>= "4.08.0"}
-  "core"            {>= "v0.15" & < "v0.16"}
-  "core_kernel"     {>= "v0.15" & < "v0.16"}
-  "ppx_compare"     {>= "v0.15" & < "v0.16"}
-  "ppx_fields_conv" {>= "v0.15" & < "v0.16"}
-  "ppx_jane"        {>= "v0.15" & < "v0.16"}
-  "ppx_let"         {>= "v0.15" & < "v0.16"}
-  "ppx_sexp_conv"   {>= "v0.15" & < "v0.16"}
-  "textutils"       {>= "v0.15" & < "v0.16"}
+  "core"            {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "core_kernel"     {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "ppx_compare"     {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "ppx_fields_conv" {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "ppx_jane"        {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "ppx_let"         {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "ppx_sexp_conv"   {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "textutils"       {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
   "dune"            {>= "2.0.0"}
   "re"              {>= "1.8.0"}
 ]
@@ -26,6 +26,6 @@ synopsis: "Benchmarking library"
 description: "
 "
 url {
-src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/core_bench-v0.15.0.tar.gz"
-checksum: "sha256=f1a61bc6547f3e8ba227bb0ec92483e605ec8054132f3a17375e66bdd9e315b7"
+src: "https://ocaml.janestreet.com/ocaml-core/v0.15-core-split/files/core_bench-v0.15.0.tar.gz"
+checksum: "sha256=a45926e827e7eb4e12278f6ca3641e279358df506b4c5901d91516f22b5e0b43"
 }

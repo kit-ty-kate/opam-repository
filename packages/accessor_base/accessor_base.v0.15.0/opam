@@ -11,11 +11,11 @@ build: [
 ]
 depends: [
   "ocaml"         {>= "4.09.0"}
-  "accessor"      {>= "v0.15" & < "v0.16"}
-  "base"          {>= "v0.15" & < "v0.16"}
-  "higher_kinded" {>= "v0.15" & < "v0.16"}
-  "ppx_accessor"  {>= "v0.15" & < "v0.16"}
-  "ppx_jane"      {>= "v0.15" & < "v0.16"}
+  "accessor"      {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "base"          {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "higher_kinded" {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "ppx_accessor"  {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "ppx_jane"      {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
   "dune"          {>= "2.0.0"}
 ]
 synopsis: "Accessors for Base types, for use with the Accessor library"
@@ -23,6 +23,6 @@ description: "
 This library provides accessors for numerous types in Base.
 "
 url {
-src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/accessor_base-v0.15.0.tar.gz"
-checksum: "sha256=50794b20cf0ec79cc436646ac7152e7be1fc0b56923f97dbb21c952de67e64ba"
+src: "https://ocaml.janestreet.com/ocaml-core/v0.15-core-split/files/accessor_base-v0.15.0.tar.gz"
+checksum: "sha256=265f6503740f7a705e3996139ee81fae1789e18761a7cd73d9093b5c28317752"
 }

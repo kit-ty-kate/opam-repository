@@ -11,11 +11,11 @@ build: [
 ]
 depends: [
   "ocaml"         {>= "4.08.0"}
-  "core"          {>= "v0.15" & < "v0.16"}
-  "core_kernel"   {>= "v0.15" & < "v0.16"}
-  "patience_diff" {>= "v0.15" & < "v0.16"}
-  "ppx_jane"      {>= "v0.15" & < "v0.16"}
-  "re2"           {>= "v0.15" & < "v0.16"}
+  "core"          {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "core_kernel"   {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "patience_diff" {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "ppx_jane"      {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "re2"           {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
   "dune"          {>= "2.0.0"}
   "pcre"
 ]
@@ -27,6 +27,6 @@ in a sequence of lines in an intelligent way.
 It comes as a binary and an emacs mode.
 "
 url {
-src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/line-up-words-v0.15.0.tar.gz"
-checksum: "sha256=48392935c43cc244d6d342d0a0d774d3d7bd956e148f39caedb0a0ff56751005"
+src: "https://ocaml.janestreet.com/ocaml-core/v0.15-core-split/files/line-up-words-v0.15.0.tar.gz"
+checksum: "sha256=51bc801af8bd63e8310e1b2bae0b77b9b9c32baac25b1b57858373daa518d4bf"
 }

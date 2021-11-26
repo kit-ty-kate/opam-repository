@@ -11,16 +11,16 @@ build: [
 ]
 depends: [
   "ocaml"                    {>= "4.08.0"}
-  "base"                     {>= "v0.15" & < "v0.16"}
-  "core_kernel"              {>= "v0.15" & < "v0.16"}
-  "expect_test_helpers_core" {>= "v0.15" & < "v0.16"}
-  "jane-street-headers"      {>= "v0.15" & < "v0.16"}
-  "jst-config"               {>= "v0.15" & < "v0.16"}
-  "ocaml_intrinsics"         {>= "v0.15" & < "v0.16"}
-  "ppx_jane"                 {>= "v0.15" & < "v0.16"}
-  "record_builder"           {>= "v0.15" & < "v0.16"}
-  "sexplib"                  {>= "v0.15" & < "v0.16"}
-  "timezone"                 {>= "v0.15" & < "v0.16"}
+  "base"                     {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "core_kernel"              {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "expect_test_helpers_core" {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "jane-street-headers"      {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "jst-config"               {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "ocaml_intrinsics"         {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "ppx_jane"                 {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "record_builder"           {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "sexplib"                  {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "timezone"                 {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
   "base-threads"
   "dune"                     {>= "2.0.0"}
   "spawn"                    {>= "v0.12"}
@@ -33,6 +33,6 @@ largest industrial user of OCaml.
 "
 depexts: ["linux-headers"] {os-distribution = "alpine"}
 url {
-src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/core-v0.15.0.tar.gz"
-checksum: "sha256=786011e19ccf45961c4ce494c67d626df965c51c427602092fafc2a409a79f80"
+src: "https://ocaml.janestreet.com/ocaml-core/v0.15-core-split/files/core-v0.15.0.tar.gz"
+checksum: "sha256=80e8fe77b9b61e6ea8e5a20e2a15fe6c39087261cb5aec163686abb7c2ccfffd"
 }

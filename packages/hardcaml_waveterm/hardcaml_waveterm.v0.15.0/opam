@@ -11,14 +11,14 @@ build: [
 ]
 depends: [
   "ocaml"                    {>= "4.08.0"}
-  "base"                     {>= "v0.15" & < "v0.16"}
-  "core"                     {>= "v0.15" & < "v0.16"}
-  "expect_test_helpers_core" {>= "v0.15" & < "v0.16"}
-  "hardcaml"                 {>= "v0.15" & < "v0.16"}
-  "notty_async"              {>= "v0.15" & < "v0.16"}
-  "ppx_deriving_hardcaml"    {>= "v0.15" & < "v0.16"}
-  "ppx_jane"                 {>= "v0.15" & < "v0.16"}
-  "stdio"                    {>= "v0.15" & < "v0.16"}
+  "base"                     {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "core"                     {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "expect_test_helpers_core" {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "hardcaml"                 {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "notty_async"              {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "ppx_deriving_hardcaml"    {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "ppx_jane"                 {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "stdio"                    {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
   "dune"                     {>= "2.0.0"}
   "notty"                    {>= "0.2.1"}
   "num"
@@ -35,6 +35,6 @@ to simulations.
 "
 conflicts: ["hardcaml-waveterm"] 
 url {
-src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/hardcaml_waveterm-v0.15.0.tar.gz"
-checksum: "sha256=3eae5801135f473875cb27af6c00fddb808f6927d171b7b8dfcaa647d6956f99"
+src: "https://ocaml.janestreet.com/ocaml-core/v0.15-core-split/files/hardcaml_waveterm-v0.15.0.tar.gz"
+checksum: "sha256=70e788c03e3fd5fb70982ebf74b680f8c149fcb09a2d9024ce21eab4c9d1e9ed"
 }

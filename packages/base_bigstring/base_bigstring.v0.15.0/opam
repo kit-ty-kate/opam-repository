@@ -11,9 +11,9 @@ build: [
 ]
 depends: [
   "ocaml"    {>= "4.08.0"}
-  "base"     {>= "v0.15" & < "v0.16"}
-  "int_repr" {>= "v0.15" & < "v0.16"}
-  "ppx_jane" {>= "v0.15" & < "v0.16"}
+  "base"     {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "int_repr" {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "ppx_jane" {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
   "dune"     {>= "2.0.0"}
 ]
 synopsis: "String type based on [Bigarray], for use in I/O and C-bindings"
@@ -21,6 +21,6 @@ description: "
 String type based on [Bigarray], for use in I/O and C-bindings.
 "
 url {
-src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/base_bigstring-v0.15.0.tar.gz"
-checksum: "sha256=632284ce5c7e35d099f9c07f29d9e8ff146ec2ee2c119b77e3027e7b333a7b02"
+src: "https://ocaml.janestreet.com/ocaml-core/v0.15-core-split/files/base_bigstring-v0.15.0.tar.gz"
+checksum: "sha256=d5e7d66296597fd49febcc0f2051c41151a9a165e94d993e9843c167586570b1"
 }

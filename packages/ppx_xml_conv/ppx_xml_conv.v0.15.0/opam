@@ -11,10 +11,10 @@ build: [
 ]
 depends: [
   "ocaml"           {>= "4.08.0"}
-  "base"            {>= "v0.15" & < "v0.16"}
-  "csvfields"       {>= "v0.15" & < "v0.16"}
-  "ppx_conv_func"   {>= "v0.15" & < "v0.16"}
-  "ppx_fields_conv" {>= "v0.15" & < "v0.16"}
+  "base"            {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "csvfields"       {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "ppx_conv_func"   {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "ppx_fields_conv" {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
   "dune"            {>= "2.0.0"}
   "ppxlib"          {>= "0.23.0"}
 ]
@@ -23,6 +23,6 @@ description: "
 Part of the Jane Street's PPX rewriters collection.
 "
 url {
-src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/ppx_xml_conv-v0.15.0.tar.gz"
-checksum: "sha256=f9cc1afb1c0ff04ea83da29ae35bef94a495ec875bc08b282912a8e802b0d02c"
+src: "https://ocaml.janestreet.com/ocaml-core/v0.15-core-split/files/ppx_xml_conv-v0.15.0.tar.gz"
+checksum: "sha256=b4fdc2c2d571c5777b8705ba4b849f81f30f7af0cde4328351247442fa319969"
 }

@@ -11,8 +11,8 @@ build: [
 ]
 depends: [
   "ocaml"       {>= "4.08.0"}
-  "core_kernel" {>= "v0.15" & < "v0.16"}
-  "ppx_jane"    {>= "v0.15" & < "v0.16"}
+  "core_kernel" {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "ppx_jane"    {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
   "dune"        {>= "2.0.0"}
 ]
 synopsis: "A splay tree implementation"
@@ -30,6 +30,6 @@ reduction operation which lets you specify an extra accumulator value,
 which can then be searched by efficiently.
 "
 url {
-src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/splay_tree-v0.15.0.tar.gz"
-checksum: "sha256=10c92f80a124b1525dd2ca725cfb06b110b75486a20002d7a982681af50a729a"
+src: "https://ocaml.janestreet.com/ocaml-core/v0.15-core-split/files/splay_tree-v0.15.0.tar.gz"
+checksum: "sha256=0aee1c352fffc31a09478e9e40c138eb0f64b205508630e7fa4e2c34e2528564"
 }

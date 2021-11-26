@@ -11,11 +11,11 @@ build: [
 ]
 depends: [
   "ocaml"         {>= "4.08.0"}
-  "ppx_cold"      {>= "v0.15" & < "v0.16"}
-  "ppx_compare"   {>= "v0.15" & < "v0.16"}
-  "ppx_enumerate" {>= "v0.15" & < "v0.16"}
-  "ppx_hash"      {>= "v0.15" & < "v0.16"}
-  "ppx_sexp_conv" {>= "v0.15" & < "v0.16"}
+  "ppx_cold"      {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "ppx_compare"   {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "ppx_enumerate" {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "ppx_hash"      {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "ppx_sexp_conv" {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
   "dune"          {>= "2.0.0"}
   "ppxlib"        {>= "0.23.0"}
 ]
@@ -27,6 +27,6 @@ Note that Base doesn't need ppx to build, it is only used as a
 verification tool.
 "
 url {
-src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/ppx_base-v0.15.0.tar.gz"
-checksum: "sha256=26fa77d2f91675c5a9fb080fa5744881bfdf50729d64ec6ce2caae8b84436b94"
+src: "https://ocaml.janestreet.com/ocaml-core/v0.15-core-split/files/ppx_base-v0.15.0.tar.gz"
+checksum: "sha256=3d8302cc0bd6b9f0e3381ea313631b94370749f4be1e15aee029acdfa76b426d"
 }

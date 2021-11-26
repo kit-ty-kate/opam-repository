@@ -11,8 +11,8 @@ build: [
 ]
 depends: [
   "ocaml"   {>= "4.08.0"}
-  "base"    {>= "v0.15" & < "v0.16"}
-  "typerep" {>= "v0.15" & < "v0.16"}
+  "base"    {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "typerep" {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
   "dune"    {>= "2.0.0"}
   "ppxlib"  {>= "0.23.0"}
 ]
@@ -21,6 +21,6 @@ description: "
 Part of the Jane Street's PPX rewriters collection.
 "
 url {
-src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/ppx_typerep_conv-v0.15.0.tar.gz"
-checksum: "sha256=1abedf542ad2920b116e1dc697fc5a24c595ea248bc84518f55ab3e3ac5f65fe"
+src: "https://ocaml.janestreet.com/ocaml-core/v0.15-core-split/files/ppx_typerep_conv-v0.15.0.tar.gz"
+checksum: "sha256=af20c7532815a723088c501776cb50ec06425438638961595d5fba8f64450653"
 }

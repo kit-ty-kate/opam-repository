@@ -11,13 +11,13 @@ build: [
 ]
 depends: [
   "ocaml" {>= "4.08.0"}
-  "base"  {>= "v0.15" & < "v0.16"}
+  "base"  {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
   "dune"  {>= "2.0.0"}
 ]
 synopsis: "Typerep is a library for runtime types"
 description: "
 "
 url {
-src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/typerep-v0.15.0.tar.gz"
-checksum: "sha256=11022b01d2c1df7852207454e3f62283e4599973bfafdc71f2f1625bcc045034"
+src: "https://ocaml.janestreet.com/ocaml-core/v0.15-core-split/files/typerep-v0.15.0.tar.gz"
+checksum: "sha256=2309cedf9c590affb2298a14e5a0eb0a30983c013187b626b4d8a178953c8cf9"
 }

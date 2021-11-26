@@ -19,6 +19,6 @@ Signed and Unsigned fixed point operations, with a full complement of rounding a
 overflow functionality.
 "
 url {
-src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/hardcaml_fixed_point-v0.15.0.tar.gz"
-checksum: "sha256=ab3a3b0ef3c542dad93d7ee2d05ba6dd2f56069d6c218614bb64bbe56eb16963"
+src: "https://ocaml.janestreet.com/ocaml-core/v0.15-core-split/files/hardcaml_fixed_point-v0.15.0.tar.gz"
+checksum: "sha256=e49af13e511723f7b81ad870cb7391791a5bd347aaf352c5c8b060afc51b63f7"
 }

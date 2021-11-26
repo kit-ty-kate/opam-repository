@@ -11,12 +11,12 @@ build: [
 ]
 depends: [
   "ocaml"                    {>= "4.08.0"}
-  "async"                    {>= "v0.15" & < "v0.16"}
-  "core"                     {>= "v0.15" & < "v0.16"}
-  "core_kernel"              {>= "v0.15" & < "v0.16"}
-  "expect_test_helpers_core" {>= "v0.15" & < "v0.16"}
-  "ppx_jane"                 {>= "v0.15" & < "v0.16"}
-  "sexp_pretty"              {>= "v0.15" & < "v0.16"}
+  "async"                    {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "core"                     {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "core_kernel"              {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "expect_test_helpers_core" {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "ppx_jane"                 {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "sexp_pretty"              {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
   "dune"                     {>= "2.0.0"}
 ]
 synopsis: "Async helpers for writing expectation tests"
@@ -27,6 +27,6 @@ Note that this library uses Async, for helpers that don't use Async,
 look at expect_test_helpers_core.
 "
 url {
-src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/expect_test_helpers_async-v0.15.0.tar.gz"
-checksum: "sha256=9b5f8ce63bfd812badfa29728d15f7fabe5ed03ec6ec4e0a42ab77a7250f3e17"
+src: "https://ocaml.janestreet.com/ocaml-core/v0.15-core-split/files/expect_test_helpers_async-v0.15.0.tar.gz"
+checksum: "sha256=53bc8aceb4af502964ba7fd278fb0987f7d1b43ced51bf41e1363b9e668e915e"
 }

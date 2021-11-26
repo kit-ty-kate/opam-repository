@@ -11,9 +11,9 @@ build: [
 ]
 depends: [
   "ocaml"         {>= "4.09.0"}
-  "base"          {>= "v0.15" & < "v0.16"}
-  "higher_kinded" {>= "v0.15" & < "v0.16"}
-  "ppx_jane"      {>= "v0.15" & < "v0.16"}
+  "base"          {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "higher_kinded" {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "ppx_jane"      {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
   "dune"          {>= "2.0.0"}
 ]
 synopsis: "A library that makes it nicer to work with nested functional data structures"
@@ -26,6 +26,6 @@ increasingly complex data structures.
 In case you have ever heard of \"lenses\", this is an OCaml implementation of that idea.
 "
 url {
-src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/accessor-v0.15.0.tar.gz"
-checksum: "sha256=b553e2d7eab61783a6f4e32a389fcc7f5bf97fcedc5cebc8368da9a7cf1a798c"
+src: "https://ocaml.janestreet.com/ocaml-core/v0.15-core-split/files/accessor-v0.15.0.tar.gz"
+checksum: "sha256=e0173cd119fc28f787a424ae9758c775976b1a4829e1dcba29e3fb0aaef6b271"
 }

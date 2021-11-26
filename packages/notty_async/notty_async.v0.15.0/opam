@@ -11,8 +11,8 @@ build: [
 ]
 depends: [
   "ocaml"    {>= "4.08.0"}
-  "async"    {>= "v0.15" & < "v0.16"}
-  "ppx_jane" {>= "v0.15" & < "v0.16"}
+  "async"    {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "ppx_jane" {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
   "dune"     {>= "2.0.0"}
   "notty"    {>= "0.2.1"}
 ]
@@ -23,6 +23,6 @@ is an Async driver, which makes it easy to build terminal applications using
 Async for managing concurrency.
 "
 url {
-src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/notty_async-v0.15.0.tar.gz"
-checksum: "sha256=55bc4c9c8324948367ccd035a5f279f17564774b418e99de86ea6f4e228a5674"
+src: "https://ocaml.janestreet.com/ocaml-core/v0.15-core-split/files/notty_async-v0.15.0.tar.gz"
+checksum: "sha256=1a35b8d759e31e06454248d5dae227e82175e699c78f4435da6d5c0d88a3ee5d"
 }

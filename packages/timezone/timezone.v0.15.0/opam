@@ -11,8 +11,8 @@ build: [
 ]
 depends: [
   "ocaml"       {>= "4.08.0"}
-  "core_kernel" {>= "v0.15" & < "v0.16"}
-  "ppx_jane"    {>= "v0.15" & < "v0.16"}
+  "core_kernel" {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "ppx_jane"    {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
   "dune"        {>= "2.0.0"}
 ]
 synopsis: "Time-zone handling"
@@ -21,6 +21,6 @@ Timezone handles parsing timezone data and create [Timezone.t] that
 can later be used to manipulate time in core_kernel or core.
 "
 url {
-src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/timezone-v0.15.0.tar.gz"
-checksum: "sha256=22cb6fc0d336f536a7a773c0cb8c3552189fd818b3e0060bba40f8dace81475d"
+src: "https://ocaml.janestreet.com/ocaml-core/v0.15-core-split/files/timezone-v0.15.0.tar.gz"
+checksum: "sha256=dfb1b92b04470c815a52ced40ba19ec4e9c60423f785028d283b52e83b74ff22"
 }

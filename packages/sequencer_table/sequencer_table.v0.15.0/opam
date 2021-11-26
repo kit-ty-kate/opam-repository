@@ -11,8 +11,8 @@ build: [
 ]
 depends: [
   "ocaml"    {>= "4.08.0"}
-  "async"    {>= "v0.15" & < "v0.16"}
-  "ppx_jane" {>= "v0.15" & < "v0.16"}
+  "async"    {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "ppx_jane" {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
   "dune"     {>= "2.0.0"}
 ]
 synopsis: "A table of [Async.Sequencer]'s, indexed by key"
@@ -20,6 +20,6 @@ description: "
 A single-module library for a data structure.
 "
 url {
-src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/sequencer_table-v0.15.0.tar.gz"
-checksum: "sha256=2055b7f127600e21eb7e96ef91dc0f23aaede71d154f58855024fa44943e134b"
+src: "https://ocaml.janestreet.com/ocaml-core/v0.15-core-split/files/sequencer_table-v0.15.0.tar.gz"
+checksum: "sha256=d8c480a5bb6b543b64491c2566fb7b211d5d5e8b7f53abb7a916e50b9e0b6bd8"
 }

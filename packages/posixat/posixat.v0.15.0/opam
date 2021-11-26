@@ -11,9 +11,9 @@ build: [
 ]
 depends: [
   "ocaml"         {>= "4.08.0"}
-  "base"          {>= "v0.15" & < "v0.16"}
-  "ppx_optcomp"   {>= "v0.15" & < "v0.16"}
-  "ppx_sexp_conv" {>= "v0.15" & < "v0.16"}
+  "base"          {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "ppx_optcomp"   {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "ppx_sexp_conv" {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
   "dune"          {>= "2.0.0"}
 ]
 synopsis: "Bindings to the posix *at functions"
@@ -26,6 +26,6 @@ descriptor. For instance this allows to reliably maintain several
 working directories inside the same process.
 "
 url {
-src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/posixat-v0.15.0.tar.gz"
-checksum: "sha256=a77b630a0ca0fad2bf8016a5cdb5191c30ebd71857eadfb64fcdbb7bd63c32aa"
+src: "https://ocaml.janestreet.com/ocaml-core/v0.15-core-split/files/posixat-v0.15.0.tar.gz"
+checksum: "sha256=2b77a58b851334e5d4502240d2bf713ce5d1cc9dc8525fd93bba9feba03341e1"
 }

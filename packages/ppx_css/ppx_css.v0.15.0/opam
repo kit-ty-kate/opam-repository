@@ -10,11 +10,11 @@ build: [
   ["dune" "build" "-p" name "-j" jobs]
 ]
 depends: [
-  "ocaml"           {>= "4.08.0"}
-  "core_kernel"     {>= "v0.15" & < "v0.16"}
-  "ppx_here"        {>= "v0.15" & < "v0.16"}
-  "ppx_jane"        {>= "v0.15" & < "v0.16"}
-  "stdio"           {>= "v0.15" & < "v0.16"}
+  "ocaml"           {>= "4.11.0"}
+  "core_kernel"     {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "ppx_here"        {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "ppx_jane"        {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "stdio"           {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
   "dune"            {>= "2.0.0"}
   "js_of_ocaml"     {>= "3.9.0"}
   "js_of_ocaml-ppx" {>= "3.9.0"}
@@ -23,11 +23,11 @@ depends: [
   "re"              {>= "1.8.0"}
   "sedlex"          {< "2.4"}
 ]
-synopsis: "A ppx that takes in css strings and produces a module for accessing the unique names defined within."
+synopsis: "A ppx that takes in css strings and produces a module for accessing the unique names defined within"
 description: "
 A ppx that takes in css strings and produces a module for accessing the unique names defined within.
 "
 url {
-src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/ppx_css-v0.15.0.tar.gz"
-checksum: "sha256=e470e056923b0e3586eb83429b0b549b916b06362ea088cce0c387f0c1bc0895"
+src: "https://ocaml.janestreet.com/ocaml-core/v0.15-core-split/files/ppx_css-v0.15.0.tar.gz"
+checksum: "sha256=ef075c4ee99d2929fc2a409cd66110eb7d7d3a58c0e12424dc8aea87ebd06ee0"
 }

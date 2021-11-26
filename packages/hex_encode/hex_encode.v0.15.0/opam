@@ -11,8 +11,8 @@ build: [
 ]
 depends: [
   "ocaml"       {>= "4.08.0"}
-  "core_kernel" {>= "v0.15" & < "v0.16"}
-  "ppx_jane"    {>= "v0.15" & < "v0.16"}
+  "core_kernel" {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "ppx_jane"    {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
   "dune"        {>= "2.0.0"}
 ]
 synopsis: "Hexadecimal encoding library"
@@ -20,6 +20,6 @@ description: "
 This library implements hexadecimal encoding and decoding
 "
 url {
-src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/hex_encode-v0.15.0.tar.gz"
-checksum: "sha256=b54cd6e9f6a2a24fd5a69592abfb17da8ea73987d4dd11112d9ac7260b59b21f"
+src: "https://ocaml.janestreet.com/ocaml-core/v0.15-core-split/files/hex_encode-v0.15.0.tar.gz"
+checksum: "sha256=6db7eba4e83065fcea076658c81c532b20a8080be3c3b2e14f9ca6e220c53506"
 }

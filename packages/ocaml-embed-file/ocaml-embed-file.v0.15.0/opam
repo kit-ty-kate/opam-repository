@@ -11,10 +11,10 @@ build: [
 ]
 depends: [
   "ocaml"       {>= "4.08.0"}
-  "async"       {>= "v0.15" & < "v0.16"}
-  "core"        {>= "v0.15" & < "v0.16"}
-  "core_kernel" {>= "v0.15" & < "v0.16"}
-  "ppx_jane"    {>= "v0.15" & < "v0.16"}
+  "async"       {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "core"        {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "core_kernel" {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "ppx_jane"    {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
   "dune"        {>= "2.0.0"}
 ]
 synopsis: "Files contents as module constants"
@@ -23,6 +23,6 @@ Embed-file takes some files and generates code for an OCaml module
 defining string constants containing the contents of those files.
 "
 url {
-src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/ocaml-embed-file-v0.15.0.tar.gz"
-checksum: "sha256=c6028f2079743e732196f8b66857a61e5c321f62333a48d73f9db041110f3c0f"
+src: "https://ocaml.janestreet.com/ocaml-core/v0.15-core-split/files/ocaml-embed-file-v0.15.0.tar.gz"
+checksum: "sha256=acdec485ea0431a0346db626559e78a0acb32431f64e6ae00a0caf624374f399"
 }
