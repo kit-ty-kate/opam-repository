@@ -11,9 +11,9 @@ build: [
 ]
 depends: [
   "ocaml"                  {>= "4.08.0"}
-  "async_rpc_kernel"       {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
-  "cohttp_async_websocket" {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
-  "ppx_jane"               {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "async_rpc_kernel"       {>= "v0.15" & < "v0.16"}
+  "cohttp_async_websocket" {>= "v0.15" & < "v0.16"}
+  "ppx_jane"               {>= "v0.15" & < "v0.16"}
   "cohttp-async"           {= "4.0.0+async"}
   "dune"                   {>= "2.0.0"}
 ]

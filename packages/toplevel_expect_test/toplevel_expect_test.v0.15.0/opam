@@ -11,13 +11,13 @@ build: [
 ]
 depends: [
   "ocaml"               {>= "4.08.0"}
-  "core"                {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
-  "core_kernel"         {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
-  "mlt_parser"          {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
-  "ppx_expect"          {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
-  "ppx_inline_test"     {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
-  "ppx_jane"            {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
-  "toplevel_backend"    {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "core"                {>= "v0.15" & < "v0.16"}
+  "core_kernel"         {>= "v0.15" & < "v0.16"}
+  "mlt_parser"          {>= "v0.15" & < "v0.16"}
+  "ppx_expect"          {>= "v0.15" & < "v0.16"}
+  "ppx_inline_test"     {>= "v0.15" & < "v0.16"}
+  "ppx_jane"            {>= "v0.15" & < "v0.16"}
+  "toplevel_backend"    {>= "v0.15" & < "v0.16"}
   "base-threads"
   "dune"                {>= "2.0.0"}
   "ocaml-compiler-libs" {>= "v0.11.0"}

@@ -11,10 +11,10 @@ build: [
 ]
 depends: [
   "ocaml"                    {>= "4.08.0"}
-  "bignum"                   {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
-  "core_kernel"              {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
-  "expect_test_helpers_core" {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
-  "ppx_jane"                 {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "bignum"                   {>= "v0.15" & < "v0.16"}
+  "core_kernel"              {>= "v0.15" & < "v0.16"}
+  "expect_test_helpers_core" {>= "v0.15" & < "v0.16"}
+  "ppx_jane"                 {>= "v0.15" & < "v0.16"}
   "dune"                     {>= "2.0.0"}
   "zarith"                   {>= "1.11"}
 ]
