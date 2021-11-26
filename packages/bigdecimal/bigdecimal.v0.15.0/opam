@@ -11,10 +11,10 @@ build: [
 ]
 depends: [
   "ocaml"                    {>= "4.08.0"}
-  "bignum"                   {>= "v0.15" & < "v0.16"}
-  "core_kernel"              {>= "v0.15" & < "v0.16"}
-  "expect_test_helpers_core" {>= "v0.15" & < "v0.16"}
-  "ppx_jane"                 {>= "v0.15" & < "v0.16"}
+  "bignum"                   {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "core_kernel"              {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "expect_test_helpers_core" {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "ppx_jane"                 {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
   "dune"                     {>= "2.0.0"}
   "zarith"                   {>= "1.11"}
 ]
@@ -24,6 +24,6 @@ A high-precision representation of decimal numbers as [mantissa * 10^exponent], 
 the mantissa is internally a [Bigint.t] and the exponent is an [int].
 "
 url {
-src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/bigdecimal-v0.15.0.tar.gz"
-checksum: "sha256=078a1a23f6d7d18fefad6a975fea75a402dfc9fc558980d65dd11ddc064341ea"
+src: "https://ocaml.janestreet.com/ocaml-core/v0.15-core-split/files/bigdecimal-v0.15.0.tar.gz"
+checksum: "sha256=2551aacd9649a68098b26bba71c6e05a81de7950787bc2499c9bfe591e85fd8b"
 }

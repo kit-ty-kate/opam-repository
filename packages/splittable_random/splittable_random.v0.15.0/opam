@@ -11,11 +11,11 @@ build: [
 ]
 depends: [
   "ocaml"            {>= "4.08.0"}
-  "base"             {>= "v0.15" & < "v0.16"}
-  "ppx_assert"       {>= "v0.15" & < "v0.16"}
-  "ppx_bench"        {>= "v0.15" & < "v0.16"}
-  "ppx_inline_test"  {>= "v0.15" & < "v0.16"}
-  "ppx_sexp_message" {>= "v0.15" & < "v0.16"}
+  "base"             {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "ppx_assert"       {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "ppx_bench"        {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "ppx_inline_test"  {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "ppx_sexp_message" {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
   "dune"             {>= "2.0.0"}
 ]
 synopsis: "PRNG that can be split into independent streams"
@@ -30,6 +30,6 @@ This library implements a splittable pseudo-random number generator that sacrifi
 cryptographic-quality randomness in favor of performance.
 "
 url {
-src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/splittable_random-v0.15.0.tar.gz"
-checksum: "sha256=da2696ff79848678c788815841bd1e7c00b7f2d0d8e6a71a39374019a2a7ded6"
+src: "https://ocaml.janestreet.com/ocaml-core/v0.15-core-split/files/splittable_random-v0.15.0.tar.gz"
+checksum: "sha256=9f811529367c84a8b3deda564f9898bd1b539f94cde429ce2e5fe790141efeab"
 }

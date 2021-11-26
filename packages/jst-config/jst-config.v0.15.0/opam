@@ -11,8 +11,8 @@ build: [
 ]
 depends: [
   "ocaml"             {>= "4.08.0"}
-  "base"              {>= "v0.15" & < "v0.16"}
-  "ppx_assert"        {>= "v0.15" & < "v0.16"}
+  "base"              {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "ppx_assert"        {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
   "dune"              {>= "2.0.0"}
   "dune-configurator"
 ]
@@ -26,6 +26,6 @@ different packages from Jane Street. Future updates may not be backward-compatib
 do not recommend using this package directly.
 "
 url {
-src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/jst-config-v0.15.0.tar.gz"
-checksum: "sha256=e7116e8eb1f2a7cbc50725a5cc69ed6a520c8e33cd23977dd7d4ef59949bd5e8"
+src: "https://ocaml.janestreet.com/ocaml-core/v0.15-core-split/files/jst-config-v0.15.0.tar.gz"
+checksum: "sha256=94cec2391a03325944887c52be711beb2bbf304c792425281ac02153dc1e4216"
 }

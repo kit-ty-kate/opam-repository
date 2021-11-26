@@ -13,11 +13,11 @@ depends: [
   "ocaml" {>= "4.08.0"}
   "dune"  {>= "2.0.0"}
 ]
-synopsis: "sexp grammar helpers"
+synopsis: "Sexp grammar helpers"
 description: "
 Helpers for manipulating [Sexplib.Sexp_grammar] values.
 "
 url {
-src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/sexp_grammar-v0.15.0.tar.gz"
-checksum: "sha256=e63ccd7266fafcf886d308f5e408e29c4940e9c948088425bbd2d084a2bf57a8"
+src: "https://ocaml.janestreet.com/ocaml-core/v0.15-core-split/files/sexp_grammar-v0.15.0.tar.gz"
+checksum: "sha256=6a8f3884dfdc5e969e14f777e588c5f1c072cfea08734002f6ecf25115de8bbf"
 }

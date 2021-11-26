@@ -11,11 +11,11 @@ build: [
 ]
 depends: [
   "ocaml"                 {>= "4.08.0"}
-  "core"                  {>= "v0.15" & < "v0.16"}
-  "core_kernel"           {>= "v0.15" & < "v0.16"}
-  "hardcaml"              {>= "v0.15" & < "v0.16"}
-  "ppx_deriving_hardcaml" {>= "v0.15" & < "v0.16"}
-  "ppx_jane"              {>= "v0.15" & < "v0.16"}
+  "core"                  {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "core_kernel"           {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "hardcaml"              {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "ppx_deriving_hardcaml" {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "ppx_jane"              {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
   "ctypes"                {>= "0.16.0" & < "0.18.0"}
   "ctypes-foreign"
   "dune"                  {>= "2.0.0"}
@@ -28,6 +28,6 @@ This library transparently compiles a verilator-based shared library, and links 
 to the running executable to be used as a Cyclesim simulation.
 "
 url {
-src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/hardcaml_verilator-v0.15.0.tar.gz"
-checksum: "sha256=f7b370ccffa84bc6180b56e5df22bf2417301478d4bd47e94be96657df1f05bb"
+src: "https://ocaml.janestreet.com/ocaml-core/v0.15-core-split/files/hardcaml_verilator-v0.15.0.tar.gz"
+checksum: "sha256=7dcd568cf3b03d4da1a68872a65b50fa1c58dc8833ff2c018a98ed20827c7beb"
 }

@@ -11,7 +11,7 @@ build: [
 ]
 depends: [
   "ocaml"           {>= "4.08.0"}
-  "ppx_inline_test" {>= "v0.15" & < "v0.16"}
+  "ppx_inline_test" {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
   "dune"            {>= "2.0.0"}
   "ppxlib"          {>= "0.23.0"}
 ]
@@ -20,6 +20,6 @@ description: "
 Part of the Jane Street's PPX rewriters collection.
 "
 url {
-src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/ppx_bench-v0.15.0.tar.gz"
-checksum: "sha256=1e53039907a42e8e74f0cd88612a0dcace5620632f92a2ff9b8235048b4f9d1c"
+src: "https://ocaml.janestreet.com/ocaml-core/v0.15-core-split/files/ppx_bench-v0.15.0.tar.gz"
+checksum: "sha256=b788ec752b7941207c0d23d4023fea8ce0ac938bb53955f86f368ec2beb26aba"
 }

@@ -11,11 +11,11 @@ build: [
 ]
 depends: [
   "ocaml"             {>= "4.08.0"}
-  "async"             {>= "v0.15" & < "v0.16"}
-  "base"              {>= "v0.15" & < "v0.16"}
-  "core_kernel"       {>= "v0.15" & < "v0.16"}
-  "ppx_jane"          {>= "v0.15" & < "v0.16"}
-  "stdio"             {>= "v0.15" & < "v0.16"}
+  "async"             {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "base"              {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "core_kernel"       {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "ppx_jane"          {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "stdio"             {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
   "conf-libssl"
   "ctypes"            {>= "0.16.0" & < "0.18.0"}
   "ctypes-foreign"
@@ -28,6 +28,6 @@ This library allows you to create an SSL client and server, with
 encrypted communication between both.
 "
 url {
-src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/async_ssl-v0.15.0.tar.gz"
-checksum: "sha256=c258fa7a575bf55c3f5d0a3248642c50970c1c6368051b08287badd69950740d"
+src: "https://ocaml.janestreet.com/ocaml-core/v0.15-core-split/files/async_ssl-v0.15.0.tar.gz"
+checksum: "sha256=a49563879c70b119d4bfbed6a46adf7d7cc2ccc67f260abb9118d558da774862"
 }

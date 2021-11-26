@@ -11,12 +11,12 @@ build: [
 ]
 depends: [
   "ocaml"                 {>= "4.08.0"}
-  "base"                  {>= "v0.15" & < "v0.16"}
-  "hardcaml"              {>= "v0.15" & < "v0.16"}
-  "hardcaml_waveterm"     {>= "v0.15" & < "v0.16"}
-  "ppx_deriving_hardcaml" {>= "v0.15" & < "v0.16"}
-  "ppx_jane"              {>= "v0.15" & < "v0.16"}
-  "stdio"                 {>= "v0.15" & < "v0.16"}
+  "base"                  {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "hardcaml"              {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "hardcaml_waveterm"     {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "ppx_deriving_hardcaml" {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "ppx_jane"              {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "stdio"                 {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
   "dune"                  {>= "2.0.0"}
   "re"                    {>= "1.8.0"}
 ]
@@ -32,6 +32,6 @@ Circuits can also be converted to NuSMV format for advanced bounded and unbounde
 checking tasks.
 "
 url {
-src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/hardcaml_verify-v0.15.0.tar.gz"
-checksum: "sha256=2315d5c55a32eb12766146eedc3078a7af6d7324e32f8028670b0f594a6bc4c2"
+src: "https://ocaml.janestreet.com/ocaml-core/v0.15-core-split/files/hardcaml_verify-v0.15.0.tar.gz"
+checksum: "sha256=27303ad32eb64241776b92e0d32b864cfe848ca32475ddef7d3983dbbf3c6657"
 }

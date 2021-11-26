@@ -11,8 +11,8 @@ build: [
 ]
 depends: [
   "ocaml"    {>= "4.08.0"}
-  "base"     {>= "v0.15" & < "v0.16"}
-  "ppx_jane" {>= "v0.15" & < "v0.16"}
+  "base"     {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "ppx_jane" {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
   "dune"     {>= "2.0.0"}
 ]
 synopsis: "A small library describing abstract algebra concepts"
@@ -21,6 +21,6 @@ A library describing abstract algebra concepts. Currently, it includes
 Commutative_group and Vector_space.
 "
 url {
-src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/abstract_algebra-v0.15.0.tar.gz"
-checksum: "sha256=842d93385eedb5d12de83fa53a68eb1e35ce25c553221fe905b9543d3d6d0b0c"
+src: "https://ocaml.janestreet.com/ocaml-core/v0.15-core-split/files/abstract_algebra-v0.15.0.tar.gz"
+checksum: "sha256=b9cf2458dd2df7846ae6c063ad7990106b8c154bc60368c2d3af4de05a9ebaca"
 }

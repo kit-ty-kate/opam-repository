@@ -11,8 +11,8 @@ build: [
 ]
 depends: [
   "ocaml"       {>= "4.08.0"}
-  "core_kernel" {>= "v0.15" & < "v0.16"}
-  "ppx_jane"    {>= "v0.15" & < "v0.16"}
+  "core_kernel" {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "ppx_jane"    {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
   "dune"        {>= "2.0.0"}
 ]
 synopsis: "Protocol versioning"
@@ -23,6 +23,6 @@ version themselves. The more protocols that add themselves to
 to a service while using the wrong protocol.
 "
 url {
-src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/protocol_version_header-v0.15.0.tar.gz"
-checksum: "sha256=706a9d1b9d1533c96334122806f2d9c8906c09d5347da2962adb4f90727335c5"
+src: "https://ocaml.janestreet.com/ocaml-core/v0.15-core-split/files/protocol_version_header-v0.15.0.tar.gz"
+checksum: "sha256=32274f987e1ba56073f58cab46509885a71ae9bf9c99acc924f2ce10ed9b04e3"
 }

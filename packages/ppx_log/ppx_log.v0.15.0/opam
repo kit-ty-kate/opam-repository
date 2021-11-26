@@ -11,11 +11,11 @@ build: [
 ]
 depends: [
   "ocaml"            {>= "4.08.0"}
-  "base"             {>= "v0.15" & < "v0.16"}
-  "ppx_here"         {>= "v0.15" & < "v0.16"}
-  "ppx_sexp_conv"    {>= "v0.15" & < "v0.16"}
-  "ppx_sexp_message" {>= "v0.15" & < "v0.16"}
-  "sexplib"          {>= "v0.15" & < "v0.16"}
+  "base"             {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "ppx_here"         {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "ppx_sexp_conv"    {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "ppx_sexp_message" {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "sexplib"          {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
   "dune"             {>= "2.0.0"}
   "ppxlib"           {>= "0.23.0"}
 ]
@@ -24,6 +24,6 @@ description: "
 Part of the Jane Street's PPX rewriters collection. 
 "
 url {
-src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/ppx_log-v0.15.0.tar.gz"
-checksum: "sha256=3ee8f631ffa251a9e95be72230418d537550d3a2bce89408b52c1642a075a7ec"
+src: "https://ocaml.janestreet.com/ocaml-core/v0.15-core-split/files/ppx_log-v0.15.0.tar.gz"
+checksum: "sha256=7bf85adedf173daa1c3090df052a8cb9351684d1b34d77b6ecb44e8cc24a9221"
 }

@@ -11,8 +11,8 @@ build: [
 ]
 depends: [
   "ocaml"    {>= "4.08.0"}
-  "base"     {>= "v0.15" & < "v0.16"}
-  "ppx_jane" {>= "v0.15" & < "v0.16"}
+  "base"     {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "ppx_jane" {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
   "dune"     {>= "2.0.0"}
 ]
 synopsis: "A library which provides traversal of records with an applicative"
@@ -24,6 +24,6 @@ automatically handles all of the mapping and combining of applicative terms
 needed to build the record from a single applicative term for each field.
 "
 url {
-src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/record_builder-v0.15.0.tar.gz"
-checksum: "sha256=f283b4f1b1254c9e9d6b74e5732f52c4a1c0f21ae4b5b4d28c39e40c8a5cbfb5"
+src: "https://ocaml.janestreet.com/ocaml-core/v0.15-core-split/files/record_builder-v0.15.0.tar.gz"
+checksum: "sha256=969d5ae1a282d25ccf0d62a6a630842473704446d337d645fd4bdb2d01bfa9c6"
 }

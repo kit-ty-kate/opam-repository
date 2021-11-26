@@ -11,10 +11,10 @@ build: [
 ]
 depends: [
   "ocaml"       {>= "4.08.0"}
-  "async"       {>= "v0.15" & < "v0.16"}
-  "bignum"      {>= "v0.15" & < "v0.16"}
-  "core_kernel" {>= "v0.15" & < "v0.16"}
-  "ppx_jane"    {>= "v0.15" & < "v0.16"}
+  "async"       {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "bignum"      {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "core_kernel" {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "ppx_jane"    {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
   "dune"        {>= "2.0.0"}
 ]
 synopsis: "Redis client for Async applications"
@@ -27,6 +27,6 @@ types.
 Supports client tracking and internally uses the RESP3 protocol. 
 "
 url {
-src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/redis-async-v0.15.0.tar.gz"
-checksum: "sha256=88526c18430b7e23cba2ed3ff1e3c6559865ba7d1af01beb350d474b5c9c7540"
+src: "https://ocaml.janestreet.com/ocaml-core/v0.15-core-split/files/redis-async-v0.15.0.tar.gz"
+checksum: "sha256=ad2bf8eb6170f1a80ebb04c5ed89ceaa753b0581ec2301a4d9e048b9cee84396"
 }

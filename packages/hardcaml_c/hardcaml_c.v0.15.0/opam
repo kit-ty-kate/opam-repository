@@ -11,11 +11,11 @@ build: [
 ]
 depends: [
   "ocaml"                 {>= "4.08.0"}
-  "core"                  {>= "v0.15" & < "v0.16"}
-  "core_kernel"           {>= "v0.15" & < "v0.16"}
-  "hardcaml"              {>= "v0.15" & < "v0.16"}
-  "ppx_deriving_hardcaml" {>= "v0.15" & < "v0.16"}
-  "ppx_jane"              {>= "v0.15" & < "v0.16"}
+  "core"                  {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "core_kernel"           {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "hardcaml"              {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "ppx_deriving_hardcaml" {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "ppx_jane"              {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
   "ctypes"                {>= "0.16.0" & < "0.18.0"}
   "ctypes-foreign"
   "dune"                  {>= "2.0.0"}
@@ -29,6 +29,6 @@ and linked into the running executable. The generated simulation object can be u
 any other cyclesim simulation.
 "
 url {
-src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/hardcaml_c-v0.15.0.tar.gz"
-checksum: "sha256=ad12dd811eefaee57c5106694bc3409d3771d59e89fe043b771b1aabe3c0888f"
+src: "https://ocaml.janestreet.com/ocaml-core/v0.15-core-split/files/hardcaml_c-v0.15.0.tar.gz"
+checksum: "sha256=20b6a015cf5742d6476ef1819cdcb136a833277edd7225cf815b19c6249224ad"
 }

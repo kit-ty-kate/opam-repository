@@ -19,6 +19,6 @@ description: "
 Part of the Jane Street's PPX rewriters collection.
 "
 url {
-src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/ppx_pipebang-v0.15.0.tar.gz"
-checksum: "sha256=33fc002ef1792149f2c2b232c7bbb0962a5133e27600912b2ed86f31fe3d4181"
+src: "https://ocaml.janestreet.com/ocaml-core/v0.15-core-split/files/ppx_pipebang-v0.15.0.tar.gz"
+checksum: "sha256=d8e62761eb8ab1e0b0d40b7d7f96aab21544a664c9aacdaf57dd4550af55aeb0"
 }

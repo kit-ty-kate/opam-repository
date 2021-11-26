@@ -11,9 +11,9 @@ build: [
 ]
 depends: [
   "ocaml"       {>= "4.08.0"}
-  "base"        {>= "v0.15" & < "v0.16"}
-  "ppx_compare" {>= "v0.15" & < "v0.16"}
-  "ppx_hash"    {>= "v0.15" & < "v0.16"}
+  "base"        {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "ppx_compare" {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "ppx_hash"    {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
   "dune"        {>= "2.0.0"}
 ]
 synopsis: "Efficient static string dictionaries"
@@ -26,6 +26,6 @@ This uses the algorithm the OCaml compiler uses for pattern matching
 on strings.
 "
 url {
-src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/string_dict-v0.15.0.tar.gz"
-checksum: "sha256=d95ff0a702f6d9e9e6f05b63b044519de9384b72b9b3234f9719aaee3cfd6afd"
+src: "https://ocaml.janestreet.com/ocaml-core/v0.15-core-split/files/string_dict-v0.15.0.tar.gz"
+checksum: "sha256=6b411244b3b61c3534d7a46bc6ed885614851240c64d954cecf876b96d021fa6"
 }

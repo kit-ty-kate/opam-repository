@@ -11,10 +11,10 @@ build: [
 ]
 depends: [
   "ocaml"       {>= "4.08.0"}
-  "async"       {>= "v0.15" & < "v0.16"}
-  "core"        {>= "v0.15" & < "v0.16"}
-  "core_kernel" {>= "v0.15" & < "v0.16"}
-  "ppx_jane"    {>= "v0.15" & < "v0.16"}
+  "async"       {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "core"        {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "core_kernel" {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "ppx_jane"    {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
   "dune"        {>= "2.0.0"}
 ]
 synopsis: "Helper library for retrieving configuration from an environment variable"
@@ -25,6 +25,6 @@ to override a configuration that is loaded from disk, computed, or embedded
 in a library.
 "
 url {
-src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/env_config-v0.15.0.tar.gz"
-checksum: "sha256=c6024f26c006e71f293c77828eb72db68a2aac529f78f8af635baeb572bf8ee9"
+src: "https://ocaml.janestreet.com/ocaml-core/v0.15-core-split/files/env_config-v0.15.0.tar.gz"
+checksum: "sha256=7c420521bcdb9ed98a47c49a8a1f81836b74fa4539b96ff931757c758118e2f2"
 }

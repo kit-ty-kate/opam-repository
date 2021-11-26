@@ -11,10 +11,10 @@ build: [
 ]
 depends: [
   "ocaml"            {>= "4.08.0"}
-  "async_kernel"     {>= "v0.15" & < "v0.16"}
-  "async_rpc_kernel" {>= "v0.15" & < "v0.16"}
-  "core_kernel"      {>= "v0.15" & < "v0.16"}
-  "ppx_jane"         {>= "v0.15" & < "v0.16"}
+  "async_kernel"     {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "async_rpc_kernel" {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "core_kernel"      {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "ppx_jane"         {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
   "dune"             {>= "2.0.0"}
 ]
 synopsis: "General resource cache"
@@ -24,6 +24,6 @@ abstract [Resource] type. The cache enables resource reuse while
 obeying various limits.
 "
 url {
-src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/resource_cache-v0.15.0.tar.gz"
-checksum: "sha256=c85278d6e5152c5af81ef26fabf58a06983710762e28d6db6b28dfbfce4205b0"
+src: "https://ocaml.janestreet.com/ocaml-core/v0.15-core-split/files/resource_cache-v0.15.0.tar.gz"
+checksum: "sha256=08a2468ba65c30deec9027703d7baafe5faf50d978b0a83fa235859b231f4a06"
 }

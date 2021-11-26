@@ -11,10 +11,10 @@ build: [
 ]
 depends: [
   "ocaml"                   {>= "4.08.0"}
-  "async_kernel"            {>= "v0.15" & < "v0.16"}
-  "core_kernel"             {>= "v0.15" & < "v0.16"}
-  "ppx_jane"                {>= "v0.15" & < "v0.16"}
-  "protocol_version_header" {>= "v0.15" & < "v0.16"}
+  "async_kernel"            {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "core_kernel"             {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "ppx_jane"                {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "protocol_version_header" {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
   "dune"                    {>= "2.0.0"}
 ]
 synopsis: "Platform-independent core of Async RPC library"
@@ -25,6 +25,6 @@ OCaml's standard library that was developed by Jane Street, the
 largest industrial user of OCaml.
 "
 url {
-src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/async_rpc_kernel-v0.15.0.tar.gz"
-checksum: "sha256=1bb3de604a2c14010795f587c3a281dfcc59798fd539989274f93d84633617e8"
+src: "https://ocaml.janestreet.com/ocaml-core/v0.15-core-split/files/async_rpc_kernel-v0.15.0.tar.gz"
+checksum: "sha256=b58b356e857dca7da728e9590ba799205a895268cf211affd95e5f96679c1900"
 }

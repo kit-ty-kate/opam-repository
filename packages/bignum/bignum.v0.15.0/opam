@@ -11,11 +11,11 @@ build: [
 ]
 depends: [
   "ocaml"             {>= "4.08.0"}
-  "core_kernel"       {>= "v0.15" & < "v0.16"}
-  "ppx_jane"          {>= "v0.15" & < "v0.16"}
-  "splittable_random" {>= "v0.15" & < "v0.16"}
-  "typerep"           {>= "v0.15" & < "v0.16"}
-  "zarith_stubs_js"   {>= "v0.15" & < "v0.16"}
+  "core_kernel"       {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "ppx_jane"          {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "splittable_random" {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "typerep"           {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "zarith_stubs_js"   {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
   "dune"              {>= "2.0.0"}
   "num"
   "zarith"            {>= "1.11"}
@@ -24,6 +24,6 @@ synopsis: "Core-flavoured wrapper around zarith's arbitrary-precision rationals"
 description: "
 "
 url {
-src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/bignum-v0.15.0.tar.gz"
-checksum: "sha256=d9f489985e819efdf25388e1817ca7cd08c7f648d5d6fa4be9326f1e154da022"
+src: "https://ocaml.janestreet.com/ocaml-core/v0.15-core-split/files/bignum-v0.15.0.tar.gz"
+checksum: "sha256=d398b5a10ffe679f94234de64f4e17ef0b1dae51033425d1fa3722a797194a03"
 }

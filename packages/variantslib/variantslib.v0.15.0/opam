@@ -11,7 +11,7 @@ build: [
 ]
 depends: [
   "ocaml" {>= "4.08.0"}
-  "base"  {>= "v0.15" & < "v0.16"}
+  "base"  {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
   "dune"  {>= "2.0.0"}
 ]
 synopsis: "Part of Jane Street's Core library"
@@ -21,6 +21,6 @@ OCaml's standard library that was developed by Jane Street, the
 largest industrial user of OCaml.
 "
 url {
-src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/variantslib-v0.15.0.tar.gz"
-checksum: "sha256=a1e4323acc94e150c3db465b8ac321d72df245083af0b9571aa992e331958ba8"
+src: "https://ocaml.janestreet.com/ocaml-core/v0.15-core-split/files/variantslib-v0.15.0.tar.gz"
+checksum: "sha256=94d6c97a1c9ee750c91303333e1bc04b7791c91f312b90ab3943bdde6447a375"
 }

@@ -11,9 +11,9 @@ build: [
 ]
 depends: [
   "ocaml"                  {>= "4.08.0"}
-  "async_rpc_kernel"       {>= "v0.15" & < "v0.16"}
-  "cohttp_async_websocket" {>= "v0.15" & < "v0.16"}
-  "ppx_jane"               {>= "v0.15" & < "v0.16"}
+  "async_rpc_kernel"       {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "cohttp_async_websocket" {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "ppx_jane"               {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
   "cohttp-async"           {= "4.0.0+async"}
   "dune"                   {>= "2.0.0"}
 ]
@@ -30,6 +30,6 @@ is established, and routes to an optionally provided vanilla HTTP handler
 when non-websocket traffic occurs.
 "
 url {
-src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/async_rpc_websocket-v0.15.0.tar.gz"
-checksum: "sha256=332820538f7958f8ac3f69d75e660bb6a788bf934393fe78b017ebc3f30bdac4"
+src: "https://ocaml.janestreet.com/ocaml-core/v0.15-core-split/files/async_rpc_websocket-v0.15.0.tar.gz"
+checksum: "sha256=7c3be03f676324c536c03aaaf3707c92ad8765769307215f80cd828889806fd4"
 }

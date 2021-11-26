@@ -11,14 +11,14 @@ build: [
 ]
 depends: [
   "ocaml"            {>= "4.08.0"}
-  "async_kernel"     {>= "v0.15" & < "v0.16"}
-  "async_rpc_kernel" {>= "v0.15" & < "v0.16"}
-  "async_unix"       {>= "v0.15" & < "v0.16"}
-  "core"             {>= "v0.15" & < "v0.16"}
-  "core_kernel"      {>= "v0.15" & < "v0.16"}
-  "ppx_jane"         {>= "v0.15" & < "v0.16"}
-  "ppx_log"          {>= "v0.15" & < "v0.16"}
-  "textutils"        {>= "v0.15" & < "v0.16"}
+  "async_kernel"     {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "async_rpc_kernel" {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "async_unix"       {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "core"             {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "core_kernel"      {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "ppx_jane"         {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "ppx_log"          {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "textutils"        {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
   "dune"             {>= "2.0.0"}
 ]
 synopsis: "Monadic concurrency library"
@@ -29,6 +29,6 @@ OCaml's standard library that was developed by Jane Street, the
 largest industrial user of OCaml.
 "
 url {
-src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/async-v0.15.0.tar.gz"
-checksum: "sha256=a2e6b134d455a50e481181c2bfd3f18b16dc98833d3a0c916cbc6be2b0d63b8f"
+src: "https://ocaml.janestreet.com/ocaml-core/v0.15-core-split/files/async-v0.15.0.tar.gz"
+checksum: "sha256=9f1d4a728342fce46aef327706a6d7cb12dde1f560156d029498d8a5dd3379c9"
 }

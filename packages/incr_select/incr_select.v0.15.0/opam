@@ -11,9 +11,9 @@ build: [
 ]
 depends: [
   "ocaml"       {>= "4.08.0"}
-  "core_kernel" {>= "v0.15" & < "v0.16"}
-  "incremental" {>= "v0.15" & < "v0.16"}
-  "ppx_jane"    {>= "v0.15" & < "v0.16"}
+  "core_kernel" {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "incremental" {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "ppx_jane"    {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
   "dune"        {>= "2.0.0"}
 ]
 synopsis: "Handling of large set of incremental outputs from a single input"
@@ -26,6 +26,6 @@ number of outputs that are changed, independent of the number of
 outputs that exist.
 "
 url {
-src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/incr_select-v0.15.0.tar.gz"
-checksum: "sha256=d41eb1a50687297c1542c9685bb35abf66fdacabd377c28cce2661935b4c6580"
+src: "https://ocaml.janestreet.com/ocaml-core/v0.15-core-split/files/incr_select-v0.15.0.tar.gz"
+checksum: "sha256=4e1ff9ef3cef08dc00c37f88ab7276198b5cf333f3242ae37204d3052ef9aec0"
 }

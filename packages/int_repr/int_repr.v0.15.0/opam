@@ -11,8 +11,8 @@ build: [
 ]
 depends: [
   "ocaml"    {>= "4.10.0"}
-  "base"     {>= "v0.15" & < "v0.16"}
-  "ppx_jane" {>= "v0.15" & < "v0.16"}
+  "base"     {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "ppx_jane" {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
   "dune"     {>= "2.0.0"}
 ]
 synopsis: "Integers of various widths"
@@ -20,6 +20,6 @@ description: "
 Integers of various widths.
 "
 url {
-src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/int_repr-v0.15.0.tar.gz"
-checksum: "sha256=6fbfb31079e7e28d60d73dafb4659bc98457882c7482d124a6aa2495663160c5"
+src: "https://ocaml.janestreet.com/ocaml-core/v0.15-core-split/files/int_repr-v0.15.0.tar.gz"
+checksum: "sha256=c515dce7131a96b15354c4cc266b158eb9b0de85c8393cdc8443164e0462acba"
 }

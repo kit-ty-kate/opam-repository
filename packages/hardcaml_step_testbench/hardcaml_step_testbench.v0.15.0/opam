@@ -11,10 +11,10 @@ build: [
 ]
 depends: [
   "ocaml"                    {>= "4.08.0"}
-  "base"                     {>= "v0.15" & < "v0.16"}
-  "expect_test_helpers_core" {>= "v0.15" & < "v0.16"}
-  "hardcaml"                 {>= "v0.15" & < "v0.16"}
-  "ppx_jane"                 {>= "v0.15" & < "v0.16"}
+  "base"                     {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "expect_test_helpers_core" {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "hardcaml"                 {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "ppx_jane"                 {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
   "dune"                     {>= "2.0.0"}
 ]
 synopsis: "Hardcaml Testbench Monad"
@@ -25,6 +25,6 @@ Allows multiple control threads to interact with a simulation module, all of whi
 synchronised to the system clock.
 "
 url {
-src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/hardcaml_step_testbench-v0.15.0.tar.gz"
-checksum: "sha256=c2a9657058dacb47f4004fecbd0f1b5c3fac81719914d9ff55b561ef5ded8337"
+src: "https://ocaml.janestreet.com/ocaml-core/v0.15-core-split/files/hardcaml_step_testbench-v0.15.0.tar.gz"
+checksum: "sha256=8d8e15f7fc675e46cc9678723ce3dc99333f12101348aaafb250bf51a2fffc50"
 }

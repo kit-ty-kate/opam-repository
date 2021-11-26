@@ -11,8 +11,8 @@ build: [
 ]
 depends: [
   "ocaml"    {>= "4.08.0"}
-  "base"     {>= "v0.15" & < "v0.16"}
-  "ppx_jane" {>= "v0.15" & < "v0.16"}
+  "base"     {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "ppx_jane" {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
   "dune"     {>= "2.0.0"}
 ]
 synopsis: "A library to use CSS-style selectors to traverse sexp trees"
@@ -21,6 +21,6 @@ This library provides a convenient method to traverse sexp trees
 and return subtrees that match the given program.
 "
 url {
-src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/sexp_select-v0.15.0.tar.gz"
-checksum: "sha256=77bf2f6c57cbb0aa8a81071fa11906351a855f25ad721b719612baa15612439e"
+src: "https://ocaml.janestreet.com/ocaml-core/v0.15-core-split/files/sexp_select-v0.15.0.tar.gz"
+checksum: "sha256=f22f059788c2fcf48def1d61fabb18438617fc348526acc03dead97d24f8aded"
 }

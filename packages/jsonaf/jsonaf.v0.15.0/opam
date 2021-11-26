@@ -11,17 +11,17 @@ build: [
 ]
 depends: [
   "ocaml"    {>= "4.10.0"}
-  "base"     {>= "v0.15" & < "v0.16"}
-  "ppx_jane" {>= "v0.15" & < "v0.16"}
+  "base"     {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "ppx_jane" {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
   "angstrom" {>= "0.14.1"}
   "dune"     {>= "2.0.0"}
   "faraday"
 ]
-synopsis: "A library for parsing, manipulating, and serializing data structured as JSON."
+synopsis: "A library for parsing, manipulating, and serializing data structured as JSON"
 description: "
 A library for parsing, manipulating, and serializing data structured as JSON.
 "
 url {
-src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/jsonaf-v0.15.0.tar.gz"
-checksum: "sha256=067d1ed1d1ecf29085b0fa1082dda0f4c7421e47978328a23d6850e3dfd99e27"
+src: "https://ocaml.janestreet.com/ocaml-core/v0.15-core-split/files/jsonaf-v0.15.0.tar.gz"
+checksum: "sha256=c76e0aa27b79262ae5794d56835fd1a6aec4034f47abdbeb95489242d4dc2fe7"
 }

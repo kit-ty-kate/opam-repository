@@ -11,14 +11,14 @@ build: [
 ]
 depends: [
   "ocaml"           {>= "4.08.0"}
-  "async_js"        {>= "v0.15" & < "v0.16"}
-  "async_kernel"    {>= "v0.15" & < "v0.16"}
-  "core_kernel"     {>= "v0.15" & < "v0.16"}
-  "incr_map"        {>= "v0.15" & < "v0.16"}
-  "incr_select"     {>= "v0.15" & < "v0.16"}
-  "incremental"     {>= "v0.15" & < "v0.16"}
-  "ppx_jane"        {>= "v0.15" & < "v0.16"}
-  "virtual_dom"     {>= "v0.15" & < "v0.16"}
+  "async_js"        {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "async_kernel"    {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "core_kernel"     {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "incr_map"        {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "incr_select"     {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "incremental"     {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "ppx_jane"        {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "virtual_dom"     {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
   "dune"            {>= "2.0.0"}
   "js_of_ocaml"     {>= "3.9.0"}
   "js_of_ocaml-ppx" {>= "3.9.0"}
@@ -46,6 +46,6 @@ If you want a more concrete sense of how this works, look in the
 examples directory.
 "
 url {
-src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/incr_dom-v0.15.0.tar.gz"
-checksum: "sha256=9e61ecd6e312dcf6f639c90d486590683f08590d48eba64ee52f2e30a60eef9a"
+src: "https://ocaml.janestreet.com/ocaml-core/v0.15-core-split/files/incr_dom-v0.15.0.tar.gz"
+checksum: "sha256=d1de2ac8cb87da678206ffeb6a7ff469e6f81db6f0a4191e4cc19f0f3109e2b1"
 }

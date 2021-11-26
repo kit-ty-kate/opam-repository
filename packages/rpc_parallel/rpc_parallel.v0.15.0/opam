@@ -10,13 +10,8 @@ build: [
   ["dune" "build" "-p" name "-j" jobs]
 ]
 depends: [
-  "ocaml"       {>= "4.08.0"}
-  "async"       {>= "v0.15" & < "v0.16"}
-  "core"        {>= "v0.15" & < "v0.16"}
-  "core_kernel" {>= "v0.15" & < "v0.16"}
-  "ppx_jane"    {>= "v0.15" & < "v0.16"}
-  "sexplib"     {>= "v0.15" & < "v0.16"}
-  "dune"        {>= "2.0.0"}
+  "ocaml" {>= "4.08.0"}
+  "dune"  {>= "2.0.0"}
 ]
 synopsis: "Type-safe parallel library built on top of Async_rpc"
 description: "
@@ -26,6 +21,6 @@ Async Rpc.
 
 "
 url {
-src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/rpc_parallel-v0.15.0.tar.gz"
-checksum: "sha256=7166c81d03818c38c8e2cc0f369ca067edbbe09d2d031d6b43f55a996194408a"
+src: "https://ocaml.janestreet.com/ocaml-core/v0.15-core-split/files/rpc_parallel-v0.15.0.tar.gz"
+checksum: "sha256=7dd6341489ac87ff48f809d22a946b7dc389fa8c2efae851ab784f89085323cf"
 }

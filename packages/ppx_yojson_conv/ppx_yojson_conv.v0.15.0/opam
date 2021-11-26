@@ -11,9 +11,9 @@ build: [
 ]
 depends: [
   "ocaml"               {>= "4.08.0"}
-  "base"                {>= "v0.15" & < "v0.16"}
-  "ppx_js_style"        {>= "v0.15" & < "v0.16"}
-  "ppx_yojson_conv_lib" {>= "v0.15" & < "v0.16"}
+  "base"                {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "ppx_js_style"        {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "ppx_yojson_conv_lib" {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
   "dune"                {>= "2.0.0"}
   "ppxlib"              {>= "0.23.0"}
 ]
@@ -22,6 +22,6 @@ description: "
 Part of the Jane Street's PPX rewriters collection.
 "
 url {
-src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/ppx_yojson_conv-v0.15.0.tar.gz"
-checksum: "sha256=59cf238fd75ab43da517ae970c9e82bb108fcb8036f059b13bf5e6987212730a"
+src: "https://ocaml.janestreet.com/ocaml-core/v0.15-core-split/files/ppx_yojson_conv-v0.15.0.tar.gz"
+checksum: "sha256=d40bdb5cb6be4809a0ff0e8aef8d0ea8ae87514c4ca426a0c021870843343a75"
 }

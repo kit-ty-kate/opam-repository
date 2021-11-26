@@ -11,10 +11,10 @@ build: [
 ]
 depends: [
   "ocaml"           {>= "4.08.0"}
-  "incr_dom"        {>= "v0.15" & < "v0.16"}
-  "ppx_jane"        {>= "v0.15" & < "v0.16"}
-  "splay_tree"      {>= "v0.15" & < "v0.16"}
-  "virtual_dom"     {>= "v0.15" & < "v0.16"}
+  "incr_dom"        {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "ppx_jane"        {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "splay_tree"      {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "virtual_dom"     {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
   "dune"            {>= "2.0.0"}
   "js_of_ocaml"     {>= "3.9.0"}
   "js_of_ocaml-ppx" {>= "3.9.0"}
@@ -24,6 +24,6 @@ description: "
 This library provides tools for rendering of tabular data efficiently, in particular supporting _partial rendering_, i.e. only rendering a subset of the widgets that are logically in the view, depending on what is expected to be visible to the end user.
 "
 url {
-src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/incr_dom_partial_render-v0.15.0.tar.gz"
-checksum: "sha256=d705183c0f1facca67de117c65d1d881913fb4e7b77c67552b6eee23fc85ca93"
+src: "https://ocaml.janestreet.com/ocaml-core/v0.15-core-split/files/incr_dom_partial_render-v0.15.0.tar.gz"
+checksum: "sha256=47c963acc590032bd3143348d99aeefc05d2fc39ebf46dbdcb53eeaf2a6fe5ea"
 }

@@ -11,18 +11,18 @@ build: [
 ]
 depends: [
   "ocaml"       {>= "4.08.0"}
-  "async"       {>= "v0.15" & < "v0.16"}
-  "core"        {>= "v0.15" & < "v0.16"}
-  "core_kernel" {>= "v0.15" & < "v0.16"}
-  "csvfields"   {>= "v0.15" & < "v0.16"}
-  "jsonaf"      {>= "v0.15" & < "v0.16"}
-  "ppx_jane"    {>= "v0.15" & < "v0.16"}
-  "re2"         {>= "v0.15" & < "v0.16"}
-  "sexp_diff"   {>= "v0.15" & < "v0.16"}
-  "sexp_macro"  {>= "v0.15" & < "v0.16"}
-  "sexp_pretty" {>= "v0.15" & < "v0.16"}
-  "sexp_select" {>= "v0.15" & < "v0.16"}
-  "sexplib"     {>= "v0.15" & < "v0.16"}
+  "async"       {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "core"        {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "core_kernel" {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "csvfields"   {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "jsonaf"      {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "ppx_jane"    {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "re2"         {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "sexp_diff"   {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "sexp_macro"  {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "sexp_pretty" {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "sexp_select" {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "sexplib"     {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
   "dune"        {>= "2.0.0"}
 ]
 synopsis: "S-expression swiss knife"
@@ -32,6 +32,6 @@ It contains subcommands for pretty printing, querying, and modifying
 sexps, as well as some conversions to and from other formats.
 "
 url {
-src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/sexp-v0.15.0.tar.gz"
-checksum: "sha256=bce701e36e1828aee187e816c0a4167955b2438302f39f31ba48bb9962558b2f"
+src: "https://ocaml.janestreet.com/ocaml-core/v0.15-core-split/files/sexp-v0.15.0.tar.gz"
+checksum: "sha256=6174dba6e6641861b8fead1b7c12a99c0e310dbe40c479c42e2a936a042fe303"
 }

@@ -11,13 +11,13 @@ build: [
 ]
 depends: [
   "ocaml"             {>= "4.08.0"}
-  "base"              {>= "v0.15" & < "v0.16"}
-  "ppx_compare"       {>= "v0.15" & < "v0.16"}
-  "ppx_custom_printf" {>= "v0.15" & < "v0.16"}
-  "ppx_fields_conv"   {>= "v0.15" & < "v0.16"}
-  "ppx_optcomp"       {>= "v0.15" & < "v0.16"}
-  "ppx_sexp_conv"     {>= "v0.15" & < "v0.16"}
-  "ppx_variants_conv" {>= "v0.15" & < "v0.16"}
+  "base"              {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "ppx_compare"       {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "ppx_custom_printf" {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "ppx_fields_conv"   {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "ppx_optcomp"       {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "ppx_sexp_conv"     {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "ppx_variants_conv" {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
   "dune"              {>= "2.0.0"}
 ]
 depopts: [
@@ -31,6 +31,6 @@ OCaml's standard library that was developed by Jane Street, the
 largest industrial user of OCaml.
 "
 url {
-src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/bin_prot-v0.15.0.tar.gz"
-checksum: "sha256=3729385d216a105d0f95060e9fdd929ef49944a4a7d3cb41c7085af43c468478"
+src: "https://ocaml.janestreet.com/ocaml-core/v0.15-core-split/files/bin_prot-v0.15.0.tar.gz"
+checksum: "sha256=1ff1bd6213e9ca301da17cc5e0be533aaa7b8781effb78443352c3b57113f223"
 }

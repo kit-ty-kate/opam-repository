@@ -11,9 +11,9 @@ build: [
 ]
 depends: [
   "ocaml"       {>= "4.08.0"}
-  "async"       {>= "v0.15" & < "v0.16"}
-  "core_kernel" {>= "v0.15" & < "v0.16"}
-  "ppx_jane"    {>= "v0.15" & < "v0.16"}
+  "async"       {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "core_kernel" {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "ppx_jane"    {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
   "cryptokit"
   "dune"        {>= "2.0.0"}
 ]
@@ -23,6 +23,6 @@ This library implements both the server and client side of
                 the websocket protocol.
 "
 url {
-src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/async_websocket-v0.15.0.tar.gz"
-checksum: "sha256=ee2284dc04d2d21cd5bbc523df1d5b5ccd2e2030c96f11c7b3f154a8057428e4"
+src: "https://ocaml.janestreet.com/ocaml-core/v0.15-core-split/files/async_websocket-v0.15.0.tar.gz"
+checksum: "sha256=9b5e2d2c67ce442a3aa20bdd76121276912e06f6ed3106f8ece47f276e1be757"
 }

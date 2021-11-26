@@ -11,9 +11,9 @@ build: [
 ]
 depends: [
   "ocaml"    {>= "4.08.0"}
-  "base"     {>= "v0.15" & < "v0.16"}
-  "ppx_jane" {>= "v0.15" & < "v0.16"}
-  "stdio"    {>= "v0.15" & < "v0.16"}
+  "base"     {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "ppx_jane" {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "stdio"    {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
   "dune"     {>= "2.0.0"}
 ]
 synopsis: "Topological sort algorithm"
@@ -22,6 +22,6 @@ Topological_sort is a single-module library that implements a simple
 topological-sort algorithm.
 "
 url {
-src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/topological_sort-v0.15.0.tar.gz"
-checksum: "sha256=a07fcf5ee58a3be1cecb3a01e5211f012fd9360f5e9ccb5b933ab83dd960b86b"
+src: "https://ocaml.janestreet.com/ocaml-core/v0.15-core-split/files/topological_sort-v0.15.0.tar.gz"
+checksum: "sha256=cd9e0d86ecab3a0748c6eaad06cb3ec0ecf6dd504e31bde99e49da80b0e4c49c"
 }

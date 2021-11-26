@@ -11,9 +11,9 @@ build: [
 ]
 depends: [
   "ocaml"       {>= "4.08.0"}
-  "core_kernel" {>= "v0.15" & < "v0.16"}
-  "ppx_here"    {>= "v0.15" & < "v0.16"}
-  "ppx_jane"    {>= "v0.15" & < "v0.16"}
+  "core_kernel" {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "ppx_here"    {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "ppx_jane"    {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
   "dune"        {>= "2.0.0"}
   "ocamlfind"   {>= "1.7.2"}
 ]
@@ -22,6 +22,6 @@ description: "
 Module for setting up dependencies (like printers and liblinks) for toplevels.
 "
 url {
-src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/toplevel_backend-v0.15.0.tar.gz"
-checksum: "sha256=cfd23c4e991699fee1c63e8bd8d80183893e334bee32236666f658911e56f8d4"
+src: "https://ocaml.janestreet.com/ocaml-core/v0.15-core-split/files/toplevel_backend-v0.15.0.tar.gz"
+checksum: "sha256=7cdaed6e87ee167fdb974b848c24a699a40089eb4e79a7915b0ea6314847d21d"
 }

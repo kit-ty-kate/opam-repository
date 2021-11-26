@@ -11,9 +11,9 @@ build: [
 ]
 depends: [
   "ocaml"    {>= "4.08.0"}
-  "async"    {>= "v0.15" & < "v0.16"}
-  "ppx_jane" {>= "v0.15" & < "v0.16"}
-  "sexplib"  {>= "v0.15" & < "v0.16"}
+  "async"    {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "ppx_jane" {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "sexplib"  {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
   "dune"     {>= "2.0.0"}
 ]
 synopsis: "Sexp macros"
@@ -22,6 +22,6 @@ Sexp macros allow the user to define and use constants and simple functions in s
 include one sexp file in another.
 "
 url {
-src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/sexp_macro-v0.15.0.tar.gz"
-checksum: "sha256=b511da8acbd051d6843606238ad5d6053fc71cf35eaff2dfbf55f7c5c384874a"
+src: "https://ocaml.janestreet.com/ocaml-core/v0.15-core-split/files/sexp_macro-v0.15.0.tar.gz"
+checksum: "sha256=4e138a13a190c3aa4d4dec31ea2eee51c957338d3871a81eea7b4f162b6340eb"
 }

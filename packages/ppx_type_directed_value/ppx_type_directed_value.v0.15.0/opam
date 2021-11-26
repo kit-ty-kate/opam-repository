@@ -11,8 +11,8 @@ build: [
 ]
 depends: [
   "ocaml"    {>= "4.08.0"}
-  "base"     {>= "v0.15" & < "v0.16"}
-  "ppx_jane" {>= "v0.15" & < "v0.16"}
+  "base"     {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "ppx_jane" {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
   "dune"     {>= "2.0.0"}
   "ppxlib"   {>= "0.23.0"}
 ]
@@ -34,6 +34,6 @@ This PPX currently supports deriving type-directed values for records, ordinary
 on record and variant fields.
 "
 url {
-src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/ppx_type_directed_value-v0.15.0.tar.gz"
-checksum: "sha256=b239d776b1e6fa0c948da5e8565a213fc5b84c0aac8d2b4bda52f5a3108bd07d"
+src: "https://ocaml.janestreet.com/ocaml-core/v0.15-core-split/files/ppx_type_directed_value-v0.15.0.tar.gz"
+checksum: "sha256=04a3d570c3204614e6a5beb115298c36ebb1e0cd63f9cee21e19e5a2592d23b3"
 }

@@ -11,11 +11,11 @@ build: [
 ]
 depends: [
   "ocaml"            {>= "4.08.0"}
-  "abstract_algebra" {>= "v0.15" & < "v0.16"}
-  "core_kernel"      {>= "v0.15" & < "v0.16"}
-  "incremental"      {>= "v0.15" & < "v0.16"}
-  "ppx_jane"         {>= "v0.15" & < "v0.16"}
-  "ppx_pattern_bind" {>= "v0.15" & < "v0.16"}
+  "abstract_algebra" {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "core_kernel"      {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "incremental"      {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "ppx_jane"         {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "ppx_pattern_bind" {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
   "dune"             {>= "2.0.0"}
 ]
 synopsis: "Helpers for incremental operations on map like data structures"
@@ -26,6 +26,6 @@ along with the ability to efficiently diff map data structures using
 =Map.symmetric_diff=.
 "
 url {
-src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/incr_map-v0.15.0.tar.gz"
-checksum: "sha256=15d19084d2aba6f57390f42a9da8e0efc0668e2798652ecf05ee28255765d421"
+src: "https://ocaml.janestreet.com/ocaml-core/v0.15-core-split/files/incr_map-v0.15.0.tar.gz"
+checksum: "sha256=25ff4835c8c4dd9c19ff40cf2ef5753bbbf486cb1ccbc33df02a6688996ee381"
 }

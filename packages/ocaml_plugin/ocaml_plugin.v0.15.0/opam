@@ -11,18 +11,18 @@ build: [
 ]
 depends: [
   "ocaml"       {>= "4.08.0"}
-  "async"       {>= "v0.15" & < "v0.16"}
-  "core"        {>= "v0.15" & < "v0.16"}
-  "core_kernel" {>= "v0.15" & < "v0.16"}
-  "ppx_jane"    {>= "v0.15" & < "v0.16"}
-  "ppx_optcomp" {>= "v0.15" & < "v0.16"}
-  "sexplib"     {>= "v0.15" & < "v0.16"}
+  "async"       {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "core"        {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "core_kernel" {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "ppx_jane"    {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "ppx_optcomp" {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "sexplib"     {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
   "dune"        {>= "2.0.0"}
 ]
 synopsis: "Automatically build and dynlink OCaml source files"
 description: "
 "
 url {
-src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/ocaml_plugin-v0.15.0.tar.gz"
-checksum: "sha256=302934af525b4064b5378999853e993da8956028a5957ea50653d1a44c643c91"
+src: "https://ocaml.janestreet.com/ocaml-core/v0.15-core-split/files/ocaml_plugin-v0.15.0.tar.gz"
+checksum: "sha256=5d1aad226becb0f8eccdff49a49f68286772a0f3a4b43986ab12ee1cabd3329c"
 }

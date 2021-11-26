@@ -11,8 +11,8 @@ build: [
 ]
 depends: [
   "ocaml"    {>= "4.09.0"}
-  "accessor" {>= "v0.15" & < "v0.16"}
-  "base"     {>= "v0.15" & < "v0.16"}
+  "accessor" {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "base"     {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
   "dune"     {>= "2.0.0"}
   "ppxlib"   {>= "0.23.0"}
 ]
@@ -21,6 +21,6 @@ description: "
 Automatically generate accessors given a type definition.
 "
 url {
-src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/ppx_accessor-v0.15.0.tar.gz"
-checksum: "sha256=d80900b4af12f1116c8b4052a4a546831522eac622ebcc9b774ecb8aa46dae39"
+src: "https://ocaml.janestreet.com/ocaml-core/v0.15-core-split/files/ppx_accessor-v0.15.0.tar.gz"
+checksum: "sha256=2728843387730e26d2503a9639dd9bfe492a7cfec3ff9d14d9e6b62f82c77eba"
 }

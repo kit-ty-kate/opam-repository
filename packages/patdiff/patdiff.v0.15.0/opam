@@ -11,11 +11,11 @@ build: [
 ]
 depends: [
   "ocaml"                    {>= "4.08.0"}
-  "core"                     {>= "v0.15" & < "v0.16"}
-  "core_kernel"              {>= "v0.15" & < "v0.16"}
-  "expect_test_helpers_core" {>= "v0.15" & < "v0.16"}
-  "patience_diff"            {>= "v0.15" & < "v0.16"}
-  "ppx_jane"                 {>= "v0.15" & < "v0.16"}
+  "core"                     {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "core_kernel"              {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "expect_test_helpers_core" {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "patience_diff"            {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "ppx_jane"                 {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
   "dune"                     {>= "2.0.0"}
   "pcre"
   "re"                       {>= "1.8.0"}
@@ -24,6 +24,6 @@ synopsis: "File Diff using the Patience Diff algorithm"
 description: "
 "
 url {
-src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/patdiff-v0.15.0.tar.gz"
-checksum: "sha256=eccfdcde0c25a06176139508af28c52b300f220db23d478cb53f37c6b74effc9"
+src: "https://ocaml.janestreet.com/ocaml-core/v0.15-core-split/files/patdiff-v0.15.0.tar.gz"
+checksum: "sha256=ed184c559cf317386ec1d1988e071eacd366c4188d8d66a9ce9bc5a9ad04dd23"
 }

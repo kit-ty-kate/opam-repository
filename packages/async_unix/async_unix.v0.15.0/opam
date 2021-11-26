@@ -11,10 +11,10 @@ build: [
 ]
 depends: [
   "ocaml"        {>= "4.08.0"}
-  "async_kernel" {>= "v0.15" & < "v0.16"}
-  "core"         {>= "v0.15" & < "v0.16"}
-  "core_kernel"  {>= "v0.15" & < "v0.16"}
-  "ppx_jane"     {>= "v0.15" & < "v0.16"}
+  "async_kernel" {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "core"         {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "core_kernel"  {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "ppx_jane"     {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
   "dune"         {>= "2.0.0"}
 ]
 synopsis: "Monadic concurrency library"
@@ -25,6 +25,6 @@ OCaml's standard library that was developed by Jane Street, the
 largest industrial user of OCaml.
 "
 url {
-src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/async_unix-v0.15.0.tar.gz"
-checksum: "sha256=bbf38523e1103b33fa10f6ae588eed32bf2ab61a643b2177054b9c99b8731d79"
+src: "https://ocaml.janestreet.com/ocaml-core/v0.15-core-split/files/async_unix-v0.15.0.tar.gz"
+checksum: "sha256=b93998ff77335e839fe8093968b9fa960c5b3e03be158feef43d211aafffc444"
 }

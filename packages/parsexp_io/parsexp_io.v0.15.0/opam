@@ -11,10 +11,10 @@ build: [
 ]
 depends: [
   "ocaml"        {>= "4.08.0"}
-  "base"         {>= "v0.15" & < "v0.16"}
-  "parsexp"      {>= "v0.15" & < "v0.16"}
-  "ppx_js_style" {>= "v0.15" & < "v0.16"}
-  "stdio"        {>= "v0.15" & < "v0.16"}
+  "base"         {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "parsexp"      {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "ppx_js_style" {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "stdio"        {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
   "dune"         {>= "2.0.0"}
 ]
 synopsis: "S-expression parsing library (IO functions)"
@@ -22,6 +22,6 @@ description: "
 Parsexp_io provides functions for loading s-expressions from files.
 "
 url {
-src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/parsexp_io-v0.15.0.tar.gz"
-checksum: "sha256=e88870ede84f533589a873025b2e5e3ae80a2d52c2341522d9f85c4271d8af3e"
+src: "https://ocaml.janestreet.com/ocaml-core/v0.15-core-split/files/parsexp_io-v0.15.0.tar.gz"
+checksum: "sha256=8d26536d0e38cfec6518069439513360b275e4885544ead6fb6e2249aeac4305"
 }

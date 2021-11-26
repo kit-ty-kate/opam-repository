@@ -11,8 +11,8 @@ build: [
 ]
 depends: [
   "ocaml"       {>= "4.08.0"}
-  "core_kernel" {>= "v0.15" & < "v0.16"}
-  "ppx_jane"    {>= "v0.15" & < "v0.16"}
+  "core_kernel" {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "ppx_jane"    {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
   "conf-zstd"
   "ctypes"      {>= "0.16.0" & < "0.18.0"}
   "dune"        {>= "2.0.0"}
@@ -22,6 +22,6 @@ description: "
 Zstandard is a real-time compression algorithm which provides high compression ratios.
 "
 url {
-src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/zstandard-v0.15.0.tar.gz"
-checksum: "sha256=0ddbfc55d98b6b7b7b3ed18b05614b207c24f85b99a857cdb8260d4748d18d44"
+src: "https://ocaml.janestreet.com/ocaml-core/v0.15-core-split/files/zstandard-v0.15.0.tar.gz"
+checksum: "sha256=1c91f3b40505f4be9c1e4f5ecffd8b2a5e442ec106e1036d8a4e0c8f3c020a69"
 }

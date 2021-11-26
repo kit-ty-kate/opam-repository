@@ -10,13 +10,13 @@ build: [
   ["dune" "build" "-p" name "-j" jobs]
 ]
 depends: [
-  "ocaml"            {>= "4.08.0"}
-  "base"             {>= "v0.15" & < "v0.16"}
-  "bin_prot"         {>= "v0.15" & < "v0.16"}
-  "ppx_jane"         {>= "v0.15" & < "v0.16"}
-  "ppx_sexp_conv"    {>= "v0.15" & < "v0.16"}
-  "stdio"            {>= "v0.15" & < "v0.16"}
-  "topological_sort" {>= "v0.15" & < "v0.16"}
+  "ocaml"            {>= "4.11.0"}
+  "base"             {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "bin_prot"         {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "ppx_jane"         {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "ppx_sexp_conv"    {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "stdio"            {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "topological_sort" {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
   "dune"             {>= "2.0.0"}
   "ppxlib"           {>= "0.23.0"}
   "zarith"           {>= "1.11"}
@@ -30,6 +30,6 @@ be simulated within Hardcaml.  Designs are converted to either Verilog or
 VHDL to interact with standard back end tooling.
 "
 url {
-src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/hardcaml-v0.15.0.tar.gz"
-checksum: "sha256=bb10bb39a70bbd6383eb075046440a62781aa2c3944514e562e1d4ad3ce26617"
+src: "https://ocaml.janestreet.com/ocaml-core/v0.15-core-split/files/hardcaml-v0.15.0.tar.gz"
+checksum: "sha256=cdf7723c13b334774e31c3ac88ec0b34eca44b57b995cb9e967693302bd61dec"
 }

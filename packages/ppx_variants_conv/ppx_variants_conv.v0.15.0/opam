@@ -11,8 +11,8 @@ build: [
 ]
 depends: [
   "ocaml"       {>= "4.08.0"}
-  "base"        {>= "v0.15" & < "v0.16"}
-  "variantslib" {>= "v0.15" & < "v0.16"}
+  "base"        {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "variantslib" {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
   "dune"        {>= "2.0.0"}
   "ppxlib"      {>= "0.23.0"}
 ]
@@ -21,6 +21,6 @@ description: "
 Part of the Jane Street's PPX rewriters collection.
 "
 url {
-src: "https://ocaml.janestreet.com/ocaml-core/v0.15/files/ppx_variants_conv-v0.15.0.tar.gz"
-checksum: "sha256=b8ee592828fa07f5ce1c5b776b273dc6a060cb528bb75871e2b999640a65a0f8"
+src: "https://ocaml.janestreet.com/ocaml-core/v0.15-core-split/files/ppx_variants_conv-v0.15.0.tar.gz"
+checksum: "sha256=a9527fbbaa031ae680508a23fa6fb785611eb1b2f20011852bebd4d4e18af02b"
 }
