@@ -11,11 +11,11 @@ build: [
 ]
 depends: [
   "ocaml"            {>= "4.08.0"}
-  "base"             {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
-  "ppx_assert"       {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
-  "ppx_bench"        {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
-  "ppx_inline_test"  {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
-  "ppx_sexp_message" {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "base"             {>= "v0.15" & < "v0.16"}
+  "ppx_assert"       {>= "v0.15" & < "v0.16"}
+  "ppx_bench"        {>= "v0.15" & < "v0.16"}
+  "ppx_inline_test"  {>= "v0.15" & < "v0.16"}
+  "ppx_sexp_message" {>= "v0.15" & < "v0.16"}
   "dune"             {>= "2.0.0"}
 ]
 synopsis: "PRNG that can be split into independent streams"

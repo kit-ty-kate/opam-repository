@@ -11,7 +11,7 @@ build: [
 ]
 depends: [
   "ocaml"             {>= "4.08.0"}
-  "sexplib0"          {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "sexplib0"          {>= "v0.15" & < "v0.16"}
   "dune"              {>= "2.0.0"}
   "dune-configurator"
 ]

@@ -11,15 +11,15 @@ build: [
 ]
 depends: [
   "ocaml"                   {>= "4.08.0"}
-  "async"                   {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
-  "base"                    {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
-  "core_kernel"             {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
-  "env_config"              {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
-  "hex_encode"              {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
-  "ppx_jane"                {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
-  "protocol_version_header" {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
-  "stdio"                   {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
-  "username_kernel"         {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "async"                   {>= "v0.15" & < "v0.16"}
+  "base"                    {>= "v0.15" & < "v0.16"}
+  "core_kernel"             {>= "v0.15" & < "v0.16"}
+  "env_config"              {>= "v0.15" & < "v0.16"}
+  "hex_encode"              {>= "v0.15" & < "v0.16"}
+  "ppx_jane"                {>= "v0.15" & < "v0.16"}
+  "protocol_version_header" {>= "v0.15" & < "v0.16"}
+  "stdio"                   {>= "v0.15" & < "v0.16"}
+  "username_kernel"         {>= "v0.15" & < "v0.16"}
   "dune"                    {>= "2.0.0"}
   "dune-configurator"
 ]

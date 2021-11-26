@@ -11,8 +11,8 @@ build: [
 ]
 depends: [
   "ocaml"       {>= "4.08.0"}
-  "core_kernel" {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
-  "ppx_jane"    {>= "v0.15" & < "v0.16" & >= "v0.15" & < "v0.16"}
+  "core_kernel" {>= "v0.15" & < "v0.16"}
+  "ppx_jane"    {>= "v0.15" & < "v0.16"}
   "dune"        {>= "2.0.0"}
 ]
 synopsis: "Code for computing the diff of two sexps"
