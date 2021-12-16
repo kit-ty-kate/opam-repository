@@ -1,0 +1,27 @@
+opam-version: "2.0"
+maintainer: "Kate <kit.ty.kate@disroot.org>"
+authors: "The GNU Make developers"
+homepage: "https://www.gnu.org/software/make/"
+bug-reports: "https://github.com/ocaml/opam-repository/issues"
+license: "GPL-3.0-or-later"
+build: [make "--version"]
+depexts: [
+  ["make"] {os-family = "alpine"}
+  ["make"] {os-family = "arch"}
+  ["make"] {os-family = "debian"}
+  ["make"] {os-family = "ubuntu"}
+  ["make"] {os-distribution = "centos"}
+  ["make"] {os-distribution = "fedora"}
+  ["make"] {os-distribution = "ol"}
+  ["make"] {os-family = "suse"}
+  ["gnumake"] {os-distribution = "nixos"}
+  ["sys-devel/make"] {os-family = "gentoo"}
+  ["gmake"] {os = "freebsd"}
+  ["gmake"] {os = "openbsd"}
+  ["gmake"] {os = "netbsd"}
+  # macOS ships with it by default, no need for homebrew or macports
+]
+synopsis: "Virtual package relying on GNU Make"
+description:
+  "This package can only install if GNU Make is installed on the system."
+flags: conf

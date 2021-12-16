@@ -13,6 +13,7 @@ depends: [
   "base-threads" {post}
   "ocaml-options-vanilla" {post}
   "ocaml-beta" {opam-version < "2.1"}
+  "conf-gmake" {build}
 ]
 conflict-class: "ocaml-core-compiler"
 flags: [ compiler avoid-version hidden-version ]

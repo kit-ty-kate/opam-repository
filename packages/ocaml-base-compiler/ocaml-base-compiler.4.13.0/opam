@@ -12,6 +12,7 @@ depends: [
   "base-bigarray" {post}
   "base-threads" {post}
   "ocaml-options-vanilla" {post}
+  "conf-gmake" {build}
 ]
 conflict-class: "ocaml-core-compiler"
 flags: compiler
