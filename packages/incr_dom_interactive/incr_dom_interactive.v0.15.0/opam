@@ -29,6 +29,6 @@ description: "
 This library allows your program to receive input from the user using DOM elements such as checkboxes, text fields, and buttons. It allows you to inspect the user's input and decide afterwards what the rest of the [Interactive.t] should be. This library is intended to be used in conjunction with Incr_dom.
 "
 url {
-src: "https://ocaml.janestreet.com/ocaml-core/v0.15-core-split/files/incr_dom_interactive-v0.15.0.tar.gz"
-checksum: "sha256=bca1af11b1c8a2e79e5b65206fb1646ebed4338bc10f3b2803ee8ae741652485"
+src: "https://github.com/janestreet/incr_dom_interactive/archive/c96cafb7da4f05fc1eb661aea924d25793e29ace.tar.gz"
+checksum: "sha256=0f083be07f9e25871c17b10d6d68a4cb043c79e162bd7c9bc93024c1264d341f"
 }

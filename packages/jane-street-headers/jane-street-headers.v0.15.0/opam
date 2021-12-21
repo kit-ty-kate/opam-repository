@@ -18,6 +18,6 @@ description: "
 C header files shared between the various Jane Street packages
 "
 url {
-src: "https://ocaml.janestreet.com/ocaml-core/v0.15-core-split/files/jane-street-headers-v0.15.0.tar.gz"
-checksum: "sha256=7ad5d5c2652bcab7207e3de6052e1c0ea05021f98c76dbd01b3db286b594785e"
+src: "https://github.com/janestreet/jane-street-headers/archive/0404ab546d7d53f6cffa1738b66243ff54ddc3de.tar.gz"
+checksum: "sha256=91958482556efc22e48b230cf03c54a1ade0316b89889549aeebf36541605ec5"
 }

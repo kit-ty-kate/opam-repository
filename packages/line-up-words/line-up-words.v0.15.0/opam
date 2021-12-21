@@ -12,7 +12,7 @@ build: [
 depends: [
   "ocaml"         {>= "4.08.0"}
   "core"          {>= "v0.15" & < "v0.16"}
-  "core_kernel"   {>= "v0.15" & < "v0.16"}
+  "core_unix"     {>= "v0.15" & < "v0.16"}
   "patience_diff" {>= "v0.15" & < "v0.16"}
   "ppx_jane"      {>= "v0.15" & < "v0.16"}
   "re2"           {>= "v0.15" & < "v0.16"}
@@ -27,6 +27,6 @@ in a sequence of lines in an intelligent way.
 It comes as a binary and an emacs mode.
 "
 url {
-src: "https://ocaml.janestreet.com/ocaml-core/v0.15-core-split/files/line-up-words-v0.15.0.tar.gz"
-checksum: "sha256=51bc801af8bd63e8310e1b2bae0b77b9b9c32baac25b1b57858373daa518d4bf"
+src: "https://github.com/janestreet/line-up-words/archive/5ed27cd07bf288cddf02c2f6afb1a7b7d71ce6ee.tar.gz"
+checksum: "sha256=5cdef9c2538d0cb11ba7327e0fc028cc58e65a55f362351cbe136601939279d3"
 }

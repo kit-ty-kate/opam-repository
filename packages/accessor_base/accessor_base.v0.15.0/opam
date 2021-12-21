@@ -23,6 +23,6 @@ description: "
 This library provides accessors for numerous types in Base.
 "
 url {
-src: "https://ocaml.janestreet.com/ocaml-core/v0.15-core-split/files/accessor_base-v0.15.0.tar.gz"
-checksum: "sha256=265f6503740f7a705e3996139ee81fae1789e18761a7cd73d9093b5c28317752"
+src: "https://github.com/janestreet/accessor_base/archive/f8c12af17599b273e4566cb8a85eafd617f53e06.tar.gz"
+checksum: "sha256=9248a54d1f0bb682d0636e6221c4ab3187d35e377176f0115e1bc437c743b682"
 }

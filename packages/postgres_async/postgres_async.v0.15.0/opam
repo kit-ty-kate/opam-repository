@@ -12,6 +12,7 @@ build: [
 depends: [
   "ocaml"       {>= "4.08.0"}
   "async"       {>= "v0.15" & < "v0.16"}
+  "core"        {>= "v0.15" & < "v0.16"}
   "core_kernel" {>= "v0.15" & < "v0.16"}
   "ppx_jane"    {>= "v0.15" & < "v0.16"}
   "dune"        {>= "2.0.0"}
@@ -25,6 +26,6 @@ and COPY IN mode. The interface presented is minimal to keep the library simple
 for now, though in the future a layer on top may add convenience functions.
 "
 url {
-src: "https://ocaml.janestreet.com/ocaml-core/v0.15-core-split/files/postgres_async-v0.15.0.tar.gz"
-checksum: "sha256=29383306737a763eb006ea824264e3b8afb08f927222b70a0df62cc6b951ae96"
+src: "https://github.com/janestreet/postgres_async/archive/ccbf755ed9eefc9171c5afd10f13ffca70526ee4.tar.gz"
+checksum: "sha256=a28f9d7df21a6cd6c2f62ea39f7c40e8ba1044aa57d1e3af2944ef54889e08fe"
 }

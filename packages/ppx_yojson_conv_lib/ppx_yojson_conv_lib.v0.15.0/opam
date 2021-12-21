@@ -19,6 +19,6 @@ description: "
 Part of the Jane Street's PPX rewriters collection.
 "
 url {
-src: "https://ocaml.janestreet.com/ocaml-core/v0.15-core-split/files/ppx_yojson_conv_lib-v0.15.0.tar.gz"
-checksum: "sha256=c7028d77759ba900d0a4a10e51327e4d8b58f29b2c53a32bf4d9302291e9fe80"
+src: "https://github.com/janestreet/ppx_yojson_conv_lib/archive/596181a9d7b7ad2fb85c403b07e2927899dbcc99.tar.gz"
+checksum: "sha256=9f1f45dd51363e60416831c7a024150794b0fde75fedc20d1d0ab2458092fca1"
 }

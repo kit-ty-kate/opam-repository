@@ -21,6 +21,6 @@ description: "
 String type based on [Bigarray], for use in I/O and C-bindings.
 "
 url {
-src: "https://ocaml.janestreet.com/ocaml-core/v0.15-core-split/files/base_bigstring-v0.15.0.tar.gz"
-checksum: "sha256=d5e7d66296597fd49febcc0f2051c41151a9a165e94d993e9843c167586570b1"
+src: "https://github.com/janestreet/base_bigstring/archive/5ef194fa75ff1325e4105c9a54706e10c8b1588b.tar.gz"
+checksum: "sha256=9f2b24f115a71fe8465f098ce1a3b2086bed68e3c9e75e57705f396861c296ef"
 }

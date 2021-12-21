@@ -18,6 +18,6 @@ synopsis: "Typerep is a library for runtime types"
 description: "
 "
 url {
-src: "https://ocaml.janestreet.com/ocaml-core/v0.15-core-split/files/typerep-v0.15.0.tar.gz"
-checksum: "sha256=2309cedf9c590affb2298a14e5a0eb0a30983c013187b626b4d8a178953c8cf9"
+src: "https://github.com/janestreet/typerep/archive/07ceba6549e42174a4b0117ca137eda49fcfe1d1.tar.gz"
+checksum: "sha256=fb4436741ad05a7a9fec6fe8240d40377eff94bff8afdd5899596b916baa6392"
 }

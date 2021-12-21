@@ -10,7 +10,7 @@ build: [
   ["dune" "build" "-p" name "-j" jobs]
 ]
 depends: [
-  "ocaml"      {>= "4.11.0"}
+  "ocaml"      {>= "4.11.0" & < "4.13.0"}
   "base"       {>= "v0.15" & < "v0.16"}
   "ppx_expect" {>= "v0.15" & < "v0.16"}
   "ppx_let"    {>= "v0.15" & < "v0.16"}
@@ -25,6 +25,6 @@ description: "
 This library helps exposing ocaml functions to python. The python runtime interaction is handled by pyml.
 "
 url {
-src: "https://ocaml.janestreet.com/ocaml-core/v0.15-core-split/files/pythonlib-v0.15.0.tar.gz"
-checksum: "sha256=e60573a96aee36f2e712ae4675665a5040434054d896c2f455351b76a5a40df6"
+src: "https://github.com/janestreet/pythonlib/archive/7700cc2331dc3d20459ee17f487dfdbf128f241d.tar.gz"
+checksum: "sha256=25bc04286911d23c991605365165c1d062cef2df50a75cc0f6ef05df0a5aa8fc"
 }

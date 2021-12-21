@@ -14,6 +14,7 @@ depends: [
   "async"       {>= "v0.15" & < "v0.16"}
   "core"        {>= "v0.15" & < "v0.16"}
   "core_kernel" {>= "v0.15" & < "v0.16"}
+  "core_unix"   {>= "v0.15" & < "v0.16"}
   "ppx_jane"    {>= "v0.15" & < "v0.16"}
   "re2"         {>= "v0.15" & < "v0.16"}
   "angstrom"    {>= "0.14.1"}
@@ -26,6 +27,6 @@ synopsis: "E-mail message parser"
 description: "
 "
 url {
-src: "https://ocaml.janestreet.com/ocaml-core/v0.15-core-split/files/email_message-v0.15.0.tar.gz"
-checksum: "sha256=e475e19784da20e90c07bb8c3a02d28f60ecdb66e3534565d12d1a35804869a0"
+src: "https://github.com/janestreet/email_message/archive/c2f2be906756be958e0829ee65e70895e3be42cd.tar.gz"
+checksum: "sha256=b14e6dd01c8fed06f771ed3690a66330fa9372276f2cb407adb9d7328fa92cce"
 }

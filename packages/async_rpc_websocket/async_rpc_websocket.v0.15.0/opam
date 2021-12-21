@@ -14,7 +14,7 @@ depends: [
   "async_rpc_kernel"       {>= "v0.15" & < "v0.16"}
   "cohttp_async_websocket" {>= "v0.15" & < "v0.16"}
   "ppx_jane"               {>= "v0.15" & < "v0.16"}
-  "cohttp-async"           {= "4.0.0+async"}
+  "cohttp-async"           {>= "2.5.6"}
   "dune"                   {>= "2.0.0"}
 ]
 synopsis: "Library to serve and dispatch Async RPCs over websockets"
@@ -30,6 +30,6 @@ is established, and routes to an optionally provided vanilla HTTP handler
 when non-websocket traffic occurs.
 "
 url {
-src: "https://ocaml.janestreet.com/ocaml-core/v0.15-core-split/files/async_rpc_websocket-v0.15.0.tar.gz"
-checksum: "sha256=7c3be03f676324c536c03aaaf3707c92ad8765769307215f80cd828889806fd4"
+src: "https://github.com/janestreet/async_rpc_websocket/archive/6d9e1f4704c7d5f2c2e43f92e8c38b7ad5eb07ee.tar.gz"
+checksum: "sha256=d92e772759fb6f4d871e92ceff801bf4d5a3ab576f5c3bb16deea26c1b15d9ee"
 }

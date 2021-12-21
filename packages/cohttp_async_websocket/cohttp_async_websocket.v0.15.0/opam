@@ -14,11 +14,11 @@ depends: [
   "async"           {>= "v0.15" & < "v0.16"}
   "async_ssl"       {>= "v0.15" & < "v0.16"}
   "async_websocket" {>= "v0.15" & < "v0.16"}
-  "core_kernel"     {>= "v0.15" & < "v0.16"}
+  "core"            {>= "v0.15" & < "v0.16"}
   "ppx_jane"        {>= "v0.15" & < "v0.16"}
   "base64"          {>= "3.4.0"}
-  "cohttp"          {>= "2.5.4"}
-  "cohttp-async"    {= "4.0.0+async"}
+  "cohttp"          {>= "2.5.6"}
+  "cohttp-async"    {>= "2.5.6"}
   "dune"            {>= "2.0.0"}
   "uri-sexp"        {>= "3.0.0"}
 ]
@@ -35,6 +35,6 @@ hardened with many applications using it for several year, in
 conjunction with async-js and google-chrome.
 "
 url {
-src: "https://ocaml.janestreet.com/ocaml-core/v0.15-core-split/files/cohttp_async_websocket-v0.15.0.tar.gz"
-checksum: "sha256=ff5048034349a1a570936ef0401db9d885bd924cf88d6214a8575402cb1bb51b"
+src: "https://github.com/janestreet/cohttp_async_websocket/archive/aa5baaf3e56830e1d6fec5f4250dcd5b2b872457.tar.gz"
+checksum: "sha256=bdae9a3067160701a198da1923f4f1bf3759c2bc652beb5486cb557295ff071f"
 }

@@ -10,16 +10,16 @@ build: [
   ["dune" "build" "-p" name "-j" jobs]
 ]
 depends: [
-  "ocaml"       {>= "4.08.0"}
-  "base"        {>= "v0.15" & < "v0.16"}
-  "core_kernel" {>= "v0.15" & < "v0.16"}
-  "ppx_jane"    {>= "v0.15" & < "v0.16"}
-  "dune"        {>= "2.0.0"}
+  "ocaml"    {>= "4.08.0"}
+  "base"     {>= "v0.15" & < "v0.16"}
+  "core"     {>= "v0.15" & < "v0.16"}
+  "ppx_jane" {>= "v0.15" & < "v0.16"}
+  "dune"     {>= "2.0.0"}
 ]
 synopsis: "Diff library using Bram Cohen's patience diff algorithm"
 description: "
 "
 url {
-src: "https://ocaml.janestreet.com/ocaml-core/v0.15-core-split/files/patience_diff-v0.15.0.tar.gz"
-checksum: "sha256=9eb3868696ce3eff0b598b8114a35febb1d6e277d4e78975f78dfd3aebcbe151"
+src: "https://github.com/janestreet/patience_diff/archive/2015c5c54a1671c995a42ae37006d41c6a831b32.tar.gz"
+checksum: "sha256=2f7cfcde34c9bc91ce50d30590674828c36e433f93d93453c6389fed68468bef"
 }

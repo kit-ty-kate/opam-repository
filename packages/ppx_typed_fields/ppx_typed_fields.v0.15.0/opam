@@ -12,7 +12,7 @@ build: [
 depends: [
   "ocaml"         {>= "4.09.0"}
   "base"          {>= "v0.15" & < "v0.16"}
-  "core_kernel"   {>= "v0.15" & < "v0.16"}
+  "core"          {>= "v0.15" & < "v0.16"}
   "ppx_compare"   {>= "v0.15" & < "v0.16"}
   "ppx_enumerate" {>= "v0.15" & < "v0.16"}
   "ppx_jane"      {>= "v0.15" & < "v0.16"}
@@ -28,6 +28,6 @@ description: "
 Part of the Jane Street's PPX rewriters collection.
 "
 url {
-src: "https://ocaml.janestreet.com/ocaml-core/v0.15-core-split/files/ppx_typed_fields-v0.15.0.tar.gz"
-checksum: "sha256=3829ac7be6d0b624a62a511d38eddb775e825633defac7708615d8234ddd1835"
+src: "https://github.com/janestreet/ppx_typed_fields/archive/912723c3d6d44aba8375de75165b747858c63bbc.tar.gz"
+checksum: "sha256=313eb77b71842b967cf944bd62d9c7229eda397dd6674301dba2745b306f97f1"
 }

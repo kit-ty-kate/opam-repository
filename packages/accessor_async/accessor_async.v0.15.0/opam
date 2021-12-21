@@ -13,7 +13,7 @@ depends: [
   "ocaml"         {>= "4.09.0"}
   "accessor_core" {>= "v0.15" & < "v0.16"}
   "async_kernel"  {>= "v0.15" & < "v0.16"}
-  "core_kernel"   {>= "v0.15" & < "v0.16"}
+  "core"          {>= "v0.15" & < "v0.16"}
   "ppx_accessor"  {>= "v0.15" & < "v0.16"}
   "ppx_jane"      {>= "v0.15" & < "v0.16"}
   "dune"          {>= "2.0.0"}
@@ -23,6 +23,6 @@ description: "
 This library provides accessors for numerous types in Async.
 "
 url {
-src: "https://ocaml.janestreet.com/ocaml-core/v0.15-core-split/files/accessor_async-v0.15.0.tar.gz"
-checksum: "sha256=57b7346ef7514ae229bd2663cf6ea39acfe0a5ee6e3a4302ef275c17195f3aaf"
+src: "https://github.com/janestreet/accessor_async/archive/c67594736559b6ea6eec1abd7649147b21277e03.tar.gz"
+checksum: "sha256=39c9d273c997d7cb256fdd44be9c2aec2f9ead36342ff917d7d08fa486da9925"
 }

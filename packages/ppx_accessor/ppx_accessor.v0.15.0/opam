@@ -21,6 +21,6 @@ description: "
 Automatically generate accessors given a type definition.
 "
 url {
-src: "https://ocaml.janestreet.com/ocaml-core/v0.15-core-split/files/ppx_accessor-v0.15.0.tar.gz"
-checksum: "sha256=2728843387730e26d2503a9639dd9bfe492a7cfec3ff9d14d9e6b62f82c77eba"
+src: "https://github.com/janestreet/ppx_accessor/archive/e93fbde2b49d8b5b3c28f1eb7d8e08dd1e7a76bf.tar.gz"
+checksum: "sha256=96a652c55ff0526c26d30ddd66d25a95ca621fd5900c73832e89133364f313c0"
 }

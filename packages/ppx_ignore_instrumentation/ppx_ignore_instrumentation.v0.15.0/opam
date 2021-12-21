@@ -20,6 +20,6 @@ Ignore Jane Street specific instrumentation extensions from internal PPXs or com
    features not yet upstreamed.
 "
 url {
-src: "https://ocaml.janestreet.com/ocaml-core/v0.15-core-split/files/ppx_ignore_instrumentation-v0.15.0.tar.gz"
-checksum: "sha256=73d25294d69aedd39d7f42b1123bfb2feefb2327c1e4e51a4da6689043c1abb6"
+src: "https://github.com/janestreet/ppx_ignore_instrumentation/archive/4b7d15575ccced423124240f07658cac98d8b203.tar.gz"
+checksum: "sha256=19e5ef69ff02ec8603cd3290a56391ee1931537de06c968dcbe022f59796c8d4"
 }

@@ -10,11 +10,11 @@ build: [
   ["dune" "build" "-p" name "-j" jobs]
 ]
 depends: [
-  "ocaml"       {>= "4.08.0"}
-  "core_kernel" {>= "v0.15" & < "v0.16"}
-  "parsexp"     {>= "v0.15" & < "v0.16"}
-  "ppx_jane"    {>= "v0.15" & < "v0.16"}
-  "dune"        {>= "2.0.0"}
+  "ocaml"    {>= "4.08.0"}
+  "core"     {>= "v0.15" & < "v0.16"}
+  "parsexp"  {>= "v0.15" & < "v0.16"}
+  "ppx_jane" {>= "v0.15" & < "v0.16"}
+  "dune"     {>= "2.0.0"}
 ]
 synopsis: "Quickcheck helpers for strings parsing to sexps"
 description: "
@@ -23,6 +23,6 @@ quickcheck-based tests that wish to exercise the concrete syntax of sexps,
 including escape sequences and comments.
 "
 url {
-src: "https://ocaml.janestreet.com/ocaml-core/v0.15-core-split/files/sexp_string_quickcheck-v0.15.0.tar.gz"
-checksum: "sha256=e0c35cbb404f6bff04bccabe79364e9b6d0568f8ea378fa87a64202d40c208fd"
+src: "https://github.com/janestreet/sexp_string_quickcheck/archive/a15b8c94a16910bc1b0fd9ca45b81cc5c58a0569.tar.gz"
+checksum: "sha256=ca151977182895ceca080db69f7a3a7c637ba89c135ffd119eb3641ed1f02697"
 }

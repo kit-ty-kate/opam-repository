@@ -18,6 +18,6 @@ description: "
 Helpers for manipulating [Sexplib.Sexp_grammar] values.
 "
 url {
-src: "https://ocaml.janestreet.com/ocaml-core/v0.15-core-split/files/sexp_grammar-v0.15.0.tar.gz"
-checksum: "sha256=6a8f3884dfdc5e969e14f777e588c5f1c072cfea08734002f6ecf25115de8bbf"
+src: "https://github.com/janestreet/sexp_grammar/archive/959a37f52d0a53bb81f700ee713f574b4cf0309b.tar.gz"
+checksum: "sha256=08411bbc52e3e4db85df7610f385fb97ece86bb8ff772b1f1d1ec78254adb592"
 }

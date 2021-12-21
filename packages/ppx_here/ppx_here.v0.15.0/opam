@@ -20,6 +20,6 @@ description: "
 Part of the Jane Street's PPX rewriters collection.
 "
 url {
-src: "https://ocaml.janestreet.com/ocaml-core/v0.15-core-split/files/ppx_here-v0.15.0.tar.gz"
-checksum: "sha256=c8995c197c10559b1ddfe35dc5e4cd24bcb2f3ef2af9aea3777c5ee50b4ac3dd"
+src: "https://github.com/janestreet/ppx_here/archive/124188bc193de3251046f539d122c786d0e6d10d.tar.gz"
+checksum: "sha256=2e796b148045c022f48dab3d9e376f90fea554973c72a103c211a530f22d80c3"
 }

@@ -10,19 +10,19 @@ build: [
   ["dune" "build" "-p" name "-j" jobs]
 ]
 depends: [
-  "ocaml"       {>= "4.08.0"}
-  "async"       {>= "v0.15" & < "v0.16"}
-  "async_find"  {>= "v0.15" & < "v0.16"}
-  "core"        {>= "v0.15" & < "v0.16"}
-  "core_kernel" {>= "v0.15" & < "v0.16"}
-  "ppx_jane"    {>= "v0.15" & < "v0.16"}
-  "dune"        {>= "2.0.0"}
-  "inotify"     {>= "0.2.0"}
+  "ocaml"      {>= "4.08.0"}
+  "async"      {>= "v0.15" & < "v0.16"}
+  "async_find" {>= "v0.15" & < "v0.16"}
+  "core"       {>= "v0.15" & < "v0.16"}
+  "core_unix"  {>= "v0.15" & < "v0.16"}
+  "ppx_jane"   {>= "v0.15" & < "v0.16"}
+  "dune"       {>= "2.0.0"}
+  "inotify"    {>= "0.2.0"}
 ]
 synopsis: "Async wrapper for inotify"
 description: "
 "
 url {
-src: "https://ocaml.janestreet.com/ocaml-core/v0.15-core-split/files/async_inotify-v0.15.0.tar.gz"
-checksum: "sha256=6a91c1698134c192df39dcf7e5e031e70cc0269d97af8f79c96dc982692de803"
+src: "https://github.com/janestreet/async_inotify/archive/849d878a901d1d3f6453e9da13875a193fa40970.tar.gz"
+checksum: "sha256=bb871facd5e13fd3ce5dc3de8735d6f4e81b34d5aeb708077da4e52db7b0d48b"
 }

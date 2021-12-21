@@ -21,6 +21,6 @@ A ppx extension for easier implementation of conversion functions between almost
 identical types.
 "
 url {
-src: "https://ocaml.janestreet.com/ocaml-core/v0.15-core-split/files/ppx_stable-v0.15.0.tar.gz"
-checksum: "sha256=443a23e9d8ae2680afae01c490265eff621502f8be793c437da42d681e224d68"
+src: "https://github.com/janestreet/ppx_stable/archive/64008bf8e046f9cb25abdba4c4d7c927a93e07b3.tar.gz"
+checksum: "sha256=c86399840038ce35895f8552387f2ad5b62b603bbb79d822a342caa371ffa130"
 }

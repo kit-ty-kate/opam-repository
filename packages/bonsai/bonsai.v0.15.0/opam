@@ -11,6 +11,7 @@ build: [
 ]
 depends: [
   "ocaml"                    {>= "4.08.0"}
+  "async"                    {>= "v0.15" & < "v0.16"}
   "async_extra"              {>= "v0.15" & < "v0.16"}
   "async_js"                 {>= "v0.15" & < "v0.16"}
   "async_kernel"             {>= "v0.15" & < "v0.16"}
@@ -19,6 +20,7 @@ depends: [
   "core"                     {>= "v0.15" & < "v0.16"}
   "core_bench"               {>= "v0.15" & < "v0.16"}
   "core_kernel"              {>= "v0.15" & < "v0.16"}
+  "core_unix"                {>= "v0.15" & < "v0.16"}
   "expect_test_helpers_core" {>= "v0.15" & < "v0.16"}
   "fuzzy_match"              {>= "v0.15" & < "v0.16"}
   "incr_dom"                 {>= "v0.15" & < "v0.16"}
@@ -28,9 +30,10 @@ depends: [
   "ppx_jane"                 {>= "v0.15" & < "v0.16"}
   "ppx_pattern_bind"         {>= "v0.15" & < "v0.16"}
   "ppx_typed_fields"         {>= "v0.15" & < "v0.16"}
+  "profunctor"               {>= "v0.15" & < "v0.16"}
   "textutils"                {>= "v0.15" & < "v0.16"}
   "virtual_dom"              {>= "v0.15" & < "v0.16"}
-  "cohttp-async"             {= "4.0.0+async"}
+  "cohttp-async"             {>= "2.5.6"}
   "dune"                     {>= "2.0.0"}
   "gen_js_api"               {>= "1.0.8"}
   "js_of_ocaml-ppx"          {>= "3.9.0"}
@@ -43,6 +46,6 @@ Bonsai is a library for building reusable UI components inside an
      Incremental-style UI framework such as Incr_dom or React.
 "
 url {
-src: "https://ocaml.janestreet.com/ocaml-core/v0.15-core-split/files/bonsai-v0.15.0.tar.gz"
-checksum: "sha256=28f0e17cedd7b6ec56f587c06609d013426a624ae3755a6874e4363dfe12ba89"
+src: "https://github.com/janestreet/bonsai/archive/eabe1bb2a8cd7e311dc917705ad64b66c9982bb6.tar.gz"
+checksum: "sha256=961b533677b97a718add5bc65b41b78b33e3659d7f2d090f8062e7e3beb77abb"
 }

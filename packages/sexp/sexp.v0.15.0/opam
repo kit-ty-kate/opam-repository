@@ -14,6 +14,7 @@ depends: [
   "async"       {>= "v0.15" & < "v0.16"}
   "core"        {>= "v0.15" & < "v0.16"}
   "core_kernel" {>= "v0.15" & < "v0.16"}
+  "core_unix"   {>= "v0.15" & < "v0.16"}
   "csvfields"   {>= "v0.15" & < "v0.16"}
   "jsonaf"      {>= "v0.15" & < "v0.16"}
   "ppx_jane"    {>= "v0.15" & < "v0.16"}
@@ -32,6 +33,6 @@ It contains subcommands for pretty printing, querying, and modifying
 sexps, as well as some conversions to and from other formats.
 "
 url {
-src: "https://ocaml.janestreet.com/ocaml-core/v0.15-core-split/files/sexp-v0.15.0.tar.gz"
-checksum: "sha256=6174dba6e6641861b8fead1b7c12a99c0e310dbe40c479c42e2a936a042fe303"
+src: "https://github.com/janestreet/sexp/archive/8b40e8b8ab8ee628cd13f1b0c214285b7a05df96.tar.gz"
+checksum: "sha256=2dee06d176100c3c0fcdcdcd496f630330101e26dcb6713e5d5a5ccc183050f9"
 }

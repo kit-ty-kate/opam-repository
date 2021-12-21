@@ -23,6 +23,6 @@ easier to write incremental computations using pattern-matching in a
 way that causes incremental nodes to fire as little as possible.
 "
 url {
-src: "https://ocaml.janestreet.com/ocaml-core/v0.15-core-split/files/ppx_pattern_bind-v0.15.0.tar.gz"
-checksum: "sha256=544d07dca0d4e3c9d4992008c2a49815a0a6076d23d6d2741a187f2663776fee"
+src: "https://github.com/janestreet/ppx_pattern_bind/archive/c841eb2141e3177886c459bdccc5bbe542120b94.tar.gz"
+checksum: "sha256=66bba37bc630969be0b0275c90b58e8083a59832d10de4af8f7dbc607139ff2a"
 }

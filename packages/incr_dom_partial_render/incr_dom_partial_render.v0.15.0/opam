@@ -24,6 +24,6 @@ description: "
 This library provides tools for rendering of tabular data efficiently, in particular supporting _partial rendering_, i.e. only rendering a subset of the widgets that are logically in the view, depending on what is expected to be visible to the end user.
 "
 url {
-src: "https://ocaml.janestreet.com/ocaml-core/v0.15-core-split/files/incr_dom_partial_render-v0.15.0.tar.gz"
-checksum: "sha256=47c963acc590032bd3143348d99aeefc05d2fc39ebf46dbdcb53eeaf2a6fe5ea"
+src: "https://github.com/janestreet/incr_dom_partial_render/archive/98b00211370bbff0d6fd902503ee1b125c8c5f20.tar.gz"
+checksum: "sha256=89bbde246c4678452b4c68ceb5846f20606994a7f9c64c4be2ef8fb22e3b98d8"
 }

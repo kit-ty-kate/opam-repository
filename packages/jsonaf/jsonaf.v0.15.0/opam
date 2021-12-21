@@ -22,6 +22,6 @@ description: "
 A library for parsing, manipulating, and serializing data structured as JSON.
 "
 url {
-src: "https://ocaml.janestreet.com/ocaml-core/v0.15-core-split/files/jsonaf-v0.15.0.tar.gz"
-checksum: "sha256=c76e0aa27b79262ae5794d56835fd1a6aec4034f47abdbeb95489242d4dc2fe7"
+src: "https://github.com/janestreet/jsonaf/archive/3febf3ec58eeea82eed6c15edfd8907a2a6e4b7e.tar.gz"
+checksum: "sha256=be0282155c4021ed0667d80b927dce9aadb6901f8f86cc5464bdd7a0e2bd0870"
 }

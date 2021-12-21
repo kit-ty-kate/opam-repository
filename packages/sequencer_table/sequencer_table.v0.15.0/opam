@@ -20,6 +20,6 @@ description: "
 A single-module library for a data structure.
 "
 url {
-src: "https://ocaml.janestreet.com/ocaml-core/v0.15-core-split/files/sequencer_table-v0.15.0.tar.gz"
-checksum: "sha256=d8c480a5bb6b543b64491c2566fb7b211d5d5e8b7f53abb7a916e50b9e0b6bd8"
+src: "https://github.com/janestreet/sequencer_table/archive/972d4f7b6054e051c182dea1268de460bab06c00.tar.gz"
+checksum: "sha256=f37b1c954bb66bc8b6a0975c2a3cb427cc6bb501bbefede5494dd201f89a3d72"
 }

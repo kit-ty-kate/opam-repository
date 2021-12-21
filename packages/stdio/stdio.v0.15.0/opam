@@ -22,6 +22,6 @@ It re-exports the input/output functions of the OCaml standard
 libraries using a more consistent API.
 "
 url {
-src: "https://ocaml.janestreet.com/ocaml-core/v0.15-core-split/files/stdio-v0.15.0.tar.gz"
-checksum: "sha256=6e84b62127bde11cb4287e85de3e3ea6114c149bb639c874d3bb4927dbd8c99c"
+src: "https://github.com/janestreet/stdio/archive/7dffc6f9c711dcc4b8943630008a64ca152cccb2.tar.gz"
+checksum: "sha256=83b4b33059f7df49bd5efcb22ea2072b2f53f818420b051600b43418858b5e33"
 }

@@ -23,6 +23,6 @@ is an Async driver, which makes it easy to build terminal applications using
 Async for managing concurrency.
 "
 url {
-src: "https://ocaml.janestreet.com/ocaml-core/v0.15-core-split/files/notty_async-v0.15.0.tar.gz"
-checksum: "sha256=1a35b8d759e31e06454248d5dae227e82175e699c78f4435da6d5c0d88a3ee5d"
+src: "https://github.com/janestreet/notty_async/archive/c56d783c5eec719239ac98647486d817879ed641.tar.gz"
+checksum: "sha256=f995fcce8b3bfa7f78f92e00295c6d48499a83fe308f3aaa0c5ede528b972b62"
 }

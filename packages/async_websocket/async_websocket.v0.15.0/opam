@@ -23,6 +23,6 @@ This library implements both the server and client side of
                 the websocket protocol.
 "
 url {
-src: "https://ocaml.janestreet.com/ocaml-core/v0.15-core-split/files/async_websocket-v0.15.0.tar.gz"
-checksum: "sha256=9b5e2d2c67ce442a3aa20bdd76121276912e06f6ed3106f8ece47f276e1be757"
+src: "https://github.com/janestreet/async_websocket/archive/cd6f23b154a4ec8fab0ce17fc0291b514131479a.tar.gz"
+checksum: "sha256=c4b0c3da7c26684af41b44d35d10d29e95857e88b7d50ca0f37fd5c9a5aaebbe"
 }

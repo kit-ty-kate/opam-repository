@@ -24,6 +24,6 @@ description: "
 Part of the Jane Street's PPX rewriters collection.
 "
 url {
-src: "https://ocaml.janestreet.com/ocaml-core/v0.15-core-split/files/ppx_assert-v0.15.0.tar.gz"
-checksum: "sha256=8d6ae859f0deadfa0fa711cda9a25888346dee1ad57f598b71f3a035e4fc8320"
+src: "https://github.com/janestreet/ppx_assert/archive/6926e38a104d08a196f5d9baf5759cb6f31291e8.tar.gz"
+checksum: "sha256=8a4a104116c781690301791fdefc3dd6b91bde189937627f3149f31b13e73e82"
 }

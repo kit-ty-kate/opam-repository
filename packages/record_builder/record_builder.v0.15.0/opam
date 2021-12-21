@@ -24,6 +24,6 @@ automatically handles all of the mapping and combining of applicative terms
 needed to build the record from a single applicative term for each field.
 "
 url {
-src: "https://ocaml.janestreet.com/ocaml-core/v0.15-core-split/files/record_builder-v0.15.0.tar.gz"
-checksum: "sha256=969d5ae1a282d25ccf0d62a6a630842473704446d337d645fd4bdb2d01bfa9c6"
+src: "https://github.com/janestreet/record_builder/archive/f55606e2db1bd3ade50ded41dcd7b864960791b6.tar.gz"
+checksum: "sha256=229ad9b3d54cccfc109086e635c8031003b96d925fd1caaf04e16959f4e1c035"
 }

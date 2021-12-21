@@ -31,6 +31,6 @@ OCaml's standard library that was developed by Jane Street, the
 largest industrial user of OCaml.
 "
 url {
-src: "https://ocaml.janestreet.com/ocaml-core/v0.15-core-split/files/bin_prot-v0.15.0.tar.gz"
-checksum: "sha256=1ff1bd6213e9ca301da17cc5e0be533aaa7b8781effb78443352c3b57113f223"
+src: "https://github.com/janestreet/bin_prot/archive/240f90d62a2d2f5505bb144938a3876a1d44e091.tar.gz"
+checksum: "sha256=e706c62b258f77460e5628b30ab787c2a0cf3bcd7018aff52712a4d8cbb258ea"
 }

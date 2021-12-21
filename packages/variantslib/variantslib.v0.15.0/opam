@@ -21,6 +21,6 @@ OCaml's standard library that was developed by Jane Street, the
 largest industrial user of OCaml.
 "
 url {
-src: "https://ocaml.janestreet.com/ocaml-core/v0.15-core-split/files/variantslib-v0.15.0.tar.gz"
-checksum: "sha256=94d6c97a1c9ee750c91303333e1bc04b7791c91f312b90ab3943bdde6447a375"
+src: "https://github.com/janestreet/variantslib/archive/599faa1b74efd3412cac047f5972217440be6245.tar.gz"
+checksum: "sha256=afad06b6ea302bc57bd9093dcff7f6bb0d9b0cfddf79d78f022d0303f7ff6831"
 }

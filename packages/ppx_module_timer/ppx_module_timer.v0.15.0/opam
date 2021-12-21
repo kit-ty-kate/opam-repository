@@ -23,6 +23,6 @@ description: "
 Part of the Jane Street's PPX rewriters collection.
 "
 url {
-src: "https://ocaml.janestreet.com/ocaml-core/v0.15-core-split/files/ppx_module_timer-v0.15.0.tar.gz"
-checksum: "sha256=014dc75ab201de08c9b98ec17904e7e2f5849aade417ab9d0e74bc3026543251"
+src: "https://github.com/janestreet/ppx_module_timer/archive/18a03a705c8f2c43fa0b6b01c9ecb3c0b5105842.tar.gz"
+checksum: "sha256=853b9a166f0858b05ceda5d0e9f8e5cd4ba27234f1bcab77c4d21c661826736a"
 }

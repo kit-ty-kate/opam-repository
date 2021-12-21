@@ -21,6 +21,6 @@ Async Rpc.
 
 "
 url {
-src: "https://ocaml.janestreet.com/ocaml-core/v0.15-core-split/files/rpc_parallel-v0.15.0.tar.gz"
-checksum: "sha256=7dd6341489ac87ff48f809d22a946b7dc389fa8c2efae851ab784f89085323cf"
+src: "https://github.com/janestreet/rpc_parallel/archive/bc78672773061f91369a085b9d7f1ba1d943d92b.tar.gz"
+checksum: "sha256=71a0903594f7ebe40c6e57cb64a9a61799e062d1f5f553ef7fd3250a879634aa"
 }

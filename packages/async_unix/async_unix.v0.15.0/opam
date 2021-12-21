@@ -14,6 +14,7 @@ depends: [
   "async_kernel" {>= "v0.15" & < "v0.16"}
   "core"         {>= "v0.15" & < "v0.16"}
   "core_kernel"  {>= "v0.15" & < "v0.16"}
+  "core_unix"    {>= "v0.15" & < "v0.16"}
   "ppx_jane"     {>= "v0.15" & < "v0.16"}
   "dune"         {>= "2.0.0"}
 ]
@@ -25,6 +26,6 @@ OCaml's standard library that was developed by Jane Street, the
 largest industrial user of OCaml.
 "
 url {
-src: "https://ocaml.janestreet.com/ocaml-core/v0.15-core-split/files/async_unix-v0.15.0.tar.gz"
-checksum: "sha256=b93998ff77335e839fe8093968b9fa960c5b3e03be158feef43d211aafffc444"
+src: "https://github.com/janestreet/async_unix/archive/ca0bbf8407f729f0d1d6884d5f457b9145640860.tar.gz"
+checksum: "sha256=16e68ae5d93641df3f9ba55beee99c511d5d98cad01af4e34a846d0ce00b3507"
 }

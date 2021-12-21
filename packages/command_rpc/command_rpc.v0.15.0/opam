@@ -10,16 +10,16 @@ build: [
   ["dune" "build" "-p" name "-j" jobs]
 ]
 depends: [
-  "ocaml"       {>= "4.08.0"}
-  "async"       {>= "v0.15" & < "v0.16"}
-  "core_kernel" {>= "v0.15" & < "v0.16"}
-  "ppx_jane"    {>= "v0.15" & < "v0.16"}
-  "dune"        {>= "2.0.0"}
+  "ocaml"    {>= "4.08.0"}
+  "async"    {>= "v0.15" & < "v0.16"}
+  "core"     {>= "v0.15" & < "v0.16"}
+  "ppx_jane" {>= "v0.15" & < "v0.16"}
+  "dune"     {>= "2.0.0"}
 ]
 synopsis: "Utilities for Versioned RPC communication with a child process over stdin and stdout"
 description: "
 "
 url {
-src: "https://ocaml.janestreet.com/ocaml-core/v0.15-core-split/files/command_rpc-v0.15.0.tar.gz"
-checksum: "sha256=b5893e070191be637267acb86410c3f5da9adeace313ce765a23efef70e68b6d"
+src: "https://github.com/janestreet/command_rpc/archive/0c0b249f38650c3774f957d13dd3a845508e8dc0.tar.gz"
+checksum: "sha256=9643116513e9670b4e85d9b5b33538b78b5ef1c1cd43d11a55126ed5ddcf9bcb"
 }

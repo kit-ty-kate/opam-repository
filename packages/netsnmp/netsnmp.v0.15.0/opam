@@ -12,7 +12,7 @@ build: [
 depends: [
   "ocaml"        {>= "4.08.0"}
   "async"        {>= "v0.15" & < "v0.16"}
-  "core_kernel"  {>= "v0.15" & < "v0.16"}
+  "core"         {>= "v0.15" & < "v0.16"}
   "ppx_jane"     {>= "v0.15" & < "v0.16"}
   "conf-netsnmp" {>= "1.0.0"}
   "dune"         {>= "2.0.0"}
@@ -24,6 +24,6 @@ Provides a wrapper around the Net-SNMP client libraries including
 MIB handling and SNMP requests
 "
 url {
-src: "https://ocaml.janestreet.com/ocaml-core/v0.15-core-split/files/netsnmp-v0.15.0.tar.gz"
-checksum: "sha256=facd5bacfcaa6060d8ebb7e1cc50ad66ec5420d4b89cea30696464748593467a"
+src: "https://github.com/janestreet/netsnmp/archive/d47b289a9114f71f87845c919b8fab2c93532076.tar.gz"
+checksum: "sha256=fbbdfd515a21e32f88d0b96c2c79d000559da390fe8f0cb0a701c680e4a12310"
 }

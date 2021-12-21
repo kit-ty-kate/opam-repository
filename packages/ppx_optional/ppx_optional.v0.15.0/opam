@@ -21,6 +21,6 @@ A ppx rewriter that rewrites simple match statements with an if then
 else expression.
 "
 url {
-src: "https://ocaml.janestreet.com/ocaml-core/v0.15-core-split/files/ppx_optional-v0.15.0.tar.gz"
-checksum: "sha256=f15681fe67a7b05c361affce42e879e5ebe49725f738b0f62a9c279c2bd17970"
+src: "https://github.com/janestreet/ppx_optional/archive/1f8e9feacf5b223cf394ebb075bbea5d32eafd18.tar.gz"
+checksum: "sha256=a6a304b02b7cfb3b516299b47fc8273fbd5faeccb246df4d814a3f64ddda1497"
 }

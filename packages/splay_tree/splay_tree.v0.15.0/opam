@@ -10,10 +10,10 @@ build: [
   ["dune" "build" "-p" name "-j" jobs]
 ]
 depends: [
-  "ocaml"       {>= "4.08.0"}
-  "core_kernel" {>= "v0.15" & < "v0.16"}
-  "ppx_jane"    {>= "v0.15" & < "v0.16"}
-  "dune"        {>= "2.0.0"}
+  "ocaml"    {>= "4.08.0"}
+  "core"     {>= "v0.15" & < "v0.16"}
+  "ppx_jane" {>= "v0.15" & < "v0.16"}
+  "dune"     {>= "2.0.0"}
 ]
 synopsis: "A splay tree implementation"
 description: "
@@ -30,6 +30,6 @@ reduction operation which lets you specify an extra accumulator value,
 which can then be searched by efficiently.
 "
 url {
-src: "https://ocaml.janestreet.com/ocaml-core/v0.15-core-split/files/splay_tree-v0.15.0.tar.gz"
-checksum: "sha256=0aee1c352fffc31a09478e9e40c138eb0f64b205508630e7fa4e2c34e2528564"
+src: "https://github.com/janestreet/splay_tree/archive/c64445bdddc53c865a6ae1061a76954650423518.tar.gz"
+checksum: "sha256=93f1f54acf5261b0f53462f4f70e9ec95460a30ed4c6ecd0c64441e4ff4c81a5"
 }

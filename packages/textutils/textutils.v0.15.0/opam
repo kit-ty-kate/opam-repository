@@ -13,6 +13,7 @@ depends: [
   "ocaml"            {>= "4.08.0"}
   "core"             {>= "v0.15" & < "v0.16"}
   "core_kernel"      {>= "v0.15" & < "v0.16"}
+  "core_unix"        {>= "v0.15" & < "v0.16"}
   "ppx_jane"         {>= "v0.15" & < "v0.16"}
   "textutils_kernel" {>= "v0.15" & < "v0.16"}
   "dune"             {>= "2.0.0"}
@@ -22,6 +23,6 @@ synopsis: "Text output utilities"
 description: "
 "
 url {
-src: "https://ocaml.janestreet.com/ocaml-core/v0.15-core-split/files/textutils-v0.15.0.tar.gz"
-checksum: "sha256=19c0308a75a90c69e08f55ad0eb0b0d2202ac95d423ae88b2207d38936f766e4"
+src: "https://github.com/janestreet/textutils/archive/a0d6c469dd251631e210920ff9d154236e801dbc.tar.gz"
+checksum: "sha256=9b942d8ea9cbe5fc37db00026c04acfae868296797baac6cb45d9c53754d67ee"
 }

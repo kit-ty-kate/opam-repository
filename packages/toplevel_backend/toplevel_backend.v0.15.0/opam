@@ -10,18 +10,18 @@ build: [
   ["dune" "build" "-p" name "-j" jobs]
 ]
 depends: [
-  "ocaml"       {>= "4.08.0"}
-  "core_kernel" {>= "v0.15" & < "v0.16"}
-  "ppx_here"    {>= "v0.15" & < "v0.16"}
-  "ppx_jane"    {>= "v0.15" & < "v0.16"}
-  "dune"        {>= "2.0.0"}
-  "ocamlfind"   {>= "1.7.2"}
+  "ocaml"     {>= "4.08.0"}
+  "core"      {>= "v0.15" & < "v0.16"}
+  "ppx_here"  {>= "v0.15" & < "v0.16"}
+  "ppx_jane"  {>= "v0.15" & < "v0.16"}
+  "dune"      {>= "2.0.0"}
+  "ocamlfind" {>= "1.7.2"}
 ]
 synopsis: "Shared backend for setting up toplevels"
 description: "
 Module for setting up dependencies (like printers and liblinks) for toplevels.
 "
 url {
-src: "https://ocaml.janestreet.com/ocaml-core/v0.15-core-split/files/toplevel_backend-v0.15.0.tar.gz"
-checksum: "sha256=7cdaed6e87ee167fdb974b848c24a699a40089eb4e79a7915b0ea6314847d21d"
+src: "https://github.com/janestreet/toplevel_backend/archive/d345407b221bdb96d6945e1237c3259b23e01349.tar.gz"
+checksum: "sha256=ebdaeeff9cad64b2ce34b22991847bccfda47e4487f92b86aac867b8079daaf4"
 }

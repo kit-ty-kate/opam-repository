@@ -21,6 +21,6 @@ A ppx rewriter that rewrites fixed point literal of the
 form 1.0v to conversion functions currently in scope.
 "
 url {
-src: "https://ocaml.janestreet.com/ocaml-core/v0.15-core-split/files/ppx_fixed_literal-v0.15.0.tar.gz"
-checksum: "sha256=04622d41d3f3587246746ca8360869b270339de9044616c6dc08dd782d45a566"
+src: "https://github.com/janestreet/ppx_fixed_literal/archive/0335bb06cddfefaac0ab289db91ecdc5c4cbdb61.tar.gz"
+checksum: "sha256=858360edca7f3e4c3af436109cc04b2108fd29d6acae7b7b9f9794245e028c04"
 }

@@ -23,6 +23,6 @@ makes it possible to parameterize a type with a witness that represents a type
 constructor.
 "
 url {
-src: "https://ocaml.janestreet.com/ocaml-core/v0.15-core-split/files/higher_kinded-v0.15.0.tar.gz"
-checksum: "sha256=24c6b092105b5b9bfb580449f9d9bcb159522a87830aac400f5c619c9c754e49"
+src: "https://github.com/janestreet/higher_kinded/archive/3d4bcf6643d8b9c5d49bea74102359d95738cd02.tar.gz"
+checksum: "sha256=962d5c6b9363ff2b8e234aa5d1eab7b5288b961cd89d1bbc6ea328656400fc2f"
 }

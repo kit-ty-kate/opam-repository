@@ -22,6 +22,6 @@ Topological_sort is a single-module library that implements a simple
 topological-sort algorithm.
 "
 url {
-src: "https://ocaml.janestreet.com/ocaml-core/v0.15-core-split/files/topological_sort-v0.15.0.tar.gz"
-checksum: "sha256=cd9e0d86ecab3a0748c6eaad06cb3ec0ecf6dd504e31bde99e49da80b0e4c49c"
+src: "https://github.com/janestreet/topological_sort/archive/8a1d9832526283f9f5588e1fd226ebdf84c41892.tar.gz"
+checksum: "sha256=c2ab19e50da8ede4bfdc91e8aa1b009044bf6fd6b48b5efb03f9b019a93adf17"
 }

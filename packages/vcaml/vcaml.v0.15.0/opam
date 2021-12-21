@@ -12,10 +12,10 @@ build: [
 depends: [
   "ocaml"                     {>= "4.08.0"}
   "async"                     {>= "v0.15" & < "v0.16"}
-  "async_extra"               {>= "v0.15" & < "v0.16"}
   "base"                      {>= "v0.15" & < "v0.16"}
   "core"                      {>= "v0.15" & < "v0.16"}
   "core_kernel"               {>= "v0.15" & < "v0.16"}
+  "core_unix"                 {>= "v0.15" & < "v0.16"}
   "expect_test_helpers_async" {>= "v0.15" & < "v0.16"}
   "ppx_jane"                  {>= "v0.15" & < "v0.16"}
   "textutils"                 {>= "v0.15" & < "v0.16"}
@@ -26,12 +26,12 @@ depends: [
 ]
 synopsis: "OCaml bindings for the Neovim API"
 description: "
-The Neovim text editor comes with an RPC-based public API 
-which can be used to control the editor.  This set of libraries implements 
-an OCaml interface to those APIs, for the purpose of permitting neovim 
+The Neovim text editor comes with an RPC-based public API
+which can be used to control the editor.  This set of libraries implements
+an OCaml interface to those APIs, for the purpose of permitting neovim
 plugins to be written in OCaml.
 "
 url {
-src: "https://ocaml.janestreet.com/ocaml-core/v0.15-core-split/files/vcaml-v0.15.0.tar.gz"
-checksum: "sha256=dd045b1aad483d54a2f03379258c3796e2e77c272150ae6b7c8cb2c655d8add1"
+src: "https://github.com/janestreet/vcaml/archive/323a867caab842cd4d577c99ec0199cbed76c954.tar.gz"
+checksum: "sha256=ecad3fc6399c57b0a6401db8c80fe764fa16855833f3a998d5fff3fc133cb94b"
 }

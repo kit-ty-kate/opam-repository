@@ -32,6 +32,6 @@ events can be filtered by lifetime, showing only allocations of
 objects that are still live at peak memory usage.
 "
 url {
-src: "https://ocaml.janestreet.com/ocaml-core/v0.15-core-split/files/memtrace_viewer-v0.15.0.tar.gz"
-checksum: "sha256=271f0bd9f37e18f22bf213ad926cae88708101f9c2836ed062070e283411cd51"
+src: "https://github.com/janestreet/memtrace_viewer/archive/d85683781e85f94dce41614449b82f0c823a9cc6.tar.gz"
+checksum: "sha256=e4f8b654f85bb3ff33c5bf921ad75ce851ae4a8f5f57e102c9305b7a5b90789c"
 }

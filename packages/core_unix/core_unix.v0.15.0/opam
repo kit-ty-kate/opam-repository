@@ -11,7 +11,6 @@ build: [
 ]
 depends: [
   "ocaml"                    {>= "4.08.0"}
-  "base"                     {>= "v0.15" & < "v0.16"}
   "core"                     {>= "v0.15" & < "v0.16"}
   "core_kernel"              {>= "v0.15" & < "v0.16"}
   "expect_test_helpers_core" {>= "v0.15" & < "v0.16"}
@@ -19,7 +18,6 @@ depends: [
   "jst-config"               {>= "v0.15" & < "v0.16"}
   "ocaml_intrinsics"         {>= "v0.15" & < "v0.16"}
   "ppx_jane"                 {>= "v0.15" & < "v0.16"}
-  "record_builder"           {>= "v0.15" & < "v0.16"}
   "sexplib"                  {>= "v0.15" & < "v0.16"}
   "timezone"                 {>= "v0.15" & < "v0.16"}
   "base-threads"
@@ -32,6 +30,6 @@ Unix-specific extensions to some of the modules defined in [core] and [core_kern
 "
 depexts: ["linux-headers"] {os-distribution = "alpine"}
 url {
-src: "https://ocaml.janestreet.com/ocaml-core/v0.15-core-split/files/core_unix-v0.15.0.tar.gz"
-checksum: "sha256=3440c272c11e55315f60cac323f410f43e31c84b2a60e579f24863d2685e2fbf"
+src: "https://github.com/janestreet/core_unix/archive/bbe1ab0dfdf6a643dfb67162e87e4ecc08769958.tar.gz"
+checksum: "sha256=ca887f66b094089c86360d5cef35217bbcd337f1e33e82f1c39baac5d197e1ff"
 }

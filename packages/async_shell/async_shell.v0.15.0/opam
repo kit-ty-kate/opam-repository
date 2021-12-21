@@ -10,17 +10,17 @@ build: [
   ["dune" "build" "-p" name "-j" jobs]
 ]
 depends: [
-  "ocaml"       {>= "4.08.0"}
-  "async"       {>= "v0.15" & < "v0.16"}
-  "core_kernel" {>= "v0.15" & < "v0.16"}
-  "ppx_jane"    {>= "v0.15" & < "v0.16"}
-  "shell"       {>= "v0.15" & < "v0.16"}
-  "dune"        {>= "2.0.0"}
+  "ocaml"    {>= "4.08.0"}
+  "async"    {>= "v0.15" & < "v0.16"}
+  "core"     {>= "v0.15" & < "v0.16"}
+  "ppx_jane" {>= "v0.15" & < "v0.16"}
+  "shell"    {>= "v0.15" & < "v0.16"}
+  "dune"     {>= "2.0.0"}
 ]
 synopsis: "Shell helpers for Async"
 description: "
 "
 url {
-src: "https://ocaml.janestreet.com/ocaml-core/v0.15-core-split/files/async_shell-v0.15.0.tar.gz"
-checksum: "sha256=5d6b155a9a78539ff2fb58f1bad6a3609e0bde481c315eff634b66317b217e30"
+src: "https://github.com/janestreet/async_shell/archive/8ccbc4b77280a9ebf389d23079e5138a3d260dc1.tar.gz"
+checksum: "sha256=9293680486b599a0dfbdf7b153ed4c093a8bc167bec1d46c5c20c7fff1ca9462"
 }

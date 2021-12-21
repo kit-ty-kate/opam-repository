@@ -13,7 +13,7 @@ depends: [
   "ocaml"        {>= "4.08.0"}
   "async_kernel" {>= "v0.15" & < "v0.16"}
   "async_unix"   {>= "v0.15" & < "v0.16"}
-  "core_kernel"  {>= "v0.15" & < "v0.16"}
+  "core"         {>= "v0.15" & < "v0.16"}
   "ppx_jane"     {>= "v0.15" & < "v0.16"}
   "dune"         {>= "2.0.0"}
 ]
@@ -21,6 +21,6 @@ synopsis: "Thin wrapper around [Linux_ext.sendfile] to send full files"
 description: "
 "
 url {
-src: "https://ocaml.janestreet.com/ocaml-core/v0.15-core-split/files/async_sendfile-v0.15.0.tar.gz"
-checksum: "sha256=7cb38cfb5f0c942d50b0cdd9fa5021ce10350b99cb1acc85c195f5fb968f4a24"
+src: "https://github.com/janestreet/async_sendfile/archive/65bf722e82a6e1d9286627ea2a6ddb9a48b0d2bf.tar.gz"
+checksum: "sha256=220a41cabd5014c0d43403bf8a1ad884e227e9e83034baaeb587a43c5654ab18"
 }

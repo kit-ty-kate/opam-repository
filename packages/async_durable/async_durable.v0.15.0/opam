@@ -13,6 +13,7 @@ depends: [
   "ocaml"            {>= "4.08.0"}
   "async_kernel"     {>= "v0.15" & < "v0.16"}
   "async_rpc_kernel" {>= "v0.15" & < "v0.16"}
+  "core"             {>= "v0.15" & < "v0.16"}
   "core_kernel"      {>= "v0.15" & < "v0.16"}
   "ppx_jane"         {>= "v0.15" & < "v0.16"}
   "dune"             {>= "2.0.0"}
@@ -22,6 +23,6 @@ description: "
 Async_durable helps recover from errors when connections can be easily be recreated.
 "
 url {
-src: "https://ocaml.janestreet.com/ocaml-core/v0.15-core-split/files/async_durable-v0.15.0.tar.gz"
-checksum: "sha256=fd18e880d1f5b472a4dff503d621fba4cf4ab892b6cb57042c0098604075c4cc"
+src: "https://github.com/janestreet/async_durable/archive/d8d9d2a1788449d2673ede63130ae86b04e7170b.tar.gz"
+checksum: "sha256=136bc2d5fa25a5d7d78a34fca522c3dc163cd0e92aa74b9dd2b4dbe81c2c9fcd"
 }

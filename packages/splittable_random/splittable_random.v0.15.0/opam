@@ -30,6 +30,6 @@ This library implements a splittable pseudo-random number generator that sacrifi
 cryptographic-quality randomness in favor of performance.
 "
 url {
-src: "https://ocaml.janestreet.com/ocaml-core/v0.15-core-split/files/splittable_random-v0.15.0.tar.gz"
-checksum: "sha256=9f811529367c84a8b3deda564f9898bd1b539f94cde429ce2e5fe790141efeab"
+src: "https://github.com/janestreet/splittable_random/archive/d0300f31104626b2df05e30c152e78529b4bd4a9.tar.gz"
+checksum: "sha256=ade0df80fdc226ce198a5b0efa6365d9db7675abd23d6a9f7b1896ff4fccabfe"
 }

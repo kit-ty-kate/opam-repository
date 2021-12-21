@@ -20,6 +20,6 @@ description: "
 Integers of various widths.
 "
 url {
-src: "https://ocaml.janestreet.com/ocaml-core/v0.15-core-split/files/int_repr-v0.15.0.tar.gz"
-checksum: "sha256=c515dce7131a96b15354c4cc266b158eb9b0de85c8393cdc8443164e0462acba"
+src: "https://github.com/janestreet/int_repr/archive/aa28d42d80a2e0fb629b17bcd0e9c19084b903f2.tar.gz"
+checksum: "sha256=f22e156a1724133e511199fe4ffbe7d01c5219ab36031d962359d1162fdc0698"
 }

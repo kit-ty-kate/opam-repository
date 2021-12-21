@@ -34,6 +34,6 @@ This PPX currently supports deriving type-directed values for records, ordinary
 on record and variant fields.
 "
 url {
-src: "https://ocaml.janestreet.com/ocaml-core/v0.15-core-split/files/ppx_type_directed_value-v0.15.0.tar.gz"
-checksum: "sha256=04a3d570c3204614e6a5beb115298c36ebb1e0cd63f9cee21e19e5a2592d23b3"
+src: "https://github.com/janestreet/ppx_type_directed_value/archive/7950af66235eaf39a52e5ca6697a2f63d57fedcc.tar.gz"
+checksum: "sha256=320bf6fb9cf0b6501165da804a3ec945c48cd4e4525e01b50def125f60f15b55"
 }

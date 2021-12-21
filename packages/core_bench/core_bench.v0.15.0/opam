@@ -13,6 +13,7 @@ depends: [
   "ocaml"           {>= "4.08.0"}
   "core"            {>= "v0.15" & < "v0.16"}
   "core_kernel"     {>= "v0.15" & < "v0.16"}
+  "core_unix"       {>= "v0.15" & < "v0.16"}
   "ppx_compare"     {>= "v0.15" & < "v0.16"}
   "ppx_fields_conv" {>= "v0.15" & < "v0.16"}
   "ppx_jane"        {>= "v0.15" & < "v0.16"}
@@ -26,6 +27,6 @@ synopsis: "Benchmarking library"
 description: "
 "
 url {
-src: "https://ocaml.janestreet.com/ocaml-core/v0.15-core-split/files/core_bench-v0.15.0.tar.gz"
-checksum: "sha256=a45926e827e7eb4e12278f6ca3641e279358df506b4c5901d91516f22b5e0b43"
+src: "https://github.com/janestreet/core_bench/archive/f34dd607a676f6d0a0a1d52bde2d156a49c35944.tar.gz"
+checksum: "sha256=5e8c7ce1b5894f51917106201869845bfa5e06e052fb008d15b1875ced1c1766"
 }

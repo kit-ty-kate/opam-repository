@@ -20,6 +20,6 @@ description: "
 Part of the Jane Street's PPX rewriters collection.
 "
 url {
-src: "https://ocaml.janestreet.com/ocaml-core/v0.15-core-split/files/ppx_disable_unused_warnings-v0.15.0.tar.gz"
-checksum: "sha256=07f4f8177bcd16a8dc5352585e5903bdb83044be41cf76eff4ff8eeb1e76c3d0"
+src: "https://github.com/janestreet/ppx_disable_unused_warnings/archive/da2aeb4849cc02a150a34015fd4789a1162fb2fb.tar.gz"
+checksum: "sha256=b5d3b64cc101dd38af09e68652bed8f765a12d465685ed7abd8b9fd5995fedce"
 }

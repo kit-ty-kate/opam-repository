@@ -30,6 +30,6 @@ be simulated within Hardcaml.  Designs are converted to either Verilog or
 VHDL to interact with standard back end tooling.
 "
 url {
-src: "https://ocaml.janestreet.com/ocaml-core/v0.15-core-split/files/hardcaml-v0.15.0.tar.gz"
-checksum: "sha256=cdf7723c13b334774e31c3ac88ec0b34eca44b57b995cb9e967693302bd61dec"
+src: "https://github.com/janestreet/hardcaml/archive/5696a88d9693fc4429ed10f8fd657d219ac63b0c.tar.gz"
+checksum: "sha256=75443296ca66e465e38687059c9544f46e61265c2b1b90bc807bdd4798dff48f"
 }

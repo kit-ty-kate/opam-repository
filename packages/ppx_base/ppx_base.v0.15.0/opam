@@ -27,6 +27,6 @@ Note that Base doesn't need ppx to build, it is only used as a
 verification tool.
 "
 url {
-src: "https://ocaml.janestreet.com/ocaml-core/v0.15-core-split/files/ppx_base-v0.15.0.tar.gz"
-checksum: "sha256=3d8302cc0bd6b9f0e3381ea313631b94370749f4be1e15aee029acdfa76b426d"
+src: "https://github.com/janestreet/ppx_base/archive/31eff7e322c3ab765fcfe22bceaccea5a58bfd26.tar.gz"
+checksum: "sha256=6407ca23d8bc7f9d2da8ee6846e0bdbefdc4c1145cd6c82d3aeafe4a0ff03eef"
 }

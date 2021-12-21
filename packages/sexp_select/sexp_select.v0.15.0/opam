@@ -21,6 +21,6 @@ This library provides a convenient method to traverse sexp trees
 and return subtrees that match the given program.
 "
 url {
-src: "https://ocaml.janestreet.com/ocaml-core/v0.15-core-split/files/sexp_select-v0.15.0.tar.gz"
-checksum: "sha256=f22f059788c2fcf48def1d61fabb18438617fc348526acc03dead97d24f8aded"
+src: "https://github.com/janestreet/sexp_select/archive/4c60fbab0c3c310c0c89a3aaaf42d164ed3d1f39.tar.gz"
+checksum: "sha256=f98bb999496c65265eb826b4aaf7803bd6a2a64205e8c1c5f866b08d794a99ea"
 }

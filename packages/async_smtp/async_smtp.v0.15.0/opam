@@ -18,7 +18,7 @@ depends: [
   "async_shell"    {>= "v0.15" & < "v0.16"}
   "async_ssl"      {>= "v0.15" & < "v0.16"}
   "core"           {>= "v0.15" & < "v0.16"}
-  "core_kernel"    {>= "v0.15" & < "v0.16"}
+  "core_unix"      {>= "v0.15" & < "v0.16"}
   "email_message"  {>= "v0.15" & < "v0.16"}
   "ppx_jane"       {>= "v0.15" & < "v0.16"}
   "re2"            {>= "v0.15" & < "v0.16"}
@@ -33,6 +33,6 @@ synopsis: "SMTP client and server"
 description: "
 "
 url {
-src: "https://ocaml.janestreet.com/ocaml-core/v0.15-core-split/files/async_smtp-v0.15.0.tar.gz"
-checksum: "sha256=accba8a141581bfa351f0b036531994f7480d5a15e5a7509205868ce544f655c"
+src: "https://github.com/janestreet/async_smtp/archive/e2d568cc13a031fb94d4e03cb8249381c6cadd53.tar.gz"
+checksum: "sha256=0a2fa7655cba81b99b7dc7444ec83c5d084abae9e86eee53251b7e606b5d3dea"
 }

@@ -13,7 +13,7 @@ depends: [
   "ocaml"                    {>= "4.08.0"}
   "async"                    {>= "v0.15" & < "v0.16"}
   "core"                     {>= "v0.15" & < "v0.16"}
-  "core_kernel"              {>= "v0.15" & < "v0.16"}
+  "core_unix"                {>= "v0.15" & < "v0.16"}
   "expect_test_helpers_core" {>= "v0.15" & < "v0.16"}
   "ppx_jane"                 {>= "v0.15" & < "v0.16"}
   "sexp_pretty"              {>= "v0.15" & < "v0.16"}
@@ -27,6 +27,6 @@ Note that this library uses Async, for helpers that don't use Async,
 look at expect_test_helpers_core.
 "
 url {
-src: "https://ocaml.janestreet.com/ocaml-core/v0.15-core-split/files/expect_test_helpers_async-v0.15.0.tar.gz"
-checksum: "sha256=53bc8aceb4af502964ba7fd278fb0987f7d1b43ced51bf41e1363b9e668e915e"
+src: "https://github.com/janestreet/expect_test_helpers_async/archive/9ab2eabbca90321a8b7e49f5b24e5356412f8a89.tar.gz"
+checksum: "sha256=af4ec21860d7356b859f148d865429e4b5c18e3b95958adc9910f6d8f799680c"
 }

@@ -16,6 +16,7 @@ depends: [
   "async_unix"               {>= "v0.15" & < "v0.16"}
   "core"                     {>= "v0.15" & < "v0.16"}
   "core_kernel"              {>= "v0.15" & < "v0.16"}
+  "core_unix"                {>= "v0.15" & < "v0.16"}
   "expect_test_helpers_core" {>= "v0.15" & < "v0.16"}
   "ppx_jane"                 {>= "v0.15" & < "v0.16"}
   "dune"                     {>= "2.0.0"}
@@ -26,6 +27,6 @@ Ecaml is a library for writing Emacs plugins in OCaml. It uses Emacs
 25 support for plugins to load native OCaml compiled code.
 "
 url {
-src: "https://ocaml.janestreet.com/ocaml-core/v0.15-core-split/files/ecaml-v0.15.0.tar.gz"
-checksum: "sha256=0eeca98f85f049087575140f264e37127bf3e659163e2c4b081c7964ff3b0899"
+src: "https://github.com/janestreet/ecaml/archive/a17b1105930fc412345201e200cc838cdf755d17.tar.gz"
+checksum: "sha256=e7b61abed245eed83b7e37cadc519456bf7960b25b7f180aa53ea33efcedba9a"
 }

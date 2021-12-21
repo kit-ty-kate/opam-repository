@@ -25,6 +25,6 @@ Allows multiple control threads to interact with a simulation module, all of whi
 synchronised to the system clock.
 "
 url {
-src: "https://ocaml.janestreet.com/ocaml-core/v0.15-core-split/files/hardcaml_step_testbench-v0.15.0.tar.gz"
-checksum: "sha256=8d8e15f7fc675e46cc9678723ce3dc99333f12101348aaafb250bf51a2fffc50"
+src: "https://github.com/janestreet/hardcaml_step_testbench/archive/399e2c9cf9af908ac5c62aa4e51e8d93ad8539c8.tar.gz"
+checksum: "sha256=f0615967ce53f7aabddcd81f4e6f855809d36114c63c537fe61585f58ad55e51"
 }

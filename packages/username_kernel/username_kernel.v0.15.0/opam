@@ -10,16 +10,16 @@ build: [
   ["dune" "build" "-p" name "-j" jobs]
 ]
 depends: [
-  "ocaml"       {>= "4.08.0"}
-  "core_kernel" {>= "v0.15" & < "v0.16"}
-  "ppx_jane"    {>= "v0.15" & < "v0.16"}
-  "dune"        {>= "2.0.0"}
+  "ocaml"    {>= "4.08.0"}
+  "core"     {>= "v0.15" & < "v0.16"}
+  "ppx_jane" {>= "v0.15" & < "v0.16"}
+  "dune"     {>= "2.0.0"}
 ]
 synopsis: "An identifier for a user"
 description: "
 A string representation for a user, typically a UNIX username
 "
 url {
-src: "https://ocaml.janestreet.com/ocaml-core/v0.15-core-split/files/username_kernel-v0.15.0.tar.gz"
-checksum: "sha256=ce274373e518cdb5892c74fae7a045923a44f8a52404f743666981f5cd9b027a"
+src: "https://github.com/janestreet/username_kernel/archive/78c25673658661837b1611d7537d998d32391534.tar.gz"
+checksum: "sha256=c0008ed27b73fcd6daa4c04df91e3551b23ab1dbf3639ca7acd89eef05923670"
 }

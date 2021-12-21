@@ -21,6 +21,6 @@ A library describing abstract algebra concepts. Currently, it includes
 Commutative_group and Vector_space.
 "
 url {
-src: "https://ocaml.janestreet.com/ocaml-core/v0.15-core-split/files/abstract_algebra-v0.15.0.tar.gz"
-checksum: "sha256=b9cf2458dd2df7846ae6c063ad7990106b8c154bc60368c2d3af4de05a9ebaca"
+src: "https://github.com/janestreet/abstract_algebra/archive/ef0c9349ce8d2c2e1c74dbf90f1cc7a1b555b5c4.tar.gz"
+checksum: "sha256=1995672bc245ab262648d3b4afe010b432c521c5a1b1d0aa7f01c09b74232d21"
 }

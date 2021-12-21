@@ -19,6 +19,6 @@ This library contains no ocaml code, but instead implements
 all of the Zarith C stubs in Javascript for use in Js_of_ocaml
 "
 url {
-src: "https://ocaml.janestreet.com/ocaml-core/v0.15-core-split/files/zarith_stubs_js-v0.15.0.tar.gz"
-checksum: "sha256=4e36ecb7de99108572de7c425033d0a80ff721f5cf569e592cab0dc3d8bbf0eb"
+src: "https://github.com/janestreet/zarith_stubs_js/archive/15d70fc6103ca585aeb902a96a8c22c5f2b1601b.tar.gz"
+checksum: "sha256=e366a87c1235d603c545f256719597f3ecd91eb0913388be26b3530413bab0b5"
 }

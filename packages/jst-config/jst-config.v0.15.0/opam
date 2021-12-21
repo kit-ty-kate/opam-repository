@@ -26,6 +26,6 @@ different packages from Jane Street. Future updates may not be backward-compatib
 do not recommend using this package directly.
 "
 url {
-src: "https://ocaml.janestreet.com/ocaml-core/v0.15-core-split/files/jst-config-v0.15.0.tar.gz"
-checksum: "sha256=94cec2391a03325944887c52be711beb2bbf304c792425281ac02153dc1e4216"
+src: "https://github.com/janestreet/jst-config/archive/7bd31af56f3a3667e7cc66989785c9bcbe4d5887.tar.gz"
+checksum: "sha256=80b87f67cda6c74c62507c2258d9476c6800f442fdfa4c9314e12e438ff21d94"
 }

@@ -14,6 +14,7 @@ depends: [
   "async"                     {>= "v0.15" & < "v0.16"}
   "core"                      {>= "v0.15" & < "v0.16"}
   "core_kernel"               {>= "v0.15" & < "v0.16"}
+  "core_unix"                 {>= "v0.15" & < "v0.16"}
   "expect_test_helpers_async" {>= "v0.15" & < "v0.16"}
   "expect_test_helpers_core"  {>= "v0.15" & < "v0.16"}
   "ppx_jane"                  {>= "v0.15" & < "v0.16"}
@@ -24,6 +25,6 @@ description: "
 A library for typed manipulation of UNIX-style file paths.
 "
 url {
-src: "https://ocaml.janestreet.com/ocaml-core/v0.15-core-split/files/file_path-v0.15.0.tar.gz"
-checksum: "sha256=7c0731e5b9db1f7a5d821432be625519675390154cd8b7b18979f3035ec37af1"
+src: "https://github.com/janestreet/file_path/archive/dd05efe23bf02eba1f02155dc34b808bc4c07dfa.tar.gz"
+checksum: "sha256=48ea7b15da0773d2e29fc9d5c52cb83a483f8926c9b629abe2d514422ec787ff"
 }

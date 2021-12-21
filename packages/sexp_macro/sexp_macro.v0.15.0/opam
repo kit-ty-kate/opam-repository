@@ -22,6 +22,6 @@ Sexp macros allow the user to define and use constants and simple functions in s
 include one sexp file in another.
 "
 url {
-src: "https://ocaml.janestreet.com/ocaml-core/v0.15-core-split/files/sexp_macro-v0.15.0.tar.gz"
-checksum: "sha256=4e138a13a190c3aa4d4dec31ea2eee51c957338d3871a81eea7b4f162b6340eb"
+src: "https://github.com/janestreet/sexp_macro/archive/09ddb4db093016ce8e97a62a0e841ab30ac99ce7.tar.gz"
+checksum: "sha256=23049fc0d21ba68498ee6ed6fe2d6500e02215ac73346f38213fc6cbd4176eb3"
 }

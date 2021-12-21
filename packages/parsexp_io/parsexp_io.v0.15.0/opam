@@ -22,6 +22,6 @@ description: "
 Parsexp_io provides functions for loading s-expressions from files.
 "
 url {
-src: "https://ocaml.janestreet.com/ocaml-core/v0.15-core-split/files/parsexp_io-v0.15.0.tar.gz"
-checksum: "sha256=8d26536d0e38cfec6518069439513360b275e4885544ead6fb6e2249aeac4305"
+src: "https://github.com/janestreet/parsexp_io/archive/35d332650ad767e2d7154f9c73c8dcdb4918011d.tar.gz"
+checksum: "sha256=9ce58980ef853c121b6a10eb28f0b463e323591c8dcf26d8250741c16664e8c5"
 }

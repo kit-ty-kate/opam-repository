@@ -10,15 +10,15 @@ build: [
   ["dune" "build" "-p" name "-j" jobs]
 ]
 depends: [
-  "ocaml"       {>= "4.08.0"}
-  "base"        {>= "v0.15" & < "v0.16"}
-  "core"        {>= "v0.15" & < "v0.16"}
-  "core_kernel" {>= "v0.15" & < "v0.16"}
-  "hardcaml"    {>= "v0.15" & < "v0.16"}
-  "ppx_jane"    {>= "v0.15" & < "v0.16"}
-  "stdio"       {>= "v0.15" & < "v0.16"}
-  "dune"        {>= "2.0.0"}
-  "re"          {>= "1.8.0"}
+  "ocaml"     {>= "4.08.0"}
+  "base"      {>= "v0.15" & < "v0.16"}
+  "core"      {>= "v0.15" & < "v0.16"}
+  "core_unix" {>= "v0.15" & < "v0.16"}
+  "hardcaml"  {>= "v0.15" & < "v0.16"}
+  "ppx_jane"  {>= "v0.15" & < "v0.16"}
+  "stdio"     {>= "v0.15" & < "v0.16"}
+  "dune"      {>= "2.0.0"}
+  "re"        {>= "1.8.0"}
 ]
 synopsis: "Hardcaml Xilinx component definitions"
 description: "
@@ -26,6 +26,6 @@ A tool for reading Xilinx VHDL Unisim and XPM component definitions from a Vivad
 installation and generating Hardcaml interfaces automatically.
 "
 url {
-src: "https://ocaml.janestreet.com/ocaml-core/v0.15-core-split/files/hardcaml_xilinx_components-v0.15.0.tar.gz"
-checksum: "sha256=edc72fbf484cb1f618ea8d53a7d1c9bb0d66fd5a16f593abc32394a274e845ee"
+src: "https://github.com/janestreet/hardcaml_xilinx_components/archive/1d82d0533e7c11a9ff8c2c5529c119f9fd0c667b.tar.gz"
+checksum: "sha256=9d7c9af2a1317fc5ebfe397f863c2a2f9ee0bc88b650be3ab7e3ef04614a808b"
 }

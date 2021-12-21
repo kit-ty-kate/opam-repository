@@ -28,6 +28,6 @@ description: "
 It relies on the fact that the type of the value being edited can be serialized via sexps.
 "
 url {
-src: "https://ocaml.janestreet.com/ocaml-core/v0.15-core-split/files/incr_dom_sexp_form-v0.15.0.tar.gz"
-checksum: "sha256=80f8857de2e503cca8be215ad497e02680d2a0f745dbd6001770668f3c6251b8"
+src: "https://github.com/janestreet/incr_dom_sexp_form/archive/a24caa8cda102225505d21a03b6f7c7aed87f0fc.tar.gz"
+checksum: "sha256=0bff560e314f60604df2db3b1db788376ca017f56eee24a388f763570eea2f65"
 }

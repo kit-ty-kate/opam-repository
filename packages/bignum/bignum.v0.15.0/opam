@@ -11,7 +11,7 @@ build: [
 ]
 depends: [
   "ocaml"             {>= "4.08.0"}
-  "core_kernel"       {>= "v0.15" & < "v0.16"}
+  "core"              {>= "v0.15" & < "v0.16"}
   "ppx_jane"          {>= "v0.15" & < "v0.16"}
   "splittable_random" {>= "v0.15" & < "v0.16"}
   "typerep"           {>= "v0.15" & < "v0.16"}
@@ -24,6 +24,6 @@ synopsis: "Core-flavoured wrapper around zarith's arbitrary-precision rationals"
 description: "
 "
 url {
-src: "https://ocaml.janestreet.com/ocaml-core/v0.15-core-split/files/bignum-v0.15.0.tar.gz"
-checksum: "sha256=d398b5a10ffe679f94234de64f4e17ef0b1dae51033425d1fa3722a797194a03"
+src: "https://github.com/janestreet/bignum/archive/b67e15f754113dc1eca572b767558f50debb2d11.tar.gz"
+checksum: "sha256=6d37073336e8a22c9a924c94b2b5f52a95eeff47d2796c894631137335397004"
 }

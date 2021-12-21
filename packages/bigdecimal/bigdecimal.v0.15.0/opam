@@ -12,7 +12,7 @@ build: [
 depends: [
   "ocaml"                    {>= "4.08.0"}
   "bignum"                   {>= "v0.15" & < "v0.16"}
-  "core_kernel"              {>= "v0.15" & < "v0.16"}
+  "core"                     {>= "v0.15" & < "v0.16"}
   "expect_test_helpers_core" {>= "v0.15" & < "v0.16"}
   "ppx_jane"                 {>= "v0.15" & < "v0.16"}
   "dune"                     {>= "2.0.0"}
@@ -24,6 +24,6 @@ A high-precision representation of decimal numbers as [mantissa * 10^exponent], 
 the mantissa is internally a [Bigint.t] and the exponent is an [int].
 "
 url {
-src: "https://ocaml.janestreet.com/ocaml-core/v0.15-core-split/files/bigdecimal-v0.15.0.tar.gz"
-checksum: "sha256=2551aacd9649a68098b26bba71c6e05a81de7950787bc2499c9bfe591e85fd8b"
+src: "https://github.com/janestreet/bigdecimal/archive/336c83e8ae4ca2427ae345e909a3c7a8a7e3f760.tar.gz"
+checksum: "sha256=78f0b6ac63c313d7ff194cb78d67d3e1983f317167e8482462c07cbfe36c15b8"
 }

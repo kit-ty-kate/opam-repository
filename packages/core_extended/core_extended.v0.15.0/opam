@@ -12,7 +12,7 @@ build: [
 depends: [
   "ocaml"          {>= "4.08.0"}
   "core"           {>= "v0.15" & < "v0.16"}
-  "core_kernel"    {>= "v0.15" & < "v0.16"}
+  "core_unix"      {>= "v0.15" & < "v0.16"}
   "ppx_jane"       {>= "v0.15" & < "v0.16"}
   "record_builder" {>= "v0.15" & < "v0.16"}
   "dune"           {>= "2.0.0"}
@@ -25,6 +25,6 @@ OCaml's standard library that was developed by Jane Street, the
 largest industrial user of OCaml.
 "
 url {
-src: "https://ocaml.janestreet.com/ocaml-core/v0.15-core-split/files/core_extended-v0.15.0.tar.gz"
-checksum: "sha256=0cd4f7659af1e941345f74865e3ddb986d8081b18fa8ca11f24181d6b11dc2ef"
+src: "https://github.com/janestreet/core_extended/archive/a696503c32e665a4aedb1335cbf42340093b2901.tar.gz"
+checksum: "sha256=1eeea774dfc483d99a899cbd270878729b1dd770bbefc33b9853e85a609032ff"
 }
