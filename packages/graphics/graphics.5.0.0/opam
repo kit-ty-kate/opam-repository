@@ -20,6 +20,9 @@ depends: [
   "conf-libX11"
   "ocaml" {>= "4.09.0~~" & < "4.10"}
 ]
+conflicts: [
+  "ocamlfind-secondary"
+]
 build: [
   ["dune" "subst"] {dev}
   [

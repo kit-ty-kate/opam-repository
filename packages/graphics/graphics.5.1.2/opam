@@ -22,6 +22,9 @@ depends: [
   "conf-pkg-config" {os != "win32"}
   "ocaml" {>= "4.09.0~~"}
 ]
+conflicts: [
+  "ocamlfind-secondary"
+]
 build: [
   ["dune" "subst"] {dev}
   [
