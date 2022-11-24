@@ -15,6 +15,7 @@ depends: [
   "topkg" {build}
   "conf-sdl2"
   "ctypes" {>= "0.14.0"}
+  "ctypes" {ocaml:version >= "4.07" & ocaml:version < "4.08" & < "0.18"}
   "ctypes-foreign" ]
 build: [[
   "ocaml" "pkg/pkg.ml" "build"

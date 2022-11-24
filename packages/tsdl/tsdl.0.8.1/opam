@@ -12,6 +12,7 @@ depends: [
   "ocamlfind" {build}
   "conf-sdl2"
   "ctypes" {>= "0.3"}
+  "ctypes" {ocaml:version >= "4.07" & ocaml:version < "4.08" & < "0.18"}
   "ctypes-foreign"
   "ocamlbuild" {build}
 ]
