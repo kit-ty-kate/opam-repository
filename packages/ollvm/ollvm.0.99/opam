@@ -16,6 +16,7 @@ depends: [
   "ocaml" {>= "4.01.0"}
   "ocamlfind" {build}
   "menhir" {build & < "20211215"}
+  "conf-automake" {build}
 ]
 conflicts: [ "llvm"  { != "3.5" } ]
 depopts: [ "llvm" ]
