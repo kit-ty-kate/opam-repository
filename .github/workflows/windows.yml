@@ -17,6 +17,9 @@ jobs:
           Invoke-WebRequest -Uri https://raw.githubusercontent.com/kit-ty-kate/opam/c614e391f132533c1f051fe65d63ac3793c9ea26/shell/install.ps1 -OutFile install.ps1
           Set-PSDebug -Trace 2
           .\install.ps1
+          dir C:\Program Files\
+          dir C:\Program Files\opam\
+          dir C:\Program Files\opam\bin
           "C:\Program Files\opam\bin" | Out-File -FilePath $env:GITHUB_PATH -Encoding utf8 -Append
 
       - name: Init opam
