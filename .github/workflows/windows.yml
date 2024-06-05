@@ -15,9 +15,10 @@ jobs:
       - name: Install opam
         run: |
           Invoke-Expression "& { $(Invoke-RestMethod https://raw.githubusercontent.com/kit-ty-kate/opam/c614e391f132533c1f051fe65d63ac3793c9ea26/shell/install.ps1) }"
+          "C:\Program Files\opam\bin" | Out-File -FilePath $env:GITHUB_PATH -Encoding utf8 -Append
 
       - name: Init opam
-        run: opam init -yn
+        run: opam init -yn ./opam-repository
 
       - name: Get changed files
         id: changed-files
