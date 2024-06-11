@@ -45,7 +45,7 @@ jobs:
               '^packages/[^/]*/([^/]*)/.*' { ouptput += "$($matches[1])"; Break }
               default { echo "$file skipped"; Break }
             }
-          done
+          }
           $outputJson = $output | ConvertTo-Json
           echo "::set-output name=data::$outputJson"
 
