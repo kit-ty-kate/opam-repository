@@ -12,14 +12,19 @@ jobs:
       - name: Checkout tree
         uses: actions/checkout@v4
 
+#      - name: Install opam
+#        run: |
+#          Set-PSDebug -Trace 2
+#          Invoke-Expression "& { $(Invoke-RestMethod https://raw.githubusercontent.com/kit-ty-kate/opam/windows-installer.debug/shell/install.ps1) } -OpamBinDir 'C:\Program Files\opam\bin'"
+#          "C:\Program Files\opam\bin" | Out-File -FilePath $env:GITHUB_PATH -Encoding utf8 -Append
+
       - name: Install opam
         run: |
-          Set-PSDebug -Trace 2
-          Invoke-Expression "& { $(Invoke-RestMethod https://raw.githubusercontent.com/kit-ty-kate/opam/windows-installer.debug/shell/install.ps1) } -OpamBinDir 'C:\Program Files\opam\bin'"
+          curl -LO https://github.com/user-attachments/files/15792432/archive.zip
+          unzip archive.zip
+          New-Item -Force -Path "C:\Program Files\opam\bin" -Type Directory
+          Move-Item -Force -Path "opam-tmp.exe" -Destination "C:\Program Files\opam\bin\opam.exe"
           "C:\Program Files\opam\bin" | Out-File -FilePath $env:GITHUB_PATH -Encoding utf8 -Append
-
-      - name: Install rsync
-        uses: GuillaumeFalourd/setup-rsync@v1.2
 
       - name: Init opam
         run: opam init --debug-level=3 -vvv -yn .\opam-repository
