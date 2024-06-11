@@ -40,7 +40,7 @@ jobs:
           ALL_CHANGED_FILES: ${{ steps.changed-files.outputs.all_changed_files }}
         run: |
           $output = @()
-          Foreach ($file in $env:ALL_CHANGED_FILES) {
+          Foreach ($file in ($env:ALL_CHANGED_FILES).Split(" ")) {
             switch -Regex ($file) {
               '^packages\\[^\\]*\\([^\\]*)\\.*' { $output += "$($matches[1])"; Break }
               default { echo "$file skipped"; Break }
