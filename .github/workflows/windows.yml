@@ -15,7 +15,7 @@ jobs:
       - name: Install opam
         run: |
           Set-PSDebug -Trace 2
-          Invoke-Expression "& { $(Invoke-RestMethod https://raw.githubusercontent.com/kit-ty-kate/opam/windows-installer.debug/shell/install.ps1) -OpamBinDir "C:\Program Files\opam\bin" }"
+          Invoke-Expression "& { $(Invoke-RestMethod https://raw.githubusercontent.com/kit-ty-kate/opam/windows-installer.debug/shell/install.ps1) } -OpamBinDir 'C:\Program Files\opam\bin'"
           "C:\Program Files\opam\bin" | Out-File -FilePath $env:GITHUB_PATH -Encoding utf8 -Append
 
       - name: Init opam
