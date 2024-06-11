@@ -18,8 +18,11 @@ jobs:
           Invoke-Expression "& { $(Invoke-RestMethod https://raw.githubusercontent.com/kit-ty-kate/opam/windows-installer.debug/shell/install.ps1) } -OpamBinDir 'C:\Program Files\opam\bin'"
           "C:\Program Files\opam\bin" | Out-File -FilePath $env:GITHUB_PATH -Encoding utf8 -Append
 
+      - name: Install rsync
+        uses: GuillaumeFalourd/setup-rsync@v1.2
+
       - name: Init opam
-        run: opam init --debug-level=3 -vvv --kind git -yn D:\a\opam-repository\opam-repository\opam-repository
+        run: opam init -yn .\opam-repository
 
       - name: Get changed files
         id: changed-files
