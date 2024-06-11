@@ -22,7 +22,7 @@ jobs:
         uses: GuillaumeFalourd/setup-rsync@v1.2
 
       - name: Init opam
-        run: opam init -yn .\opam-repository
+        run: opam init --debug-level=3 -vvv -yn .\opam-repository
 
       - name: Get changed files
         id: changed-files
