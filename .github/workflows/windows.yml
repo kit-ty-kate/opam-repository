@@ -53,7 +53,7 @@ jobs:
         env:
           ALL_CHANGED_PACKAGES: ${{ steps.changed-packages.outputs.data }}
         run: |
-          $pkgs = ${ALL_CHANGED_PACKAGES} | ConvertFrom-Json
+          $pkgs = $ALL_CHANGED_PACKAGES | ConvertFrom-Json
           Foreach ($pkg in $pkgs) {
             opam install --confirm-level=unsafe-yes "$pkg"
           }
