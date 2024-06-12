@@ -58,14 +58,12 @@ jobs:
           $pkgs = $env:ALL_CHANGED_PACKAGES | ConvertFrom-Json
           $failed = $false
           Foreach ($pkg in $pkgs) {
-            try {
-              opam install --confirm-level=unsafe-yes "$pkg"
-            } catch {
-              switch ($?) {
-                20 { Write-Host "$pkg is not installable. Skip."; Break }
-                31 { Write-Host "$pkg failed to build."; $failed = $true; Break }
-                default { throw "Unexpected error $_" }
-              }
+            opam install --confirm-level=unsafe-yes "$pkg"
+            switch ($LASTEXITCODE) {
+              0 { Break }
+              20 { Write-Host "$pkg is not installable. Skip."; Break }
+              31 { Write-Host "$pkg failed to build."; $failed = $true; Break }
+              default { throw "Unexpected error $_" }
             }
           }
           if ($failed) {
