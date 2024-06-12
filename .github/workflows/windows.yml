@@ -54,6 +54,14 @@ jobs:
           ALL_CHANGED_PACKAGES: ${{ steps.changed-packages.outputs.data }}
         run: |
           $pkgs = $env:ALL_CHANGED_PACKAGES | ConvertFrom-Json
+          $failed = $false
           Foreach ($pkg in $pkgs) {
-            opam install --confirm-level=unsafe-yes "$pkg"
+            try {
+              opam install --confirm-level=unsafe-yes "$pkg"
+            } catch {
+              $failed = $true
+            }
+          }
+          if ($failed) {
+            Exit 1
           }
