@@ -43,7 +43,7 @@ jobs:
           Foreach ($file in ($env:ALL_CHANGED_FILES).Split(" ")) {
             switch -Regex ($file) {
               '^packages\\[^\\]*\\([^\\]*)\\.*' { $output += "$($matches[1])"; Break }
-              default { echo "$file skipped"; Break }
+              default { Write-Host "$file skipped"; Break }
             }
           }
           $outputJson = $output | ConvertTo-Json
@@ -61,9 +61,13 @@ jobs:
             try {
               opam install --confirm-level=unsafe-yes "$pkg"
             } catch {
-              $failed = $true
+              if ($? -eq 31) {
+                Write-Host "$pkg is not installable. Skip."
+              } else {
+                $failed = $true
+              }
             }
           }
           if ($failed) {
-            Exit 1
+            throw "build failed"
           }
