@@ -47,7 +47,9 @@ jobs:
             }
           }
           $outputJson = $output | ConvertTo-Json
-          "data=$outputJson" | Out-File -FilePath $env:GITHUB_OUTPUT -Encoding utf8 -Append
+          "data<<@@@" | Out-File -FilePath $env:GITHUB_OUTPUT -Encoding utf8 -Append
+          $outputJson | Out-File -FilePath $env:GITHUB_OUTPUT -Encoding utf8 -Append
+          "@@@" | Out-File -FilePath $env:GITHUB_OUTPUT -Encoding utf8 -Append
 
       - name: Install packages
         env:
