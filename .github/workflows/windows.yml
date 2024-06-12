@@ -61,10 +61,10 @@ jobs:
             try {
               opam install --confirm-level=unsafe-yes "$pkg"
             } catch {
-              if ($? -eq 31) {
-                Write-Host "$pkg is not installable. Skip."
-              } else {
-                $failed = $true
+              switch ($?) {
+                20 { Write-Host "$pkg is not installable. Skip."; Break }
+                31 { Write-Host "$pkg failed to build."; $failed = $true; Break }
+                default { throw "Unexpected error $_" }
               }
             }
           }
