@@ -26,7 +26,7 @@ jobs:
       - name: Install opam
         if: steps.cache-opam.outputs.cache-hit != 'true'
         run: |
-          Invoke-Expression "& { $(Invoke-RestMethod https://raw.githubusercontent.com/kit-ty-kate/opam/windows-installer.debug/shell/install.ps1) } -OpamBinDir 'D:\opam\bin' -NoSetPath -NoAdmin"
+          Invoke-Expression "& { $(Invoke-RestMethod https://raw.githubusercontent.com/kit-ty-kate/opam/windows-installer-2/shell/install.ps1) } -OpamBinDir 'D:\opam\bin'"
 
       - name: Add opam to PATH
         run: |
