@@ -21,21 +21,8 @@ depends: [
   "base-nnp" {post}
 
   # Architecture
-  "host-arch-arm32" {?sys-ocaml-arch & sys-ocaml-arch = "arm" & post}
-  "host-arch-arm64" {?sys-ocaml-arch & sys-ocaml-arch = "arm64" & post}
-  "host-arch-ppc64" {?sys-ocaml-arch & sys-ocaml-arch = "power" & post}
-  "host-arch-riscv64" {?sys-ocaml-arch & sys-ocaml-arch = "riscv" & post}
-  "host-arch-s390x" {?sys-ocaml-arch & sys-ocaml-arch = "s390x" & post}
-  "host-arch-x86_32" {?sys-ocaml-arch & sys-ocaml-arch = "i686" & post}
-  "host-arch-x86_64" {?sys-ocaml-arch & sys-ocaml-arch = "x86_64" & post}
-  "host-arch-unknown" {!(?sys-ocaml-arch) |
-                       sys-ocaml-arch != "arm" &
-                       sys-ocaml-arch != "arm64" &
-                       sys-ocaml-arch != "power" &
-                       sys-ocaml-arch != "riscv" &
-                       sys-ocaml-arch != "s390x" &
-                       sys-ocaml-arch != "i686" &
-                       sys-ocaml-arch != "x86_64" & post}
+  "host-arch-x86_32" {os = "win32" & ?sys-ocaml-arch & sys-ocaml-arch = "i686" & post}
+  "host-arch-x86_64" {os = "win32" & ?sys-ocaml-arch & sys-ocaml-arch = "x86_64" & post}
 
   # System (Windows-only at present)
   "host-system-mingw" {?sys-ocaml-arch & sys-ocaml-libc = "msvc" & sys-ocaml-cc = "cc" & post}
