@@ -27,23 +27,23 @@ jobs:
         uses: actions/cache/restore@v4
         with:
           path: |
-            ${{ env.RUNNER_WORKSPACE }}\opam\bin
-            ${{ env.RUNNER_WORKSPACE }}\opamroot
+            ${{ runner.workspace }}\opam\bin
+            ${{ runner.workspace }}\opamroot
           key: ${{ runner.os }}-opam-${{ hashFiles('install.ps1') }}
 
       - name: Install opam
         if: steps.cache-opam.outputs.cache-hit != 'true'
         run: |
-          Invoke-Expression "& ./install.ps1 -OpamBinDir '${{ env.RUNNER_WORKSPACE }}\opam\bin'"
+          Invoke-Expression "& ./install.ps1 -OpamBinDir '${{ runner.workspace }}\opam\bin'"
 
       - name: Add opam to PATH
         run: |
-          ${{ env.RUNNER_WORKSPACE }}\opam\bin\opam --version
-          "${{ env.RUNNER_WORKSPACE }}\opam\bin" | Out-File -FilePath $env:GITHUB_PATH -Encoding utf8 -Append
+          ${{ runner.workspace }}\opam\bin\opam --version
+          "${{ runner.workspace }}\opam\bin" | Out-File -FilePath $env:GITHUB_PATH -Encoding utf8 -Append
 
       - name: Add OPAMROOT to the environment
         run: |
-          "OPAMROOT=${{ env.RUNNER_WORKSPACE }}\opamroot" | Out-File -FilePath $env:GITHUB_ENV -Encoding utf8 -Append
+          "OPAMROOT=${{ runner.workspace }}\opamroot" | Out-File -FilePath $env:GITHUB_ENV -Encoding utf8 -Append
 
       - name: Init opam
         if: steps.cache-opam.outputs.cache-hit != 'true'
@@ -59,8 +59,8 @@ jobs:
         uses: actions/cache/save@v4
         with:
           path: |
-            ${{ env.RUNNER_WORKSPACE }}\opam\bin
-            ${{ env.RUNNER_WORKSPACE }}\opamroot
+            ${{ runner.workspace }}\opam\bin
+            ${{ runner.workspace }}\opamroot
           key: ${{ steps.cache-opam.outputs.cache-primary-key }}
 
       - name: Print version information
