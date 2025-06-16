@@ -5,7 +5,6 @@ on:
       - 'master'
   pull_request:
 env:
-  OPAMROOT: D:\opamroot
   OPAMSOLVERTIMEOUT: 120
 jobs:
   build:
@@ -28,19 +27,23 @@ jobs:
         uses: actions/cache/restore@v4
         with:
           path: |
-            D:\opam\bin
-            D:\opamroot
+            ..\opam\bin
+            ..\opamroot
           key: ${{ runner.os }}-opam-${{ hashFiles('install.ps1') }}
 
       - name: Install opam
         if: steps.cache-opam.outputs.cache-hit != 'true'
         run: |
-          Invoke-Expression "& ./install.ps1 -OpamBinDir 'D:\opam\bin'"
+          Invoke-Expression "& ./install.ps1 -OpamBinDir '%cd%\..\opam\bin'"
 
       - name: Add opam to PATH
         run: |
-          D:\opam\bin\opam --version
-          "D:\opam\bin" | Out-File -FilePath $env:GITHUB_PATH -Encoding utf8 -Append
+          %cd%\..\opam\bin\opam --version
+          "%cd%\..\opam\bin" | Out-File -FilePath $env:GITHUB_PATH -Encoding utf8 -Append
+
+      - name: Add OPAMROOT to the environment
+        run: |
+          "OPAMROOT=%cd%\..\opamroot" | Out-File -FilePath $env:GITHUB_ENV -Encoding utf8 -Append
 
       - name: Init opam
         if: steps.cache-opam.outputs.cache-hit != 'true'
@@ -56,8 +59,8 @@ jobs:
         uses: actions/cache/save@v4
         with:
           path: |
-            D:\opam\bin
-            D:\opamroot
+            ..\opam\bin
+            ..\opamroot
           key: ${{ steps.cache-opam.outputs.cache-primary-key }}
 
       - name: Print version information
